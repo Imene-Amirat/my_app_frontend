@@ -3,12 +3,16 @@ import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:my_app_frontend/navigation.dart';
 import 'package:my_app_frontend/utils/global_colors.dart';
+import 'package:my_app_frontend/view/Appointment_list.dart';
+import 'package:my_app_frontend/view/Appointment_page.dart';
+import 'package:my_app_frontend/view/doctors_directory_screen.dart';
 import 'package:my_app_frontend/view/family_member_screen.dart';
 import 'package:my_app_frontend/view/profile_screen.dart';
 import 'package:my_app_frontend/view/doctor_screen.dart';
 import 'package:my_app_frontend/view/home_screen.dart';
 import 'package:my_app_frontend/view/login_screen.dart';
 import 'package:my_app_frontend/view/medical_record_page.dart';
+import 'package:my_app_frontend/view/success_booked.dart';
 import 'package:my_app_frontend/view/welcome2.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 
@@ -52,11 +56,13 @@ class MyApp extends StatelessWidget {
         '/familyMembers': (context) => FamilyMembersPage(),
         '/welcome2': (context) => Welcome2Screen(),
         '/mainNavigation': (context) => MainNavigator(),
-        //'/appointment': (context) => Appointment(),
-        //'/appointmentlist': (context) => AppointmentPage(),
+        '/appointment': (context) => Appointment(),
+        '/appointmentlist': (context) => AppointmentPage(),
+        '/doctors_directory': (context) => DoctorsDirectoryScreen(),
         MedicalRecordsPage.pageRoute: (context) => MedicalRecordsPage(),
-        //'/success_booked': (context) => AppointmentBooked(),
+        '/success_booked': (context) => AppointmentBooked(),
         DoctorScreen.pageRoute: (context) => DoctorScreen(),
+        DoctorsDirectoryScreen.pageRoute: (context) => DoctorsDirectoryScreen(),
         ProfileScreen.pageRoute: (context) => ProfileScreen(),
       },
       home: LoginScreen(),

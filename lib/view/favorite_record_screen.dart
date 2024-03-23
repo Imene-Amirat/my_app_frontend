@@ -94,6 +94,7 @@ class _FavoriteRecordsScreenState extends State<FavoriteRecordsScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        automaticallyImplyLeading: false,
         backgroundColor: GlobalColors.mainColor,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.only(

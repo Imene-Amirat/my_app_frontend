@@ -1,23 +1,23 @@
 import 'dart:convert';
+
 import 'package:geocoding/geocoding.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:http/http.dart' as http;
 import 'package:flutter/material.dart';
 import 'package:get/route_manager.dart';
-import 'package:iconsax/iconsax.dart';
 import 'package:line_awesome_flutter/line_awesome_flutter.dart';
 import 'package:my_app_frontend/databases/DBdoctor.dart';
 import 'package:my_app_frontend/utils/global_colors.dart';
 
-class DoctorScreen extends StatefulWidget {
-  static final pageRoute = '/doctors';
-  const DoctorScreen({super.key});
+class DoctorsDirectoryScreen extends StatefulWidget {
+  static final pageRoute = '/doctors_directory';
+  const DoctorsDirectoryScreen({super.key});
 
   @override
-  State<DoctorScreen> createState() => _DoctorScreenState();
+  State<DoctorsDirectoryScreen> createState() => _DoctorsDirectoryScreenState();
 }
 
-class _DoctorScreenState extends State<DoctorScreen> {
+class _DoctorsDirectoryScreenState extends State<DoctorsDirectoryScreen> {
   String _tx_search_filter_name = '';
   int? _tx_search_filter_sp;
   int? _tx_search_filter_rg;
@@ -28,6 +28,8 @@ class _DoctorScreenState extends State<DoctorScreen> {
   //list of maps (or objects) where each map represents a specialty with at least two keys: name and id.
   List<Map<String, dynamic>> specialties = [];
   List<Map<String, dynamic>> city = [];
+  List<Map<String, dynamic>> regions = [];
+  List<Map<String, dynamic>> doctors = [];
 
   // Controllers for new doctor information
   TextEditingController nameController = TextEditingController();
@@ -38,6 +40,7 @@ class _DoctorScreenState extends State<DoctorScreen> {
     fetchSpCountry().then((_) {
       _determinePosition();
     });
+    getListDoctors1("", 0, 0);
   }
 
   Future<List<Map>> getListDoctors(
@@ -45,131 +48,66 @@ class _DoctorScreenState extends State<DoctorScreen> {
     int filter_sp,
     int filter_rg,
   ) async {
-    print(await DBDoctor.getAllDoctorsByKeyword(
-        filter_name, filter_sp, filter_rg));
-    return DBDoctor.getAllDoctorsByKeyword(filter_name, filter_sp, filter_rg);
+    try {
+      // Construct the URL with parameters
+      final Uri uri = Uri.parse('http://192.168.1.7:5000/scrape');
+
+      final response = await http.get(uri);
+
+      if (response.statusCode == 200) {
+        List<dynamic> jsonData = json.decode(response.body);
+        doctors = jsonData.map((doctorData) {
+          return {
+            "name": doctorData['Name'],
+            "sp": doctorData['Specialty'],
+            "rg": doctorData['Address'],
+          };
+        }).toList();
+        print("kkkkkkkkkkkkkkkkk");
+        print(doctors);
+      } else {
+        print('Failed to load options. Status code: ${response.statusCode}');
+      }
+    } catch (e) {
+      print('Error loading options: $e');
+    }
+    return doctors;
+  }
+
+  Future<void> getListDoctors1(
+    String filter_name,
+    int filter_sp,
+    int filter_rg,
+  ) async {
+    try {
+      // Construct the URL with parameters
+      final Uri uri = Uri.parse('http://192.168.1.7:5000/regions').replace(
+        queryParameters: {
+          'rg': "annaba",
+        },
+      );
+
+      final response = await http.get(uri);
+
+      if (response.statusCode == 200) {
+        List<dynamic> jsonData = json.decode(response.body);
+        regions = jsonData.map((doctorData) {
+          return {
+            "region": doctorData['region'],
+          };
+        }).toList();
+        print("jjjjjjjjjjjjjjjjjjjjj");
+        print(regions);
+      } else {
+        print('Failed to load options. Status code: ${response.statusCode}');
+      }
+    } catch (e) {
+      print('Error loading options: $e');
+    }
   }
 
   Future<void> _updateDoctorsList() async {
     setState(() {});
-  }
-
-  // This method will be called when the "Add New" button is pressed
-  Future<void> _add() async {
-    if (nameController.text.isNotEmpty &&
-        selectedCityId != null &&
-        selectedSpecialtyId != null) {
-      // Call the method to insert the new doctor into the database
-      //! tells the Dart analyzer that you are sure these values won't be null at this point in the code.
-      await DBDoctor.insertDoctor(
-          nameController.text, selectedSpecialtyId!, selectedCityId!);
-      //clear the fields after insertion
-      nameController.clear();
-      setState(() {
-        dropdownValueSp = null;
-        dropdownValueCity = null;
-      });
-      //Close the dialog
-      Navigator.of(context).pop();
-      // Update the list of doctors to reflect the new addition
-      _updateDoctorsList();
-    } else {
-      //case where not all fields are filled
-      showDialog(
-        context: context,
-        builder: (context) => AlertDialog(
-          title: Text('Error'),
-          content: Text('Please fill all the fields.'),
-          actions: <Widget>[
-            TextButton(
-                onPressed: () => Navigator.of(context).pop(),
-                child: Text('OK')),
-          ],
-        ),
-      );
-    }
-  }
-
-  Future<void> _addNewDoctor() async {
-    // Show dialog to input details
-    showDialog(
-      context: context,
-      builder: (BuildContext context) {
-        return AlertDialog(
-          title: Text("Add New Doctor"),
-          content: SingleChildScrollView(
-            child: ListBody(
-              children: <Widget>[
-                TextFormField(
-                  decoration: InputDecoration(
-                    labelText: 'Name',
-                  ),
-                  controller: nameController,
-                ),
-                DropdownButtonFormField(
-                  value: dropdownValueSp,
-                  decoration: InputDecoration(
-                    labelText: "Specialty",
-                  ),
-                  dropdownColor: const Color.fromARGB(255, 255, 255, 255),
-                  onChanged: (dynamic newValue) {
-                    setState(() {
-                      dropdownValueSp = newValue;
-                      // hold the selected specialty ID && "firstWhere" find the first element that matches a given newValue and return id.
-                      selectedSpecialtyId = specialties.firstWhere(
-                          (specialty) => specialty['name'] == newValue)['id'];
-                      print(selectedSpecialtyId);
-                    });
-                  },
-                  items: specialties.map<DropdownMenuItem<String>>(
-                      (Map<String, dynamic> value) {
-                    return DropdownMenuItem<String>(
-                      value: value['name'],
-                      child: Text(value['name']),
-                    );
-                  }).toList(),
-                ),
-                DropdownButtonFormField(
-                  value: dropdownValueCity,
-                  decoration: InputDecoration(labelText: 'Country'),
-                  dropdownColor: const Color.fromARGB(255, 255, 255, 255),
-                  onChanged: (dynamic newValue) {
-                    setState(() {
-                      dropdownValueCity = newValue;
-                      // hold the selected country ID
-                      selectedCityId = city.firstWhere(
-                          (country) => country['name'] == newValue)['id'];
-                      print(selectedCityId);
-                    });
-                  },
-                  items: city.map<DropdownMenuItem<String>>(
-                      (Map<String, dynamic> value) {
-                    return DropdownMenuItem<String>(
-                      value: value['name'],
-                      child: Text(value['name']),
-                    );
-                  }).toList(),
-                ),
-              ],
-            ),
-          ),
-          actions: <Widget>[
-            TextButton(
-              child: Text('Cancel'),
-              onPressed: () {
-                Navigator.of(context).pop();
-              },
-            ),
-            TextButton(
-              child: Text('Add'),
-              onPressed: () async {
-                _add();
-              },
-            ),
-          ],
-        );
-      },
-    );
   }
 
   Future<void> fetchSpCountry() async {
@@ -288,7 +226,7 @@ class _DoctorScreenState extends State<DoctorScreen> {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          "Choose a Doctor",
+          "Doctors Directory",
           style: TextStyle(color: Colors.white),
         ),
         centerTitle: true,
@@ -399,6 +337,7 @@ class _DoctorScreenState extends State<DoctorScreen> {
               onChanged: (dynamic newValue) {
                 setState(() {
                   dropdownValueCity = newValue;
+                  print(city);
                   // hold the selected specialty ID && "firstWhere" find the first element that matches a given newValue and return id.
                   selectedCityId = city
                       .firstWhere((wilaya) => wilaya['name'] == newValue)['id'];
@@ -418,6 +357,25 @@ class _DoctorScreenState extends State<DoctorScreen> {
             SizedBox(
               height: 10,
             ),
+            /*Wrap(
+              spacing: 8.0, // Gap between adjacent chips.
+              runSpacing: 4.0, // Gap between lines.
+              children: regions.map((Map<String, dynamic> region) {
+                return OutlinedButton(
+                  child: Text(region['region']),
+                  onPressed: () {
+                    setState(() {
+                      selectedCityId = city.firstWhere(
+                          (wilaya) => wilaya['name'] == region['region'],
+                          orElse: () => {'id': -1})['id'];
+                      dropdownValueCity = region['region'];
+                      _tx_search_filter_rg = selectedCityId;
+                      _updateDoctorsList();
+                    });
+                  },
+                );
+              }).toList(),
+            ),*/
             Expanded(
                 child: FutureBuilder<List<Map>>(
               future: getListDoctors(
@@ -427,36 +385,6 @@ class _DoctorScreenState extends State<DoctorScreen> {
               builder: (context, snapshot) =>
                   _build_list_doctors(context, snapshot),
             )),
-            ElevatedButton(
-              onPressed: () async {
-                await _addNewDoctor();
-              },
-              child: Row(
-                mainAxisSize: MainAxisSize.min, // Align content in the center
-                children: [
-                  Icon(Icons.add),
-                  SizedBox(
-                    width: 10,
-                  ),
-                  Text(
-                    "Add New",
-                    style: TextStyle(
-                      fontSize: 16,
-                      fontWeight: FontWeight.bold,
-                    ),
-                  )
-                ],
-              ),
-              style: ElevatedButton.styleFrom(
-                backgroundColor: GlobalColors.mainColor, // Background color
-                foregroundColor: Colors.white, // Text color
-                elevation: 5, // Shadow depth
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(20), // Rounded corners
-                ),
-                padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
-              ),
-            ),
           ],
         ),
       )),
@@ -477,67 +405,35 @@ class _DoctorScreenState extends State<DoctorScreen> {
       return ListView.builder(
         itemCount: items.length,
         itemBuilder: (context, index) {
+          // Ensure that you have non-null values for the Text widgets.
+          // I used the null-aware operator `??` to provide default values if the expected ones are null.
+          String doctorName = items[index]['name'] ?? 'Unknown Name';
+          String specialty = items[index]['sp'] ?? 'Unknown Specialty';
+          String address = items[index]['rg'] ?? 'Unknown Address';
+
           return GestureDetector(
             onTap: () {
-              Navigator.pop(context, items[index]);
+              // Navigator.pop(context, items[index]); // Be careful with this line if you're not in a dialog or modal.
             },
             child: Card(
               elevation: 10,
               child: ListTile(
-                title: Text(items[index]['name']),
+                title: Text(doctorName),
                 subtitle: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text(_getSpecialtyNameById(items[index]['specialty_id'])),
-                    Text(_getCitytyNameById(items[index]['country_id'])),
+                    Text(specialty),
+                    Text(address),
                   ],
                 ),
-                // Add trailing to show the delete icon
-                trailing: IconButton(
-                  icon: Icon(
-                    Icons.delete,
-                    color: const Color.fromARGB(255, 138, 132, 132),
-                  ),
-                  onPressed: () {
-                    // Show dialog to confirm deletion
-                    showDialog(
-                        context: context,
-                        builder: (BuildContext context) {
-                          return AlertDialog(
-                            title: Text("Delete Doctor"),
-                            content: Text(
-                                "Are you sure you want to delete this doctor?"),
-                            actions: <Widget>[
-                              TextButton(
-                                onPressed: () {
-                                  Navigator.of(context)
-                                      .pop(); //close the dialog
-                                },
-                                child: Text("Cancel"),
-                              ),
-                              TextButton(
-                                onPressed: () async {
-                                  // Perform the deletion
-                                  await DBDoctor.deleteDoctor(
-                                      items[index]['doctor_id']);
-                                  Navigator.of(context)
-                                      .pop(); // Close the dialog
-                                  _updateDoctorsList(); // Refresh the list
-                                },
-                                child: Text("Delete"),
-                              )
-                            ],
-                          );
-                        });
-                  },
-                ),
+                // Add trailing to show the delete icon...
               ),
             ),
           );
         },
       );
     } else if (snapshot.hasError) {
-      return Text("${snapshot.error}");
+      return Text("Error: ${snapshot.error}");
     }
     return CircularProgressIndicator();
   }

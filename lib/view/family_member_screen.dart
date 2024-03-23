@@ -275,8 +275,17 @@ class _FamilyMembersPageState extends State<FamilyMembersPage> {
                                           .showSnackBar(SnackBar(
                                               content: Text(
                                                   'Family member deleted successfully!')));
-                                      Navigator.of(context)
-                                          .pop(); // Close the dialog
+                                      /*Fluttertoast.showToast(
+                                          msg:
+                                              "Family member deleted successfully!",
+                                          toastLength: Toast.LENGTH_SHORT,
+                                          gravity: ToastGravity
+                                              .BOTTOM, // This is to show toast at the center of the screen; you can change the gravity according to your needs
+                                          timeInSecForIosWeb: 1,
+                                          backgroundColor: Colors.grey[300],
+                                          textColor: Colors.black,
+                                          fontSize: 15.0);*/
+                                      Navigator.of(context).pop();
                                       _updateDoctorsList(); // Refresh the list
                                     },
                                     child: Text("Delete"),

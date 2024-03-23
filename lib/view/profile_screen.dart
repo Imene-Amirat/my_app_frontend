@@ -101,6 +101,7 @@ class _MyWidgetState extends State<ProfileScreen> {
     var isDark = MediaQuery.of(context).platformBrightness == Brightness.dark;
     return Scaffold(
       appBar: AppBar(
+        automaticallyImplyLeading: false,
         backgroundColor: GlobalColors.mainColor,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.only(

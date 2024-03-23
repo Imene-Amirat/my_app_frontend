@@ -32,27 +32,70 @@ class DBDoctor {
           ''');
   }
 
-  static Future<List<Map<String, dynamic>>> getAllDoctorsByKeyword(
-      String keyword) async {
-    if (keyword.trim().isEmpty) return getAllDoctors();
+  /*static Future<List<Map<String, dynamic>>> getAllDoctorsByKeyword(
+      String keywordName, int keySp, int keyRg) async {
+    if (keywordName.trim().isEmpty) return getAllDoctors();
 
     final database = await DBHelper.getDatabase();
 
     // Use parameterized query to avoid SQL injection
-    final keywordPattern = '%${keyword.trim()}%'.toLowerCase();
+    final keywordPattern = '%${keywordName.trim()}%'.toLowerCase();
 
     final query = '''
     SELECT 
       doctor_id,
       name,
-      specialty_id
+      specialty_id,
+      country_id
     FROM $tableName
-    WHERE LOWER(name) LIKE ?
+    WHERE (LOWER(name) LIKE ? OR specialty_id = ? OR country_id = ? )
     ORDER BY name ASC
   ''';
 
     // Execute the query
-    return await database.rawQuery(query, [keywordPattern]);
+    return await database.rawQuery(query, [keywordPattern, keySp, keyRg]);
+  }*/
+
+  static Future<List<Map<String, dynamic>>> getAllDoctorsByKeyword(
+      String keywordName, int keySp, int keyRg) async {
+    final database = await DBHelper.getDatabase();
+
+    // Start with a base query that fetches all doctors
+    String query = '''
+    SELECT 
+      doctor_id,
+      name,
+      specialty_id,
+      country_id
+    FROM $tableName
+    WHERE 1=1
+  ''';
+
+    List<dynamic> params = [];
+
+    // filter by name if keywordName is not empty
+    if (keywordName.trim().isNotEmpty) {
+      query += ' AND LOWER(name) LIKE ?';
+      params.add('%${keywordName.trim().toLowerCase()}%');
+    }
+
+    // filter by specialty if keySp is provided
+    if (keySp > 0) {
+      // Assuming 0 is an invalid ID and thus not used
+      query += ' AND specialty_id = ?';
+      params.add(keySp);
+    }
+
+    // filter by region if keyRg is provided
+    if (keyRg > 0) {
+      // Assuming 0 is an invalid ID and thus not used
+      query += ' AND country_id = ?';
+      params.add(keyRg);
+    }
+
+    query += ' ORDER BY name ASC';
+
+    return await database.rawQuery(query, params);
   }
 
   static Future<int> getDoctorByName(String name) async {

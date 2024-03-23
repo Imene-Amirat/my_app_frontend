@@ -31,6 +31,7 @@ class _MedicalRecordsPageState extends State<MedicalRecordsPage>
   List<Map<String, dynamic>> options = [];
   List<Map<String, dynamic>> doctors = [];
   List<Map<String, dynamic>> records = [];
+  List<Map<String, dynamic>> sps = [];
   TabController? _tabController;
 
   @override
@@ -45,6 +46,7 @@ class _MedicalRecordsPageState extends State<MedicalRecordsPage>
     fetchRecords();
     fetchFamily(lastFetched: true);
     fetchData();
+    fetchsp();
   }
 
   @override
@@ -89,6 +91,28 @@ class _MedicalRecordsPageState extends State<MedicalRecordsPage>
               .toList();
         });
         print(options);
+      } else {
+        print('Failed to load options. Status code: ${response.statusCode}');
+      }
+    } catch (e) {
+      print('Error loading options: $e');
+    }
+  }
+
+  Future<void> fetchsp() async {
+    try {
+      final response = await http.get(
+          Uri.parse('https://flask-app-medical.vercel.app/specialties.get'));
+
+      if (response.statusCode == 200) {
+        List<dynamic> jsonData = json.decode(response.body);
+
+        setState(() {
+          sps = jsonData
+              .map((option) => {"id": option['id'], "name": option['name']})
+              .toList();
+        });
+        print(sps);
       } else {
         print('Failed to load options. Status code: ${response.statusCode}');
       }
@@ -154,6 +178,22 @@ class _MedicalRecordsPageState extends State<MedicalRecordsPage>
       orElse: () => {'name': 'loading....'},
     );
     return doctor['name'];
+  }
+
+  String _getDoctorSpById(int doctorId) {
+    // Find the doctor by ID to get their specialty_id
+    final doctor = doctors.firstWhere(
+      (doc) => doc['doctor_id'] == doctorId,
+      orElse: () => {'specialty_id': -1},
+    );
+
+    // Use the doctor's specialty_id to find the corresponding specialty name
+    final specialty = sps.firstWhere(
+      (sp) => sp['id'] == doctor['specialty_id'],
+      orElse: () => {'name': 'loading...'},
+    );
+
+    return specialty['name'];
   }
 
   Future<String?> getUserId() async {
@@ -359,6 +399,10 @@ class _MedicalRecordsPageState extends State<MedicalRecordsPage>
         //data is still loading, show a placeholder or loading indicator
         return Center(child: CircularProgressIndicator());
       }
+      if (sps.isEmpty) {
+        //data is still loading, show a placeholder or loading indicator
+        return Center(child: CircularProgressIndicator());
+      }
       if (snapshot.data.isEmpty) {
         return Center(child: Text('No records found.\n      Add a new one!'));
       }
@@ -388,7 +432,9 @@ class _MedicalRecordsPageState extends State<MedicalRecordsPage>
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text("Dr." +
-                          _getDoctorNameById(items[index]['doctor_id'])),
+                          _getDoctorNameById(items[index]['doctor_id']) +
+                          "," +
+                          _getDoctorSpById(items[index]['doctor_id'])),
                       Text(items[index]['date']),
                     ],
                   ),
@@ -441,11 +487,14 @@ class _MedicalRecordsPageState extends State<MedicalRecordsPage>
                           // Find the record type name using the record_type_id
                           String recordTypeName = _getTypeRecordById(
                               items[index]['record_type_id']);
+                          String spName =
+                              _getDoctorSpById(items[index]['doctor_id']);
                           // Add the doctor's name and record type name to the record map
                           Map<String, dynamic> recordWithDetails =
                               Map.from(items[index]);
                           recordWithDetails['doctorName'] = doctorName;
                           recordWithDetails['recordTypeName'] = recordTypeName;
+                          recordWithDetails['doctorSp'] = spName;
                           print(items[index]);
                           // Navigate to the detail screen with the selected record
                           final res = await Navigator.push(

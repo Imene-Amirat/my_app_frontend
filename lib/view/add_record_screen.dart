@@ -431,7 +431,7 @@ class _AddRecordScreenState extends State<AddRecordScreen> {
             ElevatedButton(
               onPressed: () => _showImageSourceActionSheet(context),
               //selectImages();
-              child: Text('Add Photo'),
+              child: Text('Add Clinical Documents'),
             ),
             SizedBox(
               height: 200, //fixe height for container of image

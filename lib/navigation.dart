@@ -44,6 +44,7 @@ class _MainNavigatorState extends State<MainNavigator> {
               color: Colors.white,
               activeColor: Colors.white,
               tabBackgroundColor:
+                  //Color.fromARGB(255, 81, 176, 240).withOpacity(0.7),
                   Color.fromARGB(255, 93, 136, 163).withOpacity(0.7),
               gap: 8,
               padding: EdgeInsets.all(10),

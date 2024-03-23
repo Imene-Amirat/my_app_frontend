@@ -36,22 +36,9 @@ class _RecordDetailScreenState extends State<RecordDetailScreen> {
     scaffold.showSnackBar(
       SnackBar(
         duration: const Duration(seconds: 3),
-        backgroundColor: Colors.black.withOpacity(0.8),
-        behavior: SnackBarBehavior.floating,
-        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
-        margin: const EdgeInsets.all(12),
-        content: Row(
-          mainAxisSize: MainAxisSize.min,
-          children: [
-            Icon(Icons.error_outline, color: Colors.white),
-            SizedBox(width: 8),
-            Expanded(
-              child: Text(
-                "Record successfully deleted",
-                style: TextStyle(color: Colors.white),
-              ),
-            ),
-          ],
+        content: Text(
+          "Record successfully deleted",
+          style: TextStyle(color: Colors.white),
         ),
       ),
     );
@@ -171,6 +158,10 @@ class _RecordDetailScreenState extends State<RecordDetailScreen> {
                     SizedBox(height: 4),
                     Text("${widget.record['doctorName']}", style: contentStyle),
                     Divider(),
+                    Text("Specialty :", style: labelStyle),
+                    SizedBox(height: 4),
+                    Text("${widget.record['doctorSp']}", style: contentStyle),
+                    Divider(),
                     Text("Date :", style: labelStyle),
                     SizedBox(height: 4),
                     Text("${widget.record['date']}", style: contentStyle),
@@ -189,7 +180,7 @@ class _RecordDetailScreenState extends State<RecordDetailScreen> {
             Text("Date: ${widget.record['date']}"),
             Text("Description: ${widget.record['description']}"),*/
             SizedBox(height: 20),
-            Text("Images :",
+            Text("Clinical Documents :",
                 style: TextStyle(
                     color: GlobalColors.mainColor,
                     fontWeight: FontWeight.bold,
