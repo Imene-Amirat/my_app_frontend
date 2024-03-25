@@ -35,8 +35,8 @@ class AppointmentBooked extends StatelessWidget {
               child: Button(
                 width: double.infinity,
                 title: 'Appointment Schedule',
-                onPressed: () =>
-                    Navigator.of(context).pushNamed('/appointmentlist'),
+                onPressed: () => Navigator.popUntil(
+                    context, ModalRoute.withName('/appointmentlist')),
                 disable: false,
               ),
             )

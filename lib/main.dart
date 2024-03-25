@@ -61,6 +61,7 @@ class MyApp extends StatelessWidget {
         '/doctors_directory': (context) => DoctorsDirectoryScreen(),
         MedicalRecordsPage.pageRoute: (context) => MedicalRecordsPage(),
         '/success_booked': (context) => AppointmentBooked(),
+        AppointmentBooked.pageRoute: (context) => AppointmentBooked(),
         DoctorScreen.pageRoute: (context) => DoctorScreen(),
         DoctorsDirectoryScreen.pageRoute: (context) => DoctorsDirectoryScreen(),
         ProfileScreen.pageRoute: (context) => ProfileScreen(),
