@@ -96,6 +96,20 @@ class _MyWidgetState extends State<ProfileScreen> {
     };
   }
 
+  Future<void> getUserDetailsAndNavigatetoUpdate() async {
+    final prefs = await SharedPreferences.getInstance();
+    String? email = prefs.getString('user_email');
+    String? username = prefs.getString('user_username');
+
+    // Navigate to UpdateProfileScreen with user details
+    if (username != null && email != null) {
+      Get.to(() => UpdateProfileScreen(username: username, email: email));
+    } else {
+      // Handle the case where username or email is not found
+      print('No user details available.');
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     var isDark = MediaQuery.of(context).platformBrightness == Brightness.dark;
@@ -204,7 +218,9 @@ class _MyWidgetState extends State<ProfileScreen> {
               SizedBox(
                   width: 200,
                   child: ElevatedButton(
-                    onPressed: () => Get.to(() => UpdateProfileScreen()),
+                    onPressed: () {
+                      getUserDetailsAndNavigatetoUpdate();
+                    },
                     child: Text(
                       "Edit Profile",
                       style: TextStyle(color: Colors.white),
@@ -224,25 +240,25 @@ class _MyWidgetState extends State<ProfileScreen> {
                 height: 10,
               ),
               //menu
-              ProfileMenuWidget(
+              /*ProfileMenuWidget(
                 title: 'Settings',
                 icon: LineAwesomeIcons.cog,
                 onPress: () {},
-              ),
-              ProfileMenuWidget(
+              ),*/
+              /*ProfileMenuWidget(
                 title: 'Billing Details',
                 icon: LineAwesomeIcons.wallet,
                 onPress: () {},
-              ),
-              ProfileMenuWidget(
+              ),*/
+              /*ProfileMenuWidget(
                 title: 'User Management',
                 icon: LineAwesomeIcons.user_check,
                 onPress: () {},
-              ),
-              const Divider(),
-              const SizedBox(
+              ),*/
+              //const Divider(),
+              /*const SizedBox(
                 height: 10,
-              ),
+              ),*/
               ProfileMenuWidget(
                 title: 'Information',
                 icon: LineAwesomeIcons.info,

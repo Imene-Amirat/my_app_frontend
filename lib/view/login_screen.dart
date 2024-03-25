@@ -24,7 +24,7 @@ class _LoginScreenState extends State<LoginScreen> {
   bool _isLoading = false;
 
   //func to signup the user
-  Future<void> logIn() async {
+  /*Future<void> logIn() async {
     if (!_formKey.currentState!.validate()) return;
     _formKey.currentState!.save();
 
@@ -56,6 +56,85 @@ class _LoginScreenState extends State<LoginScreen> {
 
     Navigator.pushReplacement(context,
         MaterialPageRoute(builder: (context) => const MainNavigator()));
+  }*/
+
+  Future<void> logIn() async {
+    if (!_formKey.currentState!.validate()) return;
+    _formKey.currentState!.save();
+
+    setState(() {
+      _isLoading = true;
+    });
+
+    try {
+      final response = await supabase.auth.signInWithPassword(
+        password: password.trim(),
+        email: email.trim(),
+      );
+
+      if (response.user != null) {
+        final prefs = await SharedPreferences.getInstance();
+        await prefs.setString('user_id', response.user!.id);
+        await prefs.setString('user_email', email);
+        await prefs.setString('user_username',
+            response.user!.userMetadata?['username'] ?? 'defaultUsername');
+
+        // Navigate to the main navigator on successful login
+        if (!mounted) return;
+        Navigator.pushReplacement(context,
+            MaterialPageRoute(builder: (context) => const MainNavigator()));
+      } else {
+        // If response.user is null, it could mean authentication failed.
+        // Supabase should throw an error, which would be caught by the catch block below.
+        print("Authentication failed. No user returned.");
+      }
+    } on AuthException catch (e) {
+      // Handle authentication error
+      // You might want to display an error message depending on e.message
+      // For example:
+      if (e.message.contains('Invalid login credentials')) {
+        showDialog(
+          context: context,
+          builder: (ctx) => AlertDialog(
+            title: Text('Login Error'),
+            content: Text('Invalid email or password.'),
+            actions: <Widget>[
+              TextButton(
+                child: Text('Okay'),
+                onPressed: () {
+                  Navigator.of(ctx).pop();
+                },
+              ),
+            ],
+          ),
+        );
+      } else {
+        // Handle other types of AuthExceptions
+        showDialog(
+          context: context,
+          builder: (ctx) => AlertDialog(
+            title: Text('Login Error'),
+            content: Text('An error occurred. Please try again later.'),
+            actions: <Widget>[
+              TextButton(
+                child: Text('Okay'),
+                onPressed: () {
+                  Navigator.of(ctx).pop();
+                },
+              ),
+            ],
+          ),
+        );
+      }
+      print(e.message);
+    } finally {
+      // Always stop the loading indicator, regardless of the outcome
+      if (mounted) {
+        setState(() {
+          _isLoading = false;
+        });
+      }
+    }
   }
 
   @override
@@ -165,8 +244,6 @@ class _LoginScreenState extends State<LoginScreen> {
                     validator: (value) {
                       if (value == null || value.isEmpty) {
                         return 'Please enter your password';
-                      } else if (value.length < 6) {
-                        return 'Password must be at least 6 characters long';
                       }
                       return null;
                     },

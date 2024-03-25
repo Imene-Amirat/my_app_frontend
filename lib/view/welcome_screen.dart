@@ -10,7 +10,7 @@ class WelcomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
     return Scaffold(
-      body: SafeArea(
+      body: SingleChildScrollView(
         child: Container(
           //we will give media query height
           //double.infinity make it big as my parent allows

@@ -25,7 +25,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
   bool _isLoading = false;
 
   //func to signup the user
-  Future<void> signUp() async {
+  /*Future<void> signUp() async {
     if (!_formKey.currentState!.validate()) return;
     _formKey.currentState!.save();
 
@@ -60,6 +60,79 @@ class _SignUpScreenState extends State<SignUpScreen> {
       _isLoading = true;
     });
     //Navigator.pushReplacement(context,MaterialPageRoute(builder: (context) => const MainNavigator()));
+  }*/
+
+  Future<void> signUp() async {
+    if (!_formKey.currentState!.validate()) return;
+    _formKey.currentState!.save();
+
+    setState(() {
+      _isLoading = true;
+    });
+
+    try {
+      final result = await supabase.auth.signUp(
+          password: password.trim(),
+          email: email.trim(),
+          data: {'username': username.trim()});
+      if (result.user != null) {
+        // Save email, username, and user ID
+        final prefs = await SharedPreferences.getInstance();
+        await prefs.setString('user_email', email);
+        await prefs.setString('user_username', username);
+        await prefs.setString(
+            'user_id', result.user!.id); // Ensure the user object is not null
+
+        if (!mounted) return;
+        Navigator.pushReplacement(context,
+            MaterialPageRoute(builder: (context) => const MainNavigator()));
+      } else {
+        print("Authentication failed. No user returned.");
+      }
+    } on AuthException catch (e) {
+      if (e.message.contains('User already registered')) {
+        showDialog(
+          context: context,
+          builder: (ctx) => AlertDialog(
+            title: Text('Error'),
+            content: Text('the email is already in use.'),
+            actions: <Widget>[
+              TextButton(
+                child: Text('Okay'),
+                onPressed: () {
+                  Navigator.of(ctx).pop();
+                },
+              ),
+            ],
+          ),
+        );
+      } else {
+        // Handle other types of AuthExceptions
+        showDialog(
+          context: context,
+          builder: (ctx) => AlertDialog(
+            title: Text('Error'),
+            content: Text('An error occurred. Please try again later.'),
+            actions: <Widget>[
+              TextButton(
+                child: Text('Okay'),
+                onPressed: () {
+                  Navigator.of(ctx).pop();
+                },
+              ),
+            ],
+          ),
+        );
+      }
+      print(e.message);
+    } finally {
+      // Always stop the loading indicator, regardless of the outcome
+      if (mounted) {
+        setState(() {
+          _isLoading = false;
+        });
+      }
+    }
   }
 
   @override

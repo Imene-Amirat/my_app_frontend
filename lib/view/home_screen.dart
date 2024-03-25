@@ -314,44 +314,6 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
       ),
     );
-    /*return Padding(
-      padding: EdgeInsets.all(8.0),
-      child: Column(
-        children: [
-          MaterialButton(
-            onPressed: () {
-              Navigator.pushNamed(context, route);
-            },
-            minWidth: 155,
-            height: 170,
-            color: color,
-            elevation: 5,
-            shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(8.0),
-            ),
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Image.asset(
-                  'assets/icons/$imagePath.png', // Adjust the path as per your project structure
-                  width: 60,
-                  height: 60,
-                ),
-                SizedBox(height: 8),
-                Text(
-                  title,
-                  textAlign: TextAlign.center,
-                  style: TextStyle(
-                    fontSize: 18,
-                    color: Colors.white,
-                    fontWeight: FontWeight.bold,
-                  ),
-                )
-              ],
-            ),
-          )
-        ],
-      ),
-    );*/
+    
   }*/
 }

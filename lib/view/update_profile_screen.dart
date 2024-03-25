@@ -5,23 +5,52 @@ import 'package:flutter/material.dart';
 import 'package:get/route_manager.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:line_awesome_flutter/line_awesome_flutter.dart';
+import 'package:my_app_frontend/main.dart';
 import 'package:my_app_frontend/utils/global_colors.dart';
 
 class UpdateProfileScreen extends StatefulWidget {
-  const UpdateProfileScreen({super.key});
+  final String username;
+  final String email;
+  const UpdateProfileScreen({
+    Key? key,
+    required this.username,
+    required this.email,
+  }) : super(key: key);
 
   @override
   State<UpdateProfileScreen> createState() => _UpdateProfileScreenState();
 }
 
 class _UpdateProfileScreenState extends State<UpdateProfileScreen> {
-  TextEditingController fullname = TextEditingController();
-  TextEditingController email = TextEditingController();
-  TextEditingController phone = TextEditingController();
-  TextEditingController password = TextEditingController();
+  late TextEditingController fullnameController;
+  late TextEditingController emailController;
+  late TextEditingController phoneController;
+  late TextEditingController passwordController;
 
   final ImagePicker imagePicker = ImagePicker();
   XFile? imageFile;
+
+  @override
+  void initState() {
+    super.initState();
+    // Initialize the controllers with the passed values.
+    fullnameController = TextEditingController(text: widget.username);
+    emailController = TextEditingController(text: widget.email);
+    phoneController =
+        TextEditingController(); // If you have initial values for phone, set it here
+    passwordController =
+        TextEditingController(); // If you have initial values for password, set it here
+  }
+
+  @override
+  void dispose() {
+    // Don't forget to dispose the controllers when the widget is removed from the widget tree.
+    fullnameController.dispose();
+    emailController.dispose();
+    phoneController.dispose();
+    passwordController.dispose();
+    super.dispose();
+  }
 
   void _pickImage(ImageSource source) async {
     // If the source is the camera, continue allowing only single image selection
@@ -78,12 +107,22 @@ class _UpdateProfileScreenState extends State<UpdateProfileScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: GlobalColors.mainColor,
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.only(
+            bottomLeft: Radius.circular(20),
+            bottomRight: Radius.circular(20),
+          ),
+        ),
         leading: IconButton(
             onPressed: () => Get.back(),
-            icon: Icon(LineAwesomeIcons.angle_left)),
+            icon: Icon(
+              LineAwesomeIcons.angle_left,
+              color: Colors.white,
+            )),
         title: Text(
           "Edit Profile",
-          style: Theme.of(context).textTheme.headline4,
+          style: TextStyle(color: Colors.white, fontSize: 25),
         ),
         centerTitle: true,
       ),
@@ -134,7 +173,7 @@ class _UpdateProfileScreenState extends State<UpdateProfileScreen> {
                   child: Column(
                 children: [
                   TextFormField(
-                    controller: fullname,
+                    controller: fullnameController,
                     decoration: InputDecoration(
                       label: Text("Full Name"),
                       prefixIcon: Icon(LineAwesomeIcons.user),
@@ -146,7 +185,7 @@ class _UpdateProfileScreenState extends State<UpdateProfileScreen> {
                     height: 12,
                   ),
                   TextFormField(
-                    controller: email,
+                    controller: emailController,
                     decoration: InputDecoration(
                       label: Text("E-Mail"),
                       prefixIcon: Icon(LineAwesomeIcons.envelope_1),
@@ -158,7 +197,7 @@ class _UpdateProfileScreenState extends State<UpdateProfileScreen> {
                     height: 12,
                   ),
                   TextFormField(
-                    controller: phone,
+                    controller: phoneController,
                     decoration: InputDecoration(
                       label: Text("Phone No"),
                       prefixIcon: Icon(LineAwesomeIcons.phone),
@@ -169,24 +208,12 @@ class _UpdateProfileScreenState extends State<UpdateProfileScreen> {
                   SizedBox(
                     height: 12,
                   ),
-                  TextFormField(
-                    controller: password,
-                    decoration: InputDecoration(
-                      label: Text("Password"),
-                      prefixIcon: Icon(LineAwesomeIcons.fingerprint),
-                      border: OutlineInputBorder(
-                          borderRadius: BorderRadius.circular(100)),
-                    ),
-                  ),
-                  SizedBox(
-                    height: 25,
-                  ),
                   SizedBox(
                       width: double.infinity,
                       child: ElevatedButton(
-                        onPressed: () => Get.to(() => UpdateProfileScreen()),
+                        onPressed: () {},
                         child: Text(
-                          "Edit Profile",
+                          "Save",
                           style: TextStyle(color: Colors.white),
                         ),
                         style: ElevatedButton.styleFrom(
