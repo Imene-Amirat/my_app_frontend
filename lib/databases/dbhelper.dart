@@ -14,7 +14,7 @@ import 'package:sqflite_common_ffi/sqflite_ffi.dart';
 class DBHelper {
   //Constants for the database name and version.
   static const _database_name = "Medhistory.db";
-  static const _database_version = 15;
+  static const _database_version = 17;
 
   //A variable to hold the reference to the database.
   static var database;
@@ -58,7 +58,8 @@ class DBHelper {
              phone INTEGER,
              created_by_id INTEGER,
              validated TEXT,
-             specialty_id INTEGER
+             specialty_id INTEGER,
+             user_id TEXT
           );''');
             for (var sql_code in sql_create_code) database.execute(sql_code);
           }

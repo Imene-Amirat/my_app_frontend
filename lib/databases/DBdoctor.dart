@@ -15,7 +15,8 @@ class DBDoctor {
              phone INTEGER,
              created_by_id INTEGER,
              validated TEXT,
-             specialty_id INTEGER
+             specialty_id INTEGER,
+             user_id TEXT
            );''';
 
   static Future<List<Map<String, dynamic>>> getAllDoctors() async {
@@ -32,6 +33,7 @@ class DBDoctor {
             specialty_id,
             specialty,
             wilaya
+            user_id
           from ${tableName}
           ''');
   }
@@ -61,7 +63,7 @@ class DBDoctor {
   }*/
 
   static Future<List<Map<String, dynamic>>> getAllDoctorsByKeyword(
-      String keywordName, String keySp, String keyRg) async {
+      String keywordName, String keySp, String keyRg, String userId) async {
     final database = await DBHelper.getDatabase();
 
     // Start with a base query that fetches all doctors
@@ -73,11 +75,12 @@ class DBDoctor {
       country_id,
       wilaya,
       specialty
-    FROM $tableName
-    WHERE 1=1
+    FROM $tableName 
+    WHERE (user_id = ? OR user_id IS NULL)
+    
   ''';
 
-    List<dynamic> params = [];
+    List<dynamic> params = [userId];
 
     // filter by name if keywordName is not empty
     if (keywordName.trim().isNotEmpty) {
@@ -115,8 +118,8 @@ class DBDoctor {
     return res[0]['id'] ?? 0;
   }
 
-  static Future<int> insertDoctor(
-      String name, int specialtyId, int countryid, String sp, String rg) async {
+  static Future<int> insertDoctor(String name, int specialtyId, int countryid,
+      String sp, String rg, String userId) async {
     final database = await DBHelper.getDatabase();
     final Map<String, dynamic> data = {
       'name': name,
@@ -124,6 +127,7 @@ class DBDoctor {
       'specialty_id': specialtyId,
       'wilaya': rg,
       'specialty': sp,
+      'user_id': userId,
     };
     int id = await database.insert(
       'doctor',

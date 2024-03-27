@@ -8,6 +8,7 @@ import 'package:iconsax/iconsax.dart';
 import 'package:line_awesome_flutter/line_awesome_flutter.dart';
 import 'package:my_app_frontend/databases/DBdoctor.dart';
 import 'package:my_app_frontend/utils/global_colors.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 class DoctorScreen extends StatefulWidget {
   static final pageRoute = '/doctors';
@@ -40,14 +41,22 @@ class _DoctorScreenState extends State<DoctorScreen> {
     });
   }
 
+  Future<String?> getUserId() async {
+    final prefs = await SharedPreferences.getInstance();
+    return prefs
+        .getString('user_id'); // Returns the user ID, or null if not set
+  }
+
   Future<List<Map>> getListDoctors(
     String filter_name,
     String filter_sp,
     String filter_rg,
   ) async {
+    String? userId = await getUserId();
     print(await DBDoctor.getAllDoctorsByKeyword(
-        filter_name, filter_sp, filter_rg));
-    return DBDoctor.getAllDoctorsByKeyword(filter_name, filter_sp, filter_rg);
+        filter_name, filter_sp, filter_rg, userId!));
+    return DBDoctor.getAllDoctorsByKeyword(
+        filter_name, filter_sp, filter_rg, userId);
   }
 
   Future<void> _updateDoctorsList() async {
@@ -56,6 +65,7 @@ class _DoctorScreenState extends State<DoctorScreen> {
 
   // This method will be called when the "Add New" button is pressed
   Future<void> _add() async {
+    String? userId = await getUserId();
     if (nameController.text.isNotEmpty &&
         selectedCityId != null &&
         selectedSpecialtyId != null &&
@@ -64,7 +74,7 @@ class _DoctorScreenState extends State<DoctorScreen> {
       // Call the method to insert the new doctor into the database
       //! tells the Dart analyzer that you are sure these values won't be null at this point in the code.
       await DBDoctor.insertDoctor(nameController.text, selectedSpecialtyId!,
-          selectedCityId!, dropdownValueSp!, dropdownValueCity!);
+          selectedCityId!, dropdownValueSp!, dropdownValueCity!, userId!);
       //clear the fields after insertion
       nameController.clear();
       setState(() {

@@ -82,6 +82,7 @@ class _FavoriteRecordsScreenState extends State<FavoriteRecordsScreen> {
   }
 
   Future<void> fetchDoctors() async {
+    final userId = await getUserId();
     doctors = await DBDoctor.getAllDoctors();
   }
 

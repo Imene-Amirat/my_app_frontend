@@ -7,6 +7,7 @@ import 'package:my_app_frontend/components/button.dart';
 import 'package:my_app_frontend/components/custom_appbar.dart';
 import 'package:my_app_frontend/databases/DBAppointment.dart';
 import 'package:my_app_frontend/utils/config.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'package:table_calendar/table_calendar.dart';
 
 import '../utils/global_colors.dart';
@@ -34,6 +35,12 @@ class _AppointmentState extends State<Appointment> {
 
   String getAmPm(int hour) {
     return hour >= 12 && hour < 24 ? "PM" : "AM";
+  }
+
+  Future<String?> getUserId() async {
+    final prefs = await SharedPreferences.getInstance();
+    return prefs
+        .getString('user_id'); // Returns the user ID, or null if not set
   }
 
   @override
@@ -209,12 +216,22 @@ class _AppointmentState extends State<Appointment> {
                           hour));
                       String formattedTime =
                           "$formattedHour:00 $amPm"; // Convertit l'heure en String
+                      String? userId = await getUserId();
 
                       try {
+                        if (userId != null) {
+                          final int id = await DBAppointment.insertAppointment(
+                              formattedDate,
+                              formattedTime,
+                              appointmentTitle,
+                              userId);
+
+                          print("Insertion réussie avec l'ID $id");
+                        }
                         // Tentez d'insérer l'appointment dans la base de données
-                        final int id = await DBAppointment.insertAppointment(
+                        /*final int id = await DBAppointment.insertAppointment(
                             formattedDate, formattedTime, appointmentTitle);
-                        print("Insertion réussie avec l'ID $id");
+                        print("Insertion réussie avec l'ID $id");*/
 
                         // Si l'insertion est réussie, naviguez vers la page de succès
                         Navigator.pushNamed(context, '/success_booked');

@@ -9,16 +9,18 @@ class DBAppointment {
              Appointment_id INTEGER PRIMARY KEY AUTOINCREMENT,
              Date TEXT,
              Time TEXT,
-             title TEXT
+             title TEXT,
+             user_id TEXT
            );''';
 
   static Future<int> insertAppointment(
-      String date, String time, String title) async {
+      String date, String time, String title, String userId) async {
     final database = await DBHelper.getDatabase();
     final Map<String, dynamic> data = {
       'Date': date,
       'Time': time,
       'title': title,
+      'user_id': userId,
     };
     int id = await database.insert(
       'Appointment',
@@ -28,15 +30,16 @@ class DBAppointment {
     return id;
   }
 
-  static Future<List<Map<String, dynamic>>> fetchAllAppointment() async {
+  static Future<List<Map<String, dynamic>>> fetchAllAppointment(
+      String? userId) async {
     final database = await DBHelper.getDatabase();
     // Prepare the SQL query to select
     final String sqlQuery = '''
-      SELECT Appointment_id,Date,Time,title FROM $tableName ORDER BY Appointment_id DESC;
+      SELECT Appointment_id,Date,Time,title FROM $tableName WHERE user_id = ? ORDER BY Appointment_id DESC;
     ''';
     // Execute the query
     final List<Map<String, dynamic>> Appointment =
-        await database.rawQuery(sqlQuery);
+        await database.rawQuery(sqlQuery, [userId]);
     return Appointment;
   }
 

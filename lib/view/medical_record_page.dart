@@ -122,6 +122,7 @@ class _MedicalRecordsPageState extends State<MedicalRecordsPage>
   }
 
   Future<void> fetchDoctors() async {
+    String? userId = await getUserId();
     doctors = await DBDoctor.getAllDoctors();
   }
 

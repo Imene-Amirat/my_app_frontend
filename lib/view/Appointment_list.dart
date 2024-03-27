@@ -4,6 +4,7 @@ import 'package:line_awesome_flutter/line_awesome_flutter.dart';
 import 'package:my_app_frontend/databases/DBAppointment.dart';
 import 'package:my_app_frontend/utils/global_colors.dart';
 import 'package:my_app_frontend/view/Appointment_page.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 import '../utils/config.dart';
 
@@ -17,17 +18,29 @@ class AppointmentPage extends StatefulWidget {
 
 class _AppointmentPageState extends State<AppointmentPage> {
   late Future<List<Map<String, dynamic>>> _futureAppointments;
+  String _userId = '';
+
+  Future<String?> getUserId() async {
+    final prefs = await SharedPreferences.getInstance();
+    return prefs
+        .getString('user_id'); // Returns the user ID, or null if not set
+  }
+
   Future<void> _updateAppointmentList() async {
     setState(() {
-      _futureAppointments = DBAppointment.fetchAllAppointment();
+      _futureAppointments = DBAppointment.fetchAllAppointment(_userId);
     });
   }
 
   @override
   void initState() {
     super.initState();
-    _futureAppointments = DBAppointment.fetchAllAppointment();
+    _futureAppointments = DBAppointment.fetchAllAppointment(_userId);
     _updateAppointmentList();
+    getUserId().then((id) {
+      _userId = id!;
+      _updateAppointmentList(); // Now calls update without needing to pass userId
+    });
   }
 
   @override
