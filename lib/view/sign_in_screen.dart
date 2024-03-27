@@ -84,8 +84,13 @@ class _SignUpScreenState extends State<SignUpScreen> {
             'user_id', result.user!.id); // Ensure the user object is not null
 
         if (!mounted) return;
-        Navigator.pushReplacement(context,
-            MaterialPageRoute(builder: (context) => const MainNavigator()));
+        //Navigator.pushReplacement(context,MaterialPageRoute(builder: (context) => const MainNavigator()));
+        Navigator.pushAndRemoveUntil(
+          context,
+          MaterialPageRoute(builder: (context) => const MainNavigator()),
+          (Route<dynamic> route) =>
+              false, // This condition ensures all routes are removed
+        );
       } else {
         print("Authentication failed. No user returned.");
       }

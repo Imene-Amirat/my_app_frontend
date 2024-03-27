@@ -14,7 +14,7 @@ import 'package:sqflite_common_ffi/sqflite_ffi.dart';
 class DBHelper {
   //Constants for the database name and version.
   static const _database_name = "Medhistory.db";
-  static const _database_version = 12;
+  static const _database_version = 15;
 
   //A variable to hold the reference to the database.
   static var database;
@@ -47,12 +47,18 @@ class DBHelper {
         onUpgrade: (database, oldVersion, newVersion) {
           print(">>>>>>>>>>>>>$oldVersion vs $newVersion");
           if (oldVersion != newVersion) {
-            database.execute('DROP TABLE IF EXISTS Appointment');
-            database.execute('''CREATE TABLE IF NOT EXISTS Appointment (
-             Appointment_id INTEGER PRIMARY KEY AUTOINCREMENT,
-             Date TEXT,
-             Time TEXT,
-             title TEXT
+            database.execute('DROP TABLE IF EXISTS doctor');
+            database.execute(''' CREATE TABLE IF NOT EXISTS doctor (
+             doctor_id INTEGER PRIMARY KEY AUTOINCREMENT,
+             name TEXT,
+             state_id INTEGER,
+             country_id INTEGER,
+             wilaya TEXT,
+             specialty TEXT,
+             phone INTEGER,
+             created_by_id INTEGER,
+             validated TEXT,
+             specialty_id INTEGER
           );''');
             for (var sql_code in sql_create_code) database.execute(sql_code);
           }

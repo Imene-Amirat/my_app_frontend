@@ -19,8 +19,8 @@ class DoctorScreen extends StatefulWidget {
 
 class _DoctorScreenState extends State<DoctorScreen> {
   String _tx_search_filter_name = '';
-  int? _tx_search_filter_sp;
-  int? _tx_search_filter_rg;
+  String _tx_search_filter_sp = '';
+  String _tx_search_filter_rg = '';
   String? dropdownValueSp = null;
   String? dropdownValueCity = null;
   int? selectedCityId;
@@ -42,8 +42,8 @@ class _DoctorScreenState extends State<DoctorScreen> {
 
   Future<List<Map>> getListDoctors(
     String filter_name,
-    int filter_sp,
-    int filter_rg,
+    String filter_sp,
+    String filter_rg,
   ) async {
     print(await DBDoctor.getAllDoctorsByKeyword(
         filter_name, filter_sp, filter_rg));
@@ -58,16 +58,17 @@ class _DoctorScreenState extends State<DoctorScreen> {
   Future<void> _add() async {
     if (nameController.text.isNotEmpty &&
         selectedCityId != null &&
-        selectedSpecialtyId != null) {
+        selectedSpecialtyId != null &&
+        dropdownValueCity != null &&
+        dropdownValueSp != null) {
       // Call the method to insert the new doctor into the database
       //! tells the Dart analyzer that you are sure these values won't be null at this point in the code.
-      await DBDoctor.insertDoctor(
-          nameController.text, selectedSpecialtyId!, selectedCityId!);
+      await DBDoctor.insertDoctor(nameController.text, selectedSpecialtyId!,
+          selectedCityId!, dropdownValueSp!, dropdownValueCity!);
       //clear the fields after insertion
       nameController.clear();
       setState(() {
         dropdownValueSp = null;
-        dropdownValueCity = null;
       });
       //Close the dialog
       Navigator.of(context).pop();
@@ -125,7 +126,11 @@ class _DoctorScreenState extends State<DoctorScreen> {
                       (Map<String, dynamic> value) {
                     return DropdownMenuItem<String>(
                       value: value['name'],
-                      child: Text(value['name']),
+                      child: Text(
+                        value['name'],
+                        style: TextStyle(
+                            fontSize: value['name'].length > 20 ? 12 : 14),
+                      ),
                     );
                   }).toList(),
                 ),
@@ -275,7 +280,7 @@ class _DoctorScreenState extends State<DoctorScreen> {
         print(f);
         selectedCityId = city.firstWhere((wilaya) => wilaya['name'] == f)['id'];
         print(selectedCityId);
-        _tx_search_filter_rg = selectedCityId;
+        _tx_search_filter_rg = dropdownValueCity!;
       });
     }
     // When we reach here, permissions are granted and we can
@@ -363,7 +368,7 @@ class _DoctorScreenState extends State<DoctorScreen> {
                   selectedSpecialtyId = specialties.firstWhere(
                       (specialty) => specialty['name'] == newValue)['id'];
                   print(selectedSpecialtyId);
-                  _tx_search_filter_sp = selectedSpecialtyId;
+                  _tx_search_filter_sp = dropdownValueSp!;
                 });
                 _updateDoctorsList();
               },
@@ -403,7 +408,7 @@ class _DoctorScreenState extends State<DoctorScreen> {
                   selectedCityId = city
                       .firstWhere((wilaya) => wilaya['name'] == newValue)['id'];
                   print(selectedCityId);
-                  _tx_search_filter_rg = selectedCityId;
+                  _tx_search_filter_rg = dropdownValueCity!;
                 });
                 _updateDoctorsList();
               },
@@ -422,8 +427,8 @@ class _DoctorScreenState extends State<DoctorScreen> {
                 child: FutureBuilder<List<Map>>(
               future: getListDoctors(
                   _tx_search_filter_name,
-                  _tx_search_filter_sp ?? 0,
-                  _tx_search_filter_rg ?? 0), // This fetches the latest list
+                  _tx_search_filter_sp ?? '',
+                  _tx_search_filter_rg ?? ''), // This fetches the latest list
               builder: (context, snapshot) =>
                   _build_list_doctors(context, snapshot),
             )),
@@ -488,8 +493,8 @@ class _DoctorScreenState extends State<DoctorScreen> {
                 subtitle: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text(_getSpecialtyNameById(items[index]['specialty_id'])),
-                    Text(_getCitytyNameById(items[index]['country_id'])),
+                    Text(items[index]['specialty']),
+                    Text(items[index]['wilaya']),
                   ],
                 ),
                 // Add trailing to show the delete icon

@@ -10,6 +10,8 @@ class DBDoctor {
              name TEXT,
              state_id INTEGER,
              country_id INTEGER,
+             wilaya TEXT,
+             specialty TEXT,
              phone INTEGER,
              created_by_id INTEGER,
              validated TEXT,
@@ -27,7 +29,9 @@ class DBDoctor {
             phone,
             created_by_id,
             validated,
-            specialty_id
+            specialty_id,
+            specialty,
+            wilaya
           from ${tableName}
           ''');
   }
@@ -57,7 +61,7 @@ class DBDoctor {
   }*/
 
   static Future<List<Map<String, dynamic>>> getAllDoctorsByKeyword(
-      String keywordName, int keySp, int keyRg) async {
+      String keywordName, String keySp, String keyRg) async {
     final database = await DBHelper.getDatabase();
 
     // Start with a base query that fetches all doctors
@@ -66,7 +70,9 @@ class DBDoctor {
       doctor_id,
       name,
       specialty_id,
-      country_id
+      country_id,
+      wilaya,
+      specialty
     FROM $tableName
     WHERE 1=1
   ''';
@@ -80,17 +86,17 @@ class DBDoctor {
     }
 
     // filter by specialty if keySp is provided
-    if (keySp > 0) {
+    if (keySp.isNotEmpty) {
       // Assuming 0 is an invalid ID and thus not used
-      query += ' AND specialty_id = ?';
-      params.add(keySp);
+      query += ' AND LOWER(specialty) LIKE ?';
+      params.add('%${keySp.toLowerCase()}%');
     }
 
     // filter by region if keyRg is provided
-    if (keyRg > 0) {
+    if (keyRg.isNotEmpty) {
       // Assuming 0 is an invalid ID and thus not used
-      query += ' AND country_id = ?';
-      params.add(keyRg);
+      query += ' AND LOWER(wilaya) LIKE ?';
+      params.add('%${keyRg.toLowerCase()}%');
     }
 
     query += ' ORDER BY name ASC';
@@ -110,12 +116,29 @@ class DBDoctor {
   }
 
   static Future<int> insertDoctor(
-      String name, int specialtyId, int countryid) async {
+      String name, int specialtyId, int countryid, String sp, String rg) async {
     final database = await DBHelper.getDatabase();
     final Map<String, dynamic> data = {
       'name': name,
       'country_id': countryid,
       'specialty_id': specialtyId,
+      'wilaya': rg,
+      'specialty': sp,
+    };
+    int id = await database.insert(
+      'doctor',
+      data,
+      conflictAlgorithm: ConflictAlgorithm.replace,
+    );
+    return id;
+  }
+
+  static Future<int> insertDoctor1(Map<String, dynamic> doctor) async {
+    final database = await DBHelper.getDatabase();
+    final Map<String, dynamic> data = {
+      'name': doctor['name'],
+      'wilaya': doctor['wilaya'],
+      'specialty': doctor['specialty'],
     };
     int id = await database.insert(
       'doctor',

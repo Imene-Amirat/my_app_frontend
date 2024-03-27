@@ -6,7 +6,6 @@ import 'package:http/http.dart' as http;
 import 'package:flutter/material.dart';
 import 'package:get/route_manager.dart';
 import 'package:line_awesome_flutter/line_awesome_flutter.dart';
-import 'package:my_app_frontend/databases/DBdoctor.dart';
 import 'package:my_app_frontend/utils/global_colors.dart';
 
 class DoctorsDirectoryScreen extends StatefulWidget {
@@ -40,18 +39,26 @@ class _DoctorsDirectoryScreenState extends State<DoctorsDirectoryScreen> {
     fetchSpCountry().then((_) {
       _determinePosition();
     });
-    getListDoctors1("", 0, 0);
   }
 
   Future<List<Map>> getListDoctors(
     String filter_name,
-    int filter_sp,
-    int filter_rg,
+    String filter_sp,
+    String filter_rg,
   ) async {
     try {
+      // Construct the query parameters
+      final queryParams = {
+        if (filter_name.isNotEmpty) 'name': filter_name,
+        if (filter_sp != null && filter_sp.isNotEmpty) 'specialty': filter_sp,
+        if (filter_rg != null && filter_rg.isNotEmpty) 'address': filter_rg,
+      };
       // Construct the URL with parameters
-      final Uri uri = Uri.parse('http://192.168.1.7:5000/scrape');
-
+      final uri = Uri.https(
+        'flask-app-medical.vercel.app',
+        '/doctor.get',
+        queryParams,
+      );
       final response = await http.get(uri);
 
       if (response.statusCode == 200) {
@@ -72,38 +79,6 @@ class _DoctorsDirectoryScreenState extends State<DoctorsDirectoryScreen> {
       print('Error loading options: $e');
     }
     return doctors;
-  }
-
-  Future<void> getListDoctors1(
-    String filter_name,
-    int filter_sp,
-    int filter_rg,
-  ) async {
-    try {
-      // Construct the URL with parameters
-      final Uri uri = Uri.parse('http://192.168.1.7:5000/regions').replace(
-        queryParameters: {
-          'rg': "annaba",
-        },
-      );
-
-      final response = await http.get(uri);
-
-      if (response.statusCode == 200) {
-        List<dynamic> jsonData = json.decode(response.body);
-        regions = jsonData.map((doctorData) {
-          return {
-            "region": doctorData['region'],
-          };
-        }).toList();
-        print("jjjjjjjjjjjjjjjjjjjjj");
-        print(regions);
-      } else {
-        print('Failed to load options. Status code: ${response.statusCode}');
-      }
-    } catch (e) {
-      print('Error loading options: $e');
-    }
   }
 
   Future<void> _updateDoctorsList() async {
@@ -357,31 +332,12 @@ class _DoctorsDirectoryScreenState extends State<DoctorsDirectoryScreen> {
             SizedBox(
               height: 10,
             ),
-            /*Wrap(
-              spacing: 8.0, // Gap between adjacent chips.
-              runSpacing: 4.0, // Gap between lines.
-              children: regions.map((Map<String, dynamic> region) {
-                return OutlinedButton(
-                  child: Text(region['region']),
-                  onPressed: () {
-                    setState(() {
-                      selectedCityId = city.firstWhere(
-                          (wilaya) => wilaya['name'] == region['region'],
-                          orElse: () => {'id': -1})['id'];
-                      dropdownValueCity = region['region'];
-                      _tx_search_filter_rg = selectedCityId;
-                      _updateDoctorsList();
-                    });
-                  },
-                );
-              }).toList(),
-            ),*/
             Expanded(
                 child: FutureBuilder<List<Map>>(
               future: getListDoctors(
                   _tx_search_filter_name,
-                  _tx_search_filter_sp ?? 0,
-                  _tx_search_filter_rg ?? 0), // This fetches the latest list
+                  dropdownValueSp ?? '',
+                  dropdownValueCity ?? ''), // This fetches the latest list
               builder: (context, snapshot) =>
                   _build_list_doctors(context, snapshot),
             )),
@@ -405,8 +361,6 @@ class _DoctorsDirectoryScreenState extends State<DoctorsDirectoryScreen> {
       return ListView.builder(
         itemCount: items.length,
         itemBuilder: (context, index) {
-          // Ensure that you have non-null values for the Text widgets.
-          // I used the null-aware operator `??` to provide default values if the expected ones are null.
           String doctorName = items[index]['name'] ?? 'Unknown Name';
           String specialty = items[index]['sp'] ?? 'Unknown Specialty';
           String address = items[index]['rg'] ?? 'Unknown Address';

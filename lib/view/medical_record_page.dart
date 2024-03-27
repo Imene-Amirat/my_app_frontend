@@ -193,7 +193,7 @@ class _MedicalRecordsPageState extends State<MedicalRecordsPage>
       orElse: () => {'name': 'loading...'},
     );
 
-    return specialty['name'];
+    return doctor['specialty'];
   }
 
   Future<String?> getUserId() async {

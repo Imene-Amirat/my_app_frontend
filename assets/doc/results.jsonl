@@ -1,0 +1,1488 @@
+{"Name": "Dr Said AZIZI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Reggane Adrar Alg\u00e9rie   "}
+{"Name": "Dr Tewfik SALEM WARDIANI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Adrar Alg\u00e9rie   "}
+{"Name": "Dr Ali LAOUAR", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Adrar Alg\u00e9rie   "}
+{"Name": "Dr Omar KALLOUM", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Adrar Alg\u00e9rie   "}
+{"Name": "Dr Said DAHMANE", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Timimoun Adrar Alg\u00e9rie   "}
+{"Name": "Dr Amina BRAHIMI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Timimoun Adrar Alg\u00e9rie   "}
+{"Name": "Dr Mohamed AKACEM", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Adrar Alg\u00e9rie   "}
+{"Name": "Dr Nourelhouda SEKIOU", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Adrar Alg\u00e9rie   "}
+{"Name": "Dr Djamila BENCHEMLOUL", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Adrar Alg\u00e9rie   "}
+{"Name": "Dr Mohammed KHELIFA", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Adrar Alg\u00e9rie   "}
+{"Name": "Dr Medjida ARGILLOS", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Adrar Alg\u00e9rie   "}
+{"Name": "Dr Ahmed BENABDELKRIM", "Specialty": "M\u00e9decin interniste", "Address": "Adrar Alg\u00e9rie   "}
+{"Name": "Dr Setha SOK", "Specialty": "M\u00e9decin interniste", "Address": "Adrar Alg\u00e9rie   "}
+{"Name": "Dr Abdellah BOUHASSEN", "Specialty": "P\u00e9diatre", "Address": "Adrar Alg\u00e9rie   "}
+{"Name": "Dr Mohammed takieddine KHELLILI", "Specialty": "Psychiatre", "Address": "Adrar Alg\u00e9rie   "}
+{"Name": "Dr Mohammed BAKRI", "Specialty": "Pharmacien", "Address": "Timimoun Adrar Alg\u00e9rie   "}
+{"Name": "Dr Radia REZZOUG", "Specialty": "Pharmacien", "Address": "Adrar Alg\u00e9rie   "}
+{"Name": "Dr Radia REZZOUG", "Specialty": "Pharmacien", "Address": "Adrar Alg\u00e9rie   "}
+{"Name": "Dr Noussir ZEMOURI", "Specialty": "Pharmacien", "Address": "Adrar Alg\u00e9rie   "}
+{"Name": "Dr Malika BOURAHLA", "Specialty": "Cardiologue", "Address": "A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Djamila HADDADOU", "Specialty": "Chirurgien Orthop\u00e9diste Traumatologue", "Address": "A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Mohamed KELKOULI", "Specialty": "Chirurgien Orthop\u00e9diste Traumatologue", "Address": "Khemis Miliana A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Ali MOURAH", "Specialty": "Chirurgien Orthop\u00e9diste Traumatologue", "Address": "A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Zakarya ABDERRAHMANE", "Specialty": "M\u00e9decin dentiste", "Address": "Boumedfaa A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Abdelkader BENMIMOUN BRAHIM", "Specialty": "M\u00e9decin dentiste", "Address": "Miliana A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Noudjoud ATIK", "Specialty": "M\u00e9decin dentiste", "Address": "A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Menaouer ZAHAF", "Specialty": "M\u00e9decin dentiste", "Address": "A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Amine MOHAMMED", "Specialty": "M\u00e9decin dentiste", "Address": "Miliana A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Ali BENBRIK", "Specialty": "M\u00e9decin dentiste", "Address": "Khemis Miliana A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Bellatreche DR", "Specialty": "M\u00e9decin dentiste", "Address": "A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Menaouer ZAHAF", "Specialty": "M\u00e9decin dentiste", "Address": "A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Ahmed KEBAH", "Specialty": "M\u00e9decin dentiste", "Address": "Khemis Miliana A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Bilel KORICHE", "Specialty": "M\u00e9decin dentiste", "Address": "A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Bilel KORICHE", "Specialty": "M\u00e9decin dentiste", "Address": "A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Benyoucef LOUAZANI", "Specialty": "M\u00e9decin dentiste", "Address": "Khemis Miliana A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Amine MOHAMMED", "Specialty": "M\u00e9decin dentiste", "Address": "Miliana A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Mustapha MOHAMMED EL HADJ", "Specialty": "M\u00e9decin dentiste", "Address": "Khemis Miliana A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Nabila LAKHDARI", "Specialty": "Dermatologue", "Address": "Khemis Miliana A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Belkacem TOUABIA", "Specialty": "Dermatologue", "Address": "A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Fatiha HAMOUTENE", "Specialty": "Endocrinologue", "Address": "A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr F/z BENSLIMANE", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Khemis Miliana A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Youcef KADDOUR BEN", "Specialty": "G\u00e9n\u00e9raliste", "Address": "El Attaf A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Mohamed KOUCHEIDA", "Specialty": "G\u00e9n\u00e9raliste", "Address": "El Attaf A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Zoubida KHITER", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Khemis Miliana A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Slimane BENNAI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Djendel A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Mouloud OULD SETTI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Djelida A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Mustapha BOUDALI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "El Amra A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Mohamed ZIDOUK", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Abdelmadjid HADJ SADOK", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Kheira HOURI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Khemis Miliana A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Benyoucef SADOK", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Djendel A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Abdelkader BENAI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Khemis Miliana A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Bouziane SNOUSSI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Miliana A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Benaouda TAOURIRI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Miliana A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Brahim IZOUINE", "Specialty": "G\u00e9n\u00e9raliste", "Address": "El Attaf A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Diouani HALLADJ", "Specialty": "G\u00e9n\u00e9raliste", "Address": "El Attaf A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Mohamed LOUNES", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Mohamed KHELLACE", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Bourached A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Abdelkader ROUIHEM", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Djilali HAMMADOUCHE", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Boualem KADDOUR", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Lakhdar BOURSAS", "Specialty": "G\u00e9n\u00e9raliste", "Address": "El Attaf A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Rachid BAAMEUR", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Miliana A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Malika TOUAIBIA", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Aounallah BOUHARKAT", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Khadidja EMBAREK", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Abdelkader HADAR", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Abdelkader TAIBI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Ain Bouyahia A\u00efn Defla Alg\u00e9rie"}
+{"Name": "Dr Mohamed HAMRANI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn Defla Alg\u00e9rie"}
+{"Name": "Dr Abdelkader MAHMOUDI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn Defla Alg\u00e9rie"}
+{"Name": "Dr Malika MAATAOUI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn Defla Alg\u00e9rie"}
+{"Name": "Dr Abderrahmane ARZOUK", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn Defla Alg\u00e9rie"}
+{"Name": "Dr Abdelkrim ANNAD", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Boumedfaa A\u00efn Defla Alg\u00e9rie"}
+{"Name": "Dr Fatiha ZERROUKI", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Khemis Miliana A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Abdelazziz BOUCHAKOUR", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Khemis Miliana A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Kheira REZKALLAH", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Mohamed KHELIF", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Khemis Miliana A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Ahmed ZAATOUT", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Mohamed GHERSI", "Specialty": "M\u00e9decin interniste", "Address": "Khemis Miliana A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Ghania AZZAZ", "Specialty": "M\u00e9decin interniste", "Address": "Miliana A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Ghania BENALAL EPSE AZZAZ", "Specialty": "M\u00e9decin interniste", "Address": "Miliana A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Khedidja LABANI", "Specialty": "Neurologue", "Address": "A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Ahmed BOUCHAREB", "Specialty": "Ophtalmologue", "Address": "A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Mhamed ZOUADI", "Specialty": "Ophtalmologue", "Address": "Khemis Miliana A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Cherif ZINAI", "Specialty": "Ophtalmologue", "Address": "A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Abdelaziz LOUNIS", "Specialty": "Oto-Rhino-Laryngologiste (ORL)", "Address": "A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Nadjia NEDJAI", "Specialty": "Oto-Rhino-Laryngologiste (ORL)", "Address": "Khemis Miliana A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Rabie SALI", "Specialty": "P\u00e9diatre", "Address": "A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Mohamed SAADAOUI", "Specialty": "P\u00e9diatre", "Address": "Khemis Miliana A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Zahia SID IDRIS", "Specialty": "P\u00e9diatre", "Address": "Khemis Miliana A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Mohammed TAIBOUNI", "Specialty": "Pneumologue", "Address": "A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Aicha HADJ SADOK", "Specialty": "Pneumologue", "Address": "A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Cherifa TAIBOUNI", "Specialty": "Pneumologue", "Address": "Khemis Miliana A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Kheirddine TAMER", "Specialty": "Psychiatre", "Address": "Khemis Miliana A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Yamina OUADAHI", "Specialty": "Rhumatologue", "Address": "Khemis Miliana A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Rabah HADDADOU", "Specialty": "Urologue", "Address": "Khemis Miliana A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Laribi DJILALI", "Specialty": "Allergologue", "Address": "A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Brahim BENYAHIA", "Specialty": "Allergologue", "Address": "A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Abdellah MAZOUZI", "Specialty": "Chirurgien G\u00e9n\u00e9raliste", "Address": "A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Boualem BENTHAMER", "Specialty": "Chirurgien G\u00e9n\u00e9raliste", "Address": "A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Hadj BOUCHAKOR-RAHMANI", "Specialty": "Chirurgien G\u00e9n\u00e9raliste", "Address": "A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Khedidja KHETTOU", "Specialty": "Chirurgien G\u00e9n\u00e9raliste", "Address": "A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Belkacem BENCHIKH", "Specialty": "Chirurgien G\u00e9n\u00e9raliste", "Address": "A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Fatiha HAMOUTENE", "Specialty": "Endocrinologue", "Address": "A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Mohamed CHERIEF", "Specialty": "Epidemiologiste", "Address": "Khemis Miliana A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Souad AMOURA", "Specialty": "H\u00e9matologue", "Address": "A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Hichem BOURORGA", "Specialty": "M\u00e9decin du sport", "Address": "Khemis Miliana A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Nabil AINAS", "Specialty": "M\u00e9decin du Travail", "Address": "Khemis Miliana A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Djamila HADDADOU", "Specialty": "Chirurgien Orthop\u00e9diste Traumatologue", "Address": "A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Ali MOURAH", "Specialty": "Chirurgien Orthop\u00e9diste Traumatologue", "Address": "A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Mohamed KELKOULI", "Specialty": "Chirurgien Orthop\u00e9diste Traumatologue", "Address": "Khemis Miliana A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Djamila HADDADOU", "Specialty": "Chirurgien Orthop\u00e9diste Traumatologue", "Address": "A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Ali MOURAH", "Specialty": "Chirurgien Orthop\u00e9diste Traumatologue", "Address": "A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Mohamed KELKOULI", "Specialty": "Chirurgien Orthop\u00e9diste Traumatologue", "Address": "Khemis Miliana A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Kheirddine TAMER", "Specialty": "Psychiatre", "Address": "Khemis Miliana A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Raouf SEFOUANE", "Specialty": "Pharmacien", "Address": "Rouina A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Abdelkadir MEKCHOUCHE", "Specialty": "Pharmacien", "Address": "El Attaf A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Merwan BENHADJAMAR", "Specialty": "Pharmacien", "Address": "Miliana A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Tawfik YOUSFI MOHAMMED", "Specialty": "Pharmacien", "Address": "Miliana A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Samia AMRIOUI", "Specialty": "Pharmacien", "Address": "Miliana A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Rachid ARBOUZ", "Specialty": "Pharmacien", "Address": "Khemis Miliana A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Amine AHMED", "Specialty": "Pharmacien", "Address": "A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Mohamed MOKHTARI", "Specialty": "Pharmacien", "Address": "Khemis Miliana A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Mohammed-tawfik YOUSFI", "Specialty": "Pharmacien", "Address": "Miliana A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Aida BENRABAH", "Specialty": "Pharmacien", "Address": "Miliana A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Abdallah OULD SAID", "Specialty": "Pharmacien", "Address": "A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Madjid BACHI CHERIF", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Abdelghani MERABET", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Khemis Miliana A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Djelloul ZENADRA", "Specialty": "G\u00e9n\u00e9raliste", "Address": "El Attaf A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Djamel BOUACHERIA", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Aicha HADJ KOUIDER", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Mekhatria A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Med HAOUAS", "Specialty": "G\u00e9n\u00e9raliste", "Address": "El Attaf A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Mohammed BOUKHAOUIA", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Djelida A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Ahmed BENKHEDOUMA", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Khemis Miliana A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Farid BOUHINI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Khemis Miliana A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Zohra HAIEK FATMA", "Specialty": "G\u00e9n\u00e9raliste", "Address": "El Amra A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Ahmed MATENE", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Khemis Miliana A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Abdelkader BENSLIMANE", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Khemis Miliana A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Salima ATTAF", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Fatiha BELALIA", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Khemis Miliana A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Ahmed TOUAHRI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "El Attaf A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Mohamed REBBALA", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Djelida A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Fouad KELLACI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Abbas BOUKARA", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Djendel A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Zohra GHERARBA FATMA", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Khemis Miliana A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Mohamed BENLEULMI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Samia MOUAS", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Djelida A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Rachid YAICHE", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Boumedfaa A\u00efn Defla Alg\u00e9rie   "}
+{"Name": "Dr Zohra KAHLOUCHE FATIMA", "Specialty": "Cardiologue", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Boumediene ZOUANI", "Specialty": "Cardiologue", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Abderrahim SELLAH", "Specialty": "Cardiologue", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr R\u00e9da BAGHDADI SID AHMED", "Specialty": "Cardiologue", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Reda DIB", "Specialty": "Cardiologue", "Address": "Beni Saf A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Mohamed LOUZI", "Specialty": "M\u00e9decin dentiste", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Mustapha AMARA", "Specialty": "M\u00e9decin dentiste", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Fatema SAADALLAH", "Specialty": "Dermatologue", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Abdelkader BENZAZOUA", "Specialty": "Dermatologue", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Djamel KASMI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Beni Saf A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Manseri MOULDIA", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Beni Saf A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Belhadj BENALLAL", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Beni Saf A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Amel MOHAND AMEUR", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Abdelazziz MOSTEFAOUI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Sabrina BOULEFDAOUI / CHERIFI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Ain Tolba A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Khellil RAHAL", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Beni Saf A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Ouamria BHIRI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Abdelhamid AMRANI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Beni Saf A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Mokrane FENEK", "Specialty": "G\u00e9n\u00e9raliste", "Address": "El Amria A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Said MAHMOUDI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Chahrazed BOURAOUI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Boumediene OUAMRI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Sidi ben Adda A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Said HASSINI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Nesreddine ATIA", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie"}
+{"Name": "Dr Bouazza BELHADJ", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie"}
+{"Name": "Dr Chila CHOUAL", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie"}
+{"Name": "Dr Amar LAHOUALI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Aghlal A\u00efn T\u00e9mouchent Alg\u00e9rie"}
+{"Name": "Dr Hasni BAKHTI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie"}
+{"Name": "Dr Latifa KERROUM", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie"}
+{"Name": "Dr Mohamed BENADDOU", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie"}
+{"Name": "Dr Hafida MEDJAOUI", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Eddin DJIDJ DJAMEL-", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Mohamed BELHADJ", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Abassia BENAMOUR", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Boudali BENSENOUCI", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Bouhadjar MIMOUNI", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "El Amria A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Amine BOUAYED MOHAMED", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Beni Saf A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Zakia BENAMARA MELIANI", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Omar HADRI", "Specialty": "M\u00e9decin interniste", "Address": "Beni Saf A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Lahouari REGUIG", "Specialty": "M\u00e9decin interniste", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Rachid BREK", "Specialty": "M\u00e9decin interniste", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Hafida HOUARI AHMED BLAHA", "Specialty": "M\u00e9decin interniste", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Boumedienne DAMOU", "Specialty": "Neurologue", "Address": "Oued Berkeche A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Ahmed FERHI", "Specialty": "Ophtalmologue", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Nafissa BELFERROUM", "Specialty": "P\u00e9diatre", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Smain BENSENAN", "Specialty": "P\u00e9diatre", "Address": "Beni Saf A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Bachir SAADALLAH", "Specialty": "P\u00e9diatre", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Morad AOUFI", "Specialty": "P\u00e9diatre", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Kouider BELADGHAM", "Specialty": "P\u00e9diatre", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Zoulikha ABID RAIS", "Specialty": "P\u00e9diatre", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Amel BETTIOUI", "Specialty": "P\u00e9diatre", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Fatema HOUAS", "Specialty": "Pneumologue", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Aissa WARDI", "Specialty": "Pneumologue", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Mohamed TABET AOUL", "Specialty": "Psychiatre", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Salima ATOUI KHELIFA", "Specialty": "Psychiatre", "Address": "Oued Berkeche A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Mohamed DJAMAI", "Specialty": "Chirurgien G\u00e9n\u00e9raliste", "Address": "Beni Saf A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Halim DERROUICH", "Specialty": "Urologue", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Omar BENCHERGUIA", "Specialty": "M\u00e9decin du Travail", "Address": "Beni Saf A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Tayeb BOUBEKEUR", "Specialty": "G\u00e9n\u00e9raliste", "Address": "El Amria A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Said BENAISSA", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Abdesselam BENAMAR", "Specialty": "G\u00e9n\u00e9raliste", "Address": "El Amria A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Miloud YAHLA", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Beni Saf A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Rabah AOUAMRI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Sidi ben Adda A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Dalila NEBIA-BESTANDJI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Said CHOUIREF", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Lahc\u00e8ne HASNAOUI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Beni Saf A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Ouassila BELARBI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Terga A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Kouider CHERIFI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Abderrahmane DJELAD", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Abdelkader BENAMARA", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Abdelkader BENCHOUARA", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Mohamed MEDJADJI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Fodil GHOMARI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Abdelazziz SALHI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Nacera MIMOUNI N\u00c9E ZEBIDA", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Belazreg BOUABRIA", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Djamila ABDELBAKI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Halima MADOURI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Mohamed MOHAMMEDI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Abassia GHERBI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Terga A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Zoulikha GUELAI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Nadjet ZOUHRI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Ain Tolba A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Abdelazziz MESTEFAOUI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Abdelkader BELHADRI SMAIN", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Amel CHAKAR", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Noureddine DAHOUA", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Abdelkader DJEMAI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Beni Saf A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Khellil BERAHAL", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Beni Saf A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Said GOURINET", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Ahmed FEKIH", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Beni Saf A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Boudali ZAOUI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Khaled SEBBANE", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Beni Saf A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Fatema BEKKOUCHE NEE MAHTOUGUI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Hacene FOUDAD", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Abderrezak MISSOUM", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Hafid SOUFI MOHAMED EL", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Cheikh GHENIM", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Beni Saf A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Nesreddine OUISSI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Ain Tolba A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Djelloul IBN SAFI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Beni Saf A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Mahdjouba MOLBHAR", "Specialty": "G\u00e9n\u00e9raliste", "Address": "El Amria A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Said BENYOUCEF", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Mohamed BENZEGHIMI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Najib ZENASNI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Beni Saf A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Mohamed LARBI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Fatiha ABOU", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Sidi ben Adda A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Lakhdar NAIR", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Boumediene MEKHISSI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Mohamed DADDA", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Beni Saf A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Elabidine EL HABACHI ALI ZINE", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Ali SEBAA", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Abderrahman AMEUR", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Rabah OUAMRI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Sidi ben Adda A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Leila TRARI NEE BOUANANI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Mohamed LEBID", "Specialty": "Pharmacien", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Mourad MESMOUDI", "Specialty": "Pharmacien", "Address": "El Amria A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Mohamed MAROUF", "Specialty": "Pharmacien", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Sofiane BOUBOSSELA", "Specialty": "Pharmacien", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr F.z KHENOUS BOUCHRA", "Specialty": "Pharmacien", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Abdelhak DJEZIRI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Beni Saf A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Halima BELAIDI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Badra GUECISSA", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Ain Tolba A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Benamar BENAMAR", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Mouni BAKHTI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Sidi ben Adda A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Halim DERROUICH", "Specialty": "Urologue", "Address": "A\u00efn T\u00e9mouchent Alg\u00e9rie   "}
+{"Name": "Dr Cherifa HEBA EPSE HAMITOUCHE", "Specialty": "Cardiologue", "Address": "Ouled Fayet Alger Alg\u00e9rie   "}
+{"Name": "Dr Samia BENNAMANE EPSE SEMROUNI", "Specialty": "M\u00e9decin interniste", "Address": "Beni Messous Alger Alg\u00e9rie   "}
+{"Name": "Dr S HAKIMI", "Specialty": "M\u00e9decin interniste", "Address": "Alger Alg\u00e9rie   "}
+{"Name": "Dr Smail AFAF", "Specialty": "Cardiologue", "Address": "Cheraga Alger Alg\u00e9rie   "}
+{"Name": "Dr Mahfouf SIHAM", "Specialty": "M\u00e9decin interniste", "Address": "Bab Ezzouar Alger Alg\u00e9rie   "}
+{"Name": "Dr Yazid MAHIDDINE", "Specialty": "Cardiologue", "Address": "Cheraga Alger Alg\u00e9rie   "}
+{"Name": "Dr Mouloud MOUALEK CARDIOLOGUE", "Specialty": "Cardiologue", "Address": "El Biar Alger Alg\u00e9rie   "}
+{"Name": "Dr Dahmane \u00c9POUSE SEBKI", "Specialty": "Cardiologue", "Address": "Blida Alg\u00e9rie"}
+{"Name": "Dr Khedidja ARBAOUI", "Specialty": "Chirurgien G\u00e9n\u00e9raliste", "Address": "Alger Alg\u00e9rie   "}
+{"Name": "Dr M.a BENHALIMA", "Specialty": "Chirurgien G\u00e9n\u00e9raliste", "Address": "Ain Benian Alger Alg\u00e9rie   "}
+{"Name": "Dr Karim BOUZID", "Specialty": "Chirurgien Esth\u00e9tique", "Address": "El Mouradia Alger Alg\u00e9rie"}
+{"Name": "Dr Mohamed laid GOURZI", "Specialty": "Chirurgien Orthop\u00e9diste Traumatologue", "Address": "Hydra Alger Alg\u00e9rie   "}
+{"Name": "Dr Aniss MEROUANE", "Specialty": "Chirurgien Orthop\u00e9diste Traumatologue", "Address": "Cheraga Alger Alg\u00e9rie   "}
+{"Name": "Dr Mohamed hakim KRAMCHA", "Specialty": "Chirurgien Orthop\u00e9diste Traumatologue", "Address": "Bordj el Kiffan Alger Alg\u00e9rie   "}
+{"Name": "Dr Mohamed ali MILAT", "Specialty": "Chirurgien Orthop\u00e9diste Traumatologue", "Address": "Ain Nadja Alger Alg\u00e9rie   "}
+{"Name": "Dr Mohamed el-amine BOUALLAL", "Specialty": "Chirurgien Orthop\u00e9diste Traumatologue", "Address": "Bouzareah Alger Alg\u00e9rie   "}
+{"Name": "Dr Redouane MOUFFOK", "Specialty": "Chirurgien Orthop\u00e9diste Traumatologue", "Address": "Alger centre Alger Alg\u00e9rie   "}
+{"Name": "Dr Ahmed BENAZZOUG", "Specialty": "Chirurgien Orthop\u00e9diste Traumatologue", "Address": "Cheraga Alger Alg\u00e9rie   "}
+{"Name": "Dr Youcef ABDELLI", "Specialty": "Chirurgien Orthop\u00e9diste Traumatologue", "Address": "Kouba Alger Alg\u00e9rie   "}
+{"Name": "Dr Rezaiguia SAFIA", "Specialty": "M\u00e9decin dentiste", "Address": "Cheraga Alger Alg\u00e9rie   "}
+{"Name": "Dr djoudi NEODENTAL CENTER", "Specialty": "M\u00e9decin dentiste", "Address": "Draria Alger Alg\u00e9rie   "}
+{"Name": "Dr Belaribi AIDA", "Specialty": "M\u00e9decin dentiste", "Address": "El Achour Alger Alg\u00e9rie   "}
+{"Name": "Dr Hocine BELAIDI", "Specialty": "Dermatologue", "Address": "Ben Aknoun Alger Alg\u00e9rie   "}
+{"Name": "Dr Nacera BERKANI", "Specialty": "Dermatologue", "Address": "Bouzareah Alger Alg\u00e9rie   "}
+{"Name": "Dr M TIMSILINE", "Specialty": "Dermatologue", "Address": "Mohammadia Alger Alg\u00e9rie   "}
+{"Name": "Dr Nedwa BERKANE", "Specialty": "Dermatologue", "Address": "Ouled Fayet Alger Alg\u00e9rie   "}
+{"Name": "Dr Lydia HATEM", "Specialty": "Dermatologue", "Address": "Dely Ibrahim Alger Alg\u00e9rie   "}
+{"Name": "Dr F DJEGHLAF", "Specialty": "Endocrinologue Diab\u00e9tologue", "Address": "Cheraga Alger Alg\u00e9rie   "}
+{"Name": "Dr Hadjer MENIA EPS BARCHICHE", "Specialty": "Endocrinologue Diab\u00e9tologue", "Address": "El Achour Alger Alg\u00e9rie"}
+{"Name": "Dr Chafia HABBAK EPS ZEBOUDJ", "Specialty": "Endocrinologue Diab\u00e9tologue", "Address": "Beni Messous Alger Alg\u00e9rie"}
+{"Name": "Dr Chaib-draa WACIL", "Specialty": "Endocrinologue Diab\u00e9tologue", "Address": "Birkhadem Alger Alg\u00e9rie"}
+{"Name": "Dr Lamia HADJERES EP CHEREF", "Specialty": "Endocrinologue Diab\u00e9tologue", "Address": "Birtouta Alger Alg\u00e9rie"}
+{"Name": "Mme Meriem HADDAD", "Specialty": "Endocrinologue Diab\u00e9tologue", "Address": "Reghaia Alger Alg\u00e9rie"}
+{"Name": "Dr Chamouni M", "Specialty": "Endocrinologue Diab\u00e9tologue", "Address": "Rouiba Alger Alg\u00e9rie"}
+{"Name": "Dr Rahmani NESRINE", "Specialty": "Endocrinologue Diab\u00e9tologue", "Address": "Bir Mourad Ra\u00efs Alger Alg\u00e9rie"}
+{"Name": "Dr Saliha LISSER", "Specialty": "Endocrinologue Diab\u00e9tologue", "Address": "Bouzareah Alger Alg\u00e9rie"}
+{"Name": "Dr Sara DEGHIMA", "Specialty": "Endocrinologue Diab\u00e9tologue", "Address": "Rouiba Alger Alg\u00e9rie"}
+{"Name": "Dr Meriem MOKHTARI EPS KHATI", "Specialty": "Endocrinologue Diab\u00e9tologue", "Address": "Djasr Kassentina Alger Alg\u00e9rie"}
+{"Name": "Dr Rym MERIBOUT EPSE BOUTEMINE", "Specialty": "Gastro-ent\u00e9rologue", "Address": "Cheraga Alger Alg\u00e9rie   "}
+{"Name": "Dr Malya BENSALEM", "Specialty": "Gastro-ent\u00e9rologue", "Address": "Dely Ibrahim Alger Alg\u00e9rie   "}
+{"Name": "Dr Halima ZOUDA", "Specialty": "M\u00e9decin interniste", "Address": "Bir Mourad Ra\u00efs Alger Alg\u00e9rie   "}
+{"Name": "Dr wadhiha LOUALI", "Specialty": "Gastro-ent\u00e9rologue", "Address": "Baba Hassen Alger Alg\u00e9rie   "}
+{"Name": "Dr Nawal FERCHOULI EPSE BOUKARI", "Specialty": "Gastro-ent\u00e9rologue", "Address": "Cheraga Alger Alg\u00e9rie   "}
+{"Name": "Dr Youcef ZAIR", "Specialty": "Gastro-ent\u00e9rologue", "Address": "Bir Mourad Ra\u00efs Alger Alg\u00e9rie   "}
+{"Name": "Dr K AIT KACI", "Specialty": "Gastro-ent\u00e9rologue", "Address": "Ouled Fayet Alger Alg\u00e9rie   "}
+{"Name": "Dr Ali OUKAOUR", "Specialty": "Gastro-ent\u00e9rologue", "Address": "El Biar Alger Alg\u00e9rie   "}
+{"Name": "Dr Malika AITBOUALI", "Specialty": "Gastro-ent\u00e9rologue", "Address": "Ain Nadja Alger Alg\u00e9rie   "}
+{"Name": "Dr Lynda BENBOUALIA EP MESSAOUDI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Ben Aknoun Alger Alg\u00e9rie   "}
+{"Name": "Dr Naima MOULAI", "Specialty": "Nutritionniste", "Address": "Cheraga Alger Alg\u00e9rie   "}
+{"Name": "Dr ait kaki epse ouali DALILA", "Specialty": "Nutritionniste", "Address": "Alger Alg\u00e9rie   "}
+{"Name": "Dr Fatima zohra MESLOUH \u00c9POUSE BELGHAZI", "Specialty": "Nutritionniste", "Address": "Cheraga Alger Alg\u00e9rie   "}
+{"Name": "Dr S YAZID \u00c9POUSE MERZELKAD", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Beni Messous Alger Alg\u00e9rie   "}
+{"Name": "Dr Leila BAALI", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Ouled Fayet Alger Alg\u00e9rie   "}
+{"Name": "Dr Belouz NA\u00cfMA EP.AZIZOU", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "El Biar Alger Alg\u00e9rie   "}
+{"Name": "Dr Farid BENAIBOUCHE", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Hydra Alger Alg\u00e9rie   "}
+{"Name": "Dr Bella EPSE BOUKERMA", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Cheraga Alger Alg\u00e9rie   "}
+{"Name": "Dr Hachani fatima EP HABCHAOUI", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Birkhadem Alger Alg\u00e9rie   "}
+{"Name": "Dr Nacera MEGRAD", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Alger Alg\u00e9rie   "}
+{"Name": "Dr Lamia BAHMANE", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Alger Alg\u00e9rie   "}
+{"Name": "Dr Maouche kamelia EPSE AOUANE", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Cheraga Alger Alg\u00e9rie   "}
+{"Name": "Dr Ounissi / alouache", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Kouba Alger Alg\u00e9rie   "}
+{"Name": "Dr Wassima MENANI", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "El Achour Alger Alg\u00e9rie   "}
+{"Name": "Dr Samira RABAHI -AMARA", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "El Harrach Alger Alg\u00e9rie   "}
+{"Name": "Dr Yermeche akkache NADIA", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Dely Ibrahim Alger Alg\u00e9rie   "}
+{"Name": "Dr Yanes EPSE.LARIBI", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Rouiba Alger Alg\u00e9rie   "}
+{"Name": "Dr Malika BRAHIMI", "Specialty": "M\u00e9decin interniste", "Address": "Cheraga Alger Alg\u00e9rie   "}
+{"Name": "Pr Mansour BROURI", "Specialty": "M\u00e9decin interniste", "Address": "El Biar Alger Alg\u00e9rie   "}
+{"Name": "Dr Bakhti D", "Specialty": "Laboratoire d'analyses de biologie m\u00e9dicale", "Address": "Alger Alg\u00e9rie"}
+{"Name": "Dr S HARBI", "Specialty": "Laboratoire d'analyses de biologie m\u00e9dicale", "Address": "Alger Alg\u00e9rie"}
+{"Name": "Dr B HAMMADI", "Specialty": "Laboratoire d'analyses de biologie m\u00e9dicale", "Address": "Alger Bab-el-Oued Alger Alg\u00e9rie"}
+{"Name": "Pr D IFTENE HASSAIM", "Specialty": "N\u00e9phrologue", "Address": "Bir Mourad Ra\u00efs Alger Alg\u00e9rie   "}
+{"Name": "Dr Reins DR BOUKADOUM LEILA", "Specialty": "N\u00e9phrologue", "Address": "Cheraga Alger Alg\u00e9rie"}
+{"Name": "Dr Hichem ROUIFED", "Specialty": "N\u00e9phrologue", "Address": "Baba Hassen Alger Alg\u00e9rie"}
+{"Name": "Dr Nassima RELOUD", "Specialty": "N\u00e9phrologue", "Address": "Alger Alg\u00e9rie"}
+{"Name": "Dr K TOUMI", "Specialty": "N\u00e9phrologue", "Address": "Dely Ibrahim Alger Alg\u00e9rie"}
+{"Name": "Dr Farah KERBOUZ", "Specialty": "N\u00e9phrologue", "Address": "Djasr Kassentina Alger Alg\u00e9rie"}
+{"Name": "Dr Belkacemi A", "Specialty": "N\u00e9phrologue", "Address": "Draria Alger Alg\u00e9rie"}
+{"Name": "Dr Mohamed BENGHANEM", "Specialty": "N\u00e9phrologue", "Address": "Kouba Alger Alg\u00e9rie"}
+{"Name": "Dr Tabti ROSA", "Specialty": "N\u00e9phrologue", "Address": "Ain Benian Alger Alg\u00e9rie"}
+{"Name": "Dr Youcef OUSAID", "Specialty": "N\u00e9phrologue", "Address": "Bordj el Kiffan Alger Alg\u00e9rie"}
+{"Name": "Dr Malika DAOUD", "Specialty": "N\u00e9phrologue", "Address": "Dar El Be\u00efda Alger Alg\u00e9rie"}
+{"Name": "Dr Amel ibtissem TATAI", "Specialty": "Neurologue", "Address": "Bouzareah Alger Alg\u00e9rie   "}
+{"Name": "Dr N.z HACHEMAOUI EP LAALAOUI", "Specialty": "Neurologue", "Address": "Ain Nadja Alger Alg\u00e9rie   "}
+{"Name": "Dr L AIT AISSA EPSE SEHEL", "Specialty": "Neurologue", "Address": "Ouled Fayet Alger Alg\u00e9rie   "}
+{"Name": "Dr M MATI", "Specialty": "Neurologue", "Address": "Ain Benian Alger Alg\u00e9rie   "}
+{"Name": "Dr L. SAIB OUBOUZAR", "Specialty": "Neurologue", "Address": "El Achour Alger Alg\u00e9rie   "}
+{"Name": "Mme Nessrine FELIACHI EPS BOUARROU", "Specialty": "Nutritionniste", "Address": "Cheraga Alger Alg\u00e9rie   "}
+{"Name": "Dr Griene NADIR", "Specialty": "Diab\u00e9tologue", "Address": "Draria Alger Alg\u00e9rie   "}
+{"Name": "Nutrition Bye Shapes", "Specialty": "Nutritionniste", "Address": "Cheraga Alger Alg\u00e9rie   "}
+{"Name": "FIT ZONE Nutrition", "Specialty": "Nutritionniste", "Address": "Kouba Alger Alg\u00e9rie   "}
+{"Name": "Dr Soror CHEURFA", "Specialty": "M\u00e9decin Esth\u00e9tique", "Address": "Hydra Alger Alg\u00e9rie   "}
+{"Name": "Mme Rofaida OUARGHI \u00c9POUSE BENADEL", "Specialty": "Kin\u00e9sith\u00e9rapeute", "Address": "Baraki Alger Alg\u00e9rie   "}
+{"Name": "Mlle C\u00e9lia SI-HASSEN", "Specialty": "Nutritionniste", "Address": "Ouled Fayet Alger Alg\u00e9rie   "}
+{"Name": "Dr Belkiss BELOUADAH", "Specialty": "M\u00e9decin Esth\u00e9tique", "Address": "Cheraga Alger Alg\u00e9rie   "}
+{"Name": "Dr Khalil TAHMI", "Specialty": "Ophtalmologue", "Address": "Cheraga Alger Alg\u00e9rie   "}
+{"Name": "Dr Khedidja ALOUACHE EPS BENYEKHLEF", "Specialty": "Ophtalmologue", "Address": "Birkhadem Alger Alg\u00e9rie   "}
+{"Name": "Dr Sadjia HOUAT", "Specialty": "Ophtalmologue", "Address": "Bouzareah Alger Alg\u00e9rie   "}
+{"Name": "Dr Yasmina BENAMIROUCHE", "Specialty": "Ophtalmologue", "Address": "Ain Benian Alger Alg\u00e9rie   "}
+{"Name": "Dr M LADHEM", "Specialty": "Ophtalmologue", "Address": "Baba Hassen Alger Alg\u00e9rie   "}
+{"Name": "Dr Said Dr Kerrouchi", "Specialty": "Oto-Rhino-Laryngologiste (ORL)", "Address": "Ben Aknoun Alger Alg\u00e9rie   "}
+{"Name": "Pr Djamel SELMANE", "Specialty": "Oto-Rhino-Laryngologiste (ORL)", "Address": "Kouba Alger Alg\u00e9rie   "}
+{"Name": "Dr Amina MOKRANI", "Specialty": "Oto-Rhino-Laryngologiste (ORL)", "Address": "Bouzareah Alger Alg\u00e9rie   "}
+{"Name": "Dr Mohamed LAIB", "Specialty": "Oto-Rhino-Laryngologiste (ORL)", "Address": "Birkhadem Alger Alg\u00e9rie   "}
+{"Name": "Dr Linda SELMANE", "Specialty": "Oto-Rhino-Laryngologiste (ORL)", "Address": "Djasr Kassentina Alger Alg\u00e9rie   "}
+{"Name": "Dr Zhira AFIRI", "Specialty": "Oto-Rhino-Laryngologiste (ORL)", "Address": "Bir Mourad Ra\u00efs Alger Alg\u00e9rie   "}
+{"Name": "Dr Abdelhamid ABAD", "Specialty": "Oto-Rhino-Laryngologiste (ORL)", "Address": "El Harrach Alger Alg\u00e9rie   "}
+{"Name": "Dr Mohamed el hadi SARI", "Specialty": "Oto-Rhino-Laryngologiste (ORL)", "Address": "Draria Alger Alg\u00e9rie   "}
+{"Name": "Dr Fodil asma EP KADI", "Specialty": "Oto-Rhino-Laryngologiste (ORL)", "Address": "Boufarik Blida Alg\u00e9rie"}
+{"Name": "Dr Walid ALI BACHIR", "Specialty": "Oto-Rhino-Laryngologiste (ORL)", "Address": "Ouled Yaich Blida Alg\u00e9rie"}
+{"Name": "Dr Mourad HADDADOU", "Specialty": "P\u00e9diatre", "Address": "Alger RP Alger Alg\u00e9rie"}
+{"Name": "Dr Larbi KERIS", "Specialty": "P\u00e9diatre", "Address": "Alger Alg\u00e9rie"}
+{"Name": "Dr Nasser NIA", "Specialty": "P\u00e9diatre", "Address": "Alger Ahcene Askri Alger Alg\u00e9rie"}
+{"Name": "Dr Rachid YAMOUN", "Specialty": "P\u00e9diatre", "Address": "Bouzareah Alger Alg\u00e9rie"}
+{"Name": "Dr Ouahiba BAADJ-HAMMOUCHE", "Specialty": "P\u00e9diatre", "Address": "Staoueli Alger Alg\u00e9rie"}
+{"Name": "Dr El feth ALEM", "Specialty": "P\u00e9diatre", "Address": "Birtouta Alger Alg\u00e9rie"}
+{"Name": "Dr Ammar AROUA", "Specialty": "P\u00e9diatre", "Address": "Cheraga Alger Alg\u00e9rie"}
+{"Name": "Dr Mounira KHEMISSA", "Specialty": "P\u00e9diatre", "Address": "Alger Alg\u00e9rie"}
+{"Name": "Dr Naziha BRAHIMI", "Specialty": "P\u00e9diatre", "Address": "Alger Alg\u00e9rie"}
+{"Name": "Dr Nadir BENLAKHDAR", "Specialty": "P\u00e9diatre", "Address": "Ain Benian Alger Alg\u00e9rie"}
+{"Name": "Pr Djedjiga IHADADENE", "Specialty": "Pneumologue", "Address": "Bab Ezzouar Alger Alg\u00e9rie   "}
+{"Name": "Dr Mebrek AMINA", "Specialty": "Pneumologue", "Address": "Beni Messous Alger Alg\u00e9rie   "}
+{"Name": "Dr Lamia BENMAKHLOUF", "Specialty": "Pneumologue", "Address": "Bordj El Bahri Alger Alg\u00e9rie   "}
+{"Name": "Dr Ilyas MESSAOUDI", "Specialty": "Pneumologue", "Address": "Ain Benian Alger Alg\u00e9rie   "}
+{"Name": "Dr razika MECHERI", "Specialty": "Pneumologue", "Address": "Ouled Fayet Alger Alg\u00e9rie   "}
+{"Name": "Dr Bellamdani ET DR BESSAH", "Specialty": "Pneumologue", "Address": "Bouzareah Alger Alg\u00e9rie   "}
+{"Name": "Dr Abdelrahmane REBAH", "Specialty": "P\u00e9dopsychiatre", "Address": "Cheraga Alger Alg\u00e9rie   "}
+{"Name": "Dr Hacene INGRACHEN", "Specialty": "Psychiatre", "Address": "Bordj El Bahri Alger Alg\u00e9rie   "}
+{"Name": "Dr Benkrid MOHAMED REDA", "Specialty": "Psychiatre", "Address": "El Biar Alger Alg\u00e9rie   "}
+{"Name": "Dr Karim AKLI", "Specialty": "Psychiatre", "Address": "Alger Alg\u00e9rie   "}
+{"Name": "Mme N khalfi EPS SAHLI", "Specialty": "Psychoth\u00e9rapeute", "Address": "Reghaia Alger Alg\u00e9rie"}
+{"Name": "Dr Camelia BOULESNAM", "Specialty": "Psychoth\u00e9rapeute", "Address": "Baba Hassen Alger Alg\u00e9rie"}
+{"Name": "Centre d'imagerie medicale et de radiologie interventionnelle PR.HABBA -DR MOUZAOUI", "Specialty": "Radiologue", "Address": "Bouzareah Alger Alg\u00e9rie   "}
+{"Name": "Dr Rafik MAHDI", "Specialty": "Radiologue", "Address": "Cheraga Alger Alg\u00e9rie"}
+{"Name": "Dr M GACEB", "Specialty": "Radiologue", "Address": "Cheraga Alger Alg\u00e9rie"}
+{"Name": "Pr Yaslane DIAGNOSTICS", "Specialty": "Centre d'imagerie m\u00e9dicale", "Address": "Alger Alg\u00e9rie"}
+{"Name": "Dr Mossadek SALEM", "Specialty": "Radiologue", "Address": "Alger Tarik ibn Ziad Alger Alg\u00e9rie"}
+{"Name": "Dr Samir SALHI", "Specialty": "Radiologue", "Address": "Birkhadem Alger Alg\u00e9rie"}
+{"Name": "Dr Lotfi BAKHOUCHE", "Specialty": "Radiologue", "Address": "Douera Alger Alg\u00e9rie"}
+{"Name": "Dr Matouk YAICI", "Specialty": "Radiologue", "Address": "Alger Alg\u00e9rie"}
+{"Name": "Dr Amel OUABDESSELAM EPOUSE OUSLIMANI", "Specialty": "Rhumatologue", "Address": "Baba Hassen Alger Alg\u00e9rie   "}
+{"Name": "Dr Mahiddine NADIR", "Specialty": "Rhumatologue", "Address": "Cheraga Alger Alg\u00e9rie   "}
+{"Name": "Dr Kamel HALLI", "Specialty": "Rhumatologue", "Address": "Bab Ezzouar Alger Alg\u00e9rie"}
+{"Name": "Dr Hayat BOUABBANE EL", "Specialty": "Rhumatologue", "Address": "Alger Didouche Mourad Alger Alg\u00e9rie"}
+{"Name": "Dr Akila KARA KESSAB", "Specialty": "Rhumatologue", "Address": "Alger Alg\u00e9rie"}
+{"Name": "Dr Dalila AIT GHEZALA EP HADOUR", "Specialty": "Rhumatologue", "Address": "Draria Alger Alg\u00e9rie"}
+{"Name": "Dr Djamel BEKOUR", "Specialty": "Rhumatologue", "Address": "Djasr Kassentina Alger Alg\u00e9rie"}
+{"Name": "Dr Kamelia ZENOUNE", "Specialty": "Rhumatologue", "Address": "Kouba Alger Alg\u00e9rie"}
+{"Name": "Dr Imene KHIDER", "Specialty": "Rhumatologue", "Address": "Alger Birkhadem Alger Alg\u00e9rie"}
+{"Name": "Dr Djaziri ep beddakh AMINA", "Specialty": "Rhumatologue", "Address": "Bir Mourad Ra\u00efs Alger Alg\u00e9rie"}
+{"Name": "Dr Izabachene N", "Specialty": "Rhumatologue", "Address": "Cheraga Alger Alg\u00e9rie"}
+{"Name": "Dr Teniou DJABER", "Specialty": "Rhumatologue", "Address": "Bachedjarah Alger Alg\u00e9rie"}
+{"Name": "Dr Nazim ch\u00e9rif MIRI", "Specialty": "Chirurgien Urologue", "Address": "Ain Benian Alger Alg\u00e9rie   "}
+{"Name": "Dr N. MOKRANI", "Specialty": "Chirurgien Urologue", "Address": "Cheraga Alger Alg\u00e9rie   "}
+{"Name": "Pr A.amalou EPS BENSAIDANE", "Specialty": "Psychiatre", "Address": "Draria Alger Alg\u00e9rie   "}
+{"Name": "UROPOLE ALGER Dr Sebaa Dr Hebili", "Specialty": "Chirurgien Urologue", "Address": "Birkhadem Alger Alg\u00e9rie   "}
+{"Name": "Dr Amziani LAKHDAR", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Reghaia Alger Alg\u00e9rie   "}
+{"Name": "Dr Redouane ACHOUR", "Specialty": "Urologue", "Address": "El Achour Alger Alg\u00e9rie   "}
+{"Name": "Dr Ouarezki MOUSSA", "Specialty": "Chirurgien Urologue", "Address": "Baba Hassen Alger Alg\u00e9rie   "}
+{"Name": "Dr O HABCHI", "Specialty": "Chirurgien Urologue", "Address": "Bab Ezzouar Alger Alg\u00e9rie   "}
+{"Name": "Dr Kamel AIT EL HADJ", "Specialty": "Urologue", "Address": "Draria Alger Alg\u00e9rie   "}
+{"Name": "Dr Youssef BOUGUERROUCHE", "Specialty": "Urologue", "Address": "Ouled Fayet Alger Alg\u00e9rie   "}
+{"Name": "Dr Tewfik BELOUCIF", "Specialty": "Urologue", "Address": "Alger Alg\u00e9rie   "}
+{"Name": "Dr Lynda fouzia TALHA EPSE HADJ ABDELHAFID", "Specialty": "Oto-Rhino-Laryngologiste (ORL)", "Address": "Ouled Fayet Alger Alg\u00e9rie   "}
+{"Name": "Dr Salima MEZIANE", "Specialty": "Pneumologue", "Address": "Kouba Alger Alg\u00e9rie   "}
+{"Name": "Dr Widad SAIDJI", "Specialty": "Pneumologue", "Address": "Djasr Kassentina Alger Alg\u00e9rie   "}
+{"Name": "Dr Abir FERCHA", "Specialty": "Pneumologue", "Address": "Draria Alger Alg\u00e9rie   "}
+{"Name": "Dr Abdelkader BENZIANE", "Specialty": "Allergologue", "Address": "Staoueli Alger Alg\u00e9rie   "}
+{"Name": "Dr Mohamed lamine SADEG", "Specialty": "P\u00e9diatre", "Address": "Baraki Alger Alg\u00e9rie   "}
+{"Name": "Dr Imen CHENTIR", "Specialty": "Pneumologue", "Address": "Kouba Alger Alg\u00e9rie   "}
+{"Name": "Dr Radia KHAILI", "Specialty": "Anatomo-Cyto-Pathologiste", "Address": "Kouba Alger Alg\u00e9rie   "}
+{"Name": "Dr Mourad SAICHI", "Specialty": "Anesth\u00e9siste-R\u00e9animateur", "Address": "Draria Alger Alg\u00e9rie   "}
+{"Name": "Dr Nawel SANDJAKDINE EPSE KORICHI", "Specialty": "Anesth\u00e9siste-R\u00e9animateur", "Address": "Baba Hassen Alger Alg\u00e9rie   "}
+{"Name": "Dr Karim MESSAOUDENE", "Specialty": "Anesth\u00e9siste-R\u00e9animateur", "Address": "Kouba Alger Alg\u00e9rie   "}
+{"Name": "Dr K BENSALEM", "Specialty": "Anesth\u00e9siste-R\u00e9animateur", "Address": "El Madania Alger Alg\u00e9rie   "}
+{"Name": "Dr Hocine MESBAH", "Specialty": "Anesth\u00e9siste-R\u00e9animateur", "Address": "Kouba Alger Alg\u00e9rie   "}
+{"Name": "Dr Ahmed SALEM", "Specialty": "Anesth\u00e9siste-R\u00e9animateur", "Address": "Bir Mourad Ra\u00efs Alger Alg\u00e9rie   "}
+{"Name": "Dr Ali GUERRI SID", "Specialty": "Anesth\u00e9siste-R\u00e9animateur", "Address": "Bab Ezzouar Alger Alg\u00e9rie   "}
+{"Name": "Dr Beretemane SADOUNE", "Specialty": "Anesth\u00e9siste-R\u00e9animateur", "Address": "Bir Mourad Ra\u00efs Alger Alg\u00e9rie   "}
+{"Name": "Dr Amar FRITIH", "Specialty": "Anesth\u00e9siste-R\u00e9animateur", "Address": "Birkhadem Alger Alg\u00e9rie   "}
+{"Name": "Dr Brahim MAALAOUI", "Specialty": "Anesth\u00e9siste-R\u00e9animateur", "Address": "Beni Messous Alger Alg\u00e9rie   "}
+{"Name": "Dr Nacer MEDJDEN", "Specialty": "Anesth\u00e9siste-R\u00e9animateur", "Address": "Hydra Alger Alg\u00e9rie   "}
+{"Name": "Dr Youcef SAADOUN", "Specialty": "Anesth\u00e9siste-R\u00e9animateur", "Address": "Bologhine Alger Alg\u00e9rie   "}
+{"Name": "Dr Yahia MOSTEFAI", "Specialty": "Anesth\u00e9siste-R\u00e9animateur", "Address": "Bir Mourad Ra\u00efs Alger Alg\u00e9rie   "}
+{"Name": "Dr Hocine NABAH", "Specialty": "Anesth\u00e9siste-R\u00e9animateur", "Address": "Hydra Alger Alg\u00e9rie   "}
+{"Name": "Dr Abdelkhalek MEKKI", "Specialty": "Anesth\u00e9siste-R\u00e9animateur", "Address": "El Madania Alger Alg\u00e9rie   "}
+{"Name": "Dr Tarek TIR", "Specialty": "Anesth\u00e9siste-R\u00e9animateur", "Address": "Kouba Alger Alg\u00e9rie   "}
+{"Name": "Dr Khaled KHEMISSI", "Specialty": "Anesth\u00e9siste-R\u00e9animateur", "Address": "Beni Messous Alger Alg\u00e9rie   "}
+{"Name": "Dr Mohamed HAMZA", "Specialty": "Anesth\u00e9siste-R\u00e9animateur", "Address": "Bachedjarah Alger Alg\u00e9rie   "}
+{"Name": "Dr Mahfoud DJAIDIR", "Specialty": "Anesth\u00e9siste-R\u00e9animateur", "Address": "Bouzareah Alger Alg\u00e9rie   "}
+{"Name": "Dr Kamel EL OUCHDI", "Specialty": "Anesth\u00e9siste-R\u00e9animateur", "Address": "Bordj el Kiffan Alger Alg\u00e9rie   "}
+{"Name": "Dr Racim HAZI", "Specialty": "Anesth\u00e9siste-R\u00e9animateur", "Address": "Hydra Alger Alg\u00e9rie   "}
+{"Name": "Dr Ouamer HADJERES MOHAMED", "Specialty": "Anesth\u00e9siste-R\u00e9animateur", "Address": "El Biar Alger Alg\u00e9rie   "}
+{"Name": "Dr Abdelkader ZELMAT", "Specialty": "Anesth\u00e9siste-R\u00e9animateur", "Address": "Reghaia Alger Alg\u00e9rie   "}
+{"Name": "Pr Ahmed HATRI", "Specialty": "M\u00e9decin interniste", "Address": "El Mouradia Alger Alg\u00e9rie   "}
+{"Name": "Dr Mohamed BABA-AHMED", "Specialty": "M\u00e9decin interniste", "Address": "Ain Nadja Alger Alg\u00e9rie   "}
+{"Name": "Dr Nasreddine ZERNADJI", "Specialty": "Angiologue", "Address": "Dely Ibrahim Alger Alg\u00e9rie"}
+{"Name": "Dr Slama BAGHDAD", "Specialty": "Angiologue", "Address": "Ain Benian Alger Alg\u00e9rie"}
+{"Name": "Pr Ramdani BOUGUESSA", "Specialty": "Laboratoire d'analyses de biologie m\u00e9dicale", "Address": "Hydra Alger Alg\u00e9rie   "}
+{"Name": "Dr Aissa HEDIBI", "Specialty": "Biologiste Medicale", "Address": "Douera Alger Alg\u00e9rie"}
+{"Name": "Dr Azouaou BRAI", "Specialty": "Biologiste Medicale", "Address": "Cheraga Alger Alg\u00e9rie"}
+{"Name": "Dr Nadjia FEDDAG", "Specialty": "Pharmacien Biologiste", "Address": "Alger Alg\u00e9rie"}
+{"Name": "Dr Wassila BENHABILES", "Specialty": "M\u00e9decin Biologiste", "Address": "El Achour Alger Alg\u00e9rie"}
+{"Name": "Dr S CHALABI N\u00c9E RADI", "Specialty": "Laboratoire d'analyses de biologie m\u00e9dicale", "Address": "Bouzareah Alger Alg\u00e9rie"}
+{"Name": "Djenane El Malik Dr Kacimi", "Specialty": "Laboratoire d'analyses de biologie m\u00e9dicale", "Address": "Hydra Alger Alg\u00e9rie   "}
+{"Name": "Dr Khati EPS SALHI", "Specialty": "Laboratoire d'analyses de biologie m\u00e9dicale", "Address": "Djasr Kassentina Alger Alg\u00e9rie"}
+{"Name": "Dr Boukhtouche AMAR", "Specialty": "M\u00e9decin Biologiste", "Address": "Alger Alg\u00e9rie"}
+{"Name": "Dr Farida HAROUZ TIAH", "Specialty": "Canc\u00e9rologue", "Address": "Alger Alg\u00e9rie"}
+{"Name": "Dr Selma HABOUCHI EPS RAS EL DJEBEL", "Specialty": "Chirurgie plastique et r\u00e9paratrice", "Address": "Staoueli Alger Alg\u00e9rie"}
+{"Name": "Dr Aziz AGRANE", "Specialty": "Chirurgie plastique et r\u00e9paratrice", "Address": "Alger Alg\u00e9rie"}
+{"Name": "Hassiba OUCHERIF", "Specialty": "Chirurgie plastique et r\u00e9paratrice", "Address": "Alger Didouche Mourad Alger Alg\u00e9rie"}
+{"Name": "Dr Nora OUCHERIF", "Specialty": "S\u00e9nologue", "Address": "Alger centre Alger Alg\u00e9rie   "}
+{"Name": "Dr S AMI-MOUSSA", "Specialty": "Chirurgien Cardio-Vasculaire", "Address": "Dely Ibrahim Alger Alg\u00e9rie   "}
+{"Name": "Dr Adel BENMECHTA", "Specialty": "Chirurgien visc\u00e9ral et digestif", "Address": "Alger Said Hamdine Alger Alg\u00e9rie   "}
+{"Name": "Dr Myriam MOSTEFAOUI", "Specialty": "Chirurgien G\u00e9n\u00e9raliste", "Address": "SIDI ABDELLAH Alger Alg\u00e9rie   "}
+{"Name": "Pr Rachid AMICHI", "Specialty": "Chirurgien Maxillo Facial et Esth\u00e9tique", "Address": "Alger centre Alger Alg\u00e9rie   "}
+{"Name": "Dr Noureddine YEKENE", "Specialty": "Chirurgien P\u00e9diatrique", "Address": "Bab Ezzouar Alger Alg\u00e9rie"}
+{"Name": "Dr Bouras HYND", "Specialty": "Chirurgien P\u00e9diatrique", "Address": "Alger Alg\u00e9rie"}
+{"Name": "Dr Bilal BENAMEUR", "Specialty": "Chirurgien P\u00e9diatrique", "Address": "Alger Alg\u00e9rie"}
+{"Name": "Dr Z MEKKI", "Specialty": "Chirurgien P\u00e9diatrique", "Address": "Birtouta Alger Alg\u00e9rie"}
+{"Name": "Dr Massissilia RAHIL", "Specialty": "Chirurgien Plasticien", "Address": "Dely Ibrahim Alger Alg\u00e9rie"}
+{"Name": "Dr Soumaya BOUHIRED", "Specialty": "Chirurgien Plasticien", "Address": "Cheraga Alger Alg\u00e9rie"}
+{"Name": "Dr Radhia ALLALI", "Specialty": "Chirurgien Plasticien", "Address": "Alger Alg\u00e9rie"}
+{"Name": "Dr Amar AIB", "Specialty": "Chirurgien Plasticien", "Address": "Kouba Alger Alg\u00e9rie"}
+{"Name": "Dr Salim YAHIAOUI", "Specialty": "Chirurgien vasculaire", "Address": "Cheraga Alger Alg\u00e9rie"}
+{"Name": "Pr Tewfik BOUGUERRA", "Specialty": "Chirurgien visc\u00e9ral et digestif", "Address": "Alger Alg\u00e9rie"}
+{"Name": "Dr Samia ALI YAHIA", "Specialty": "Endocrinologue", "Address": "Alger Alg\u00e9rie"}
+{"Name": "Dr Fadila ADJAOUT BETTACHE", "Specialty": "Endocrinologue", "Address": "El Harrach Alger Alg\u00e9rie"}
+{"Name": "Dr Boudjemaa AZZAM", "Specialty": "Endocrinologue", "Address": "Kouba Alger Alg\u00e9rie"}
+{"Name": "Dr Malika MOKRANI", "Specialty": "Endocrinologue", "Address": "Alger Alg\u00e9rie"}
+{"Name": "Dr Karima TOUATI", "Specialty": "Endocrinologue", "Address": "Alger RP Alger Alg\u00e9rie"}
+{"Name": "Dr Omar TOUATI", "Specialty": "Endocrinologue", "Address": "Alger RP Alger Alg\u00e9rie"}
+{"Name": "Dr Mamoune MEGHERBI", "Specialty": "Endocrinologue", "Address": "Alger Ahcene Askri Alger Alg\u00e9rie"}
+{"Name": "Dr Abdelmalek HIMEUR", "Specialty": "Endocrinologue", "Address": "Birkhadem Alger Alg\u00e9rie"}
+{"Name": "Dr Djamila BENGHEZEL BOUMERDASSI", "Specialty": "Endocrinologue", "Address": "Cheraga Alger Alg\u00e9rie"}
+{"Name": "Dr Abderrezak SOUFI", "Specialty": "Epidemiologiste", "Address": "Alger RP Alger Alg\u00e9rie   "}
+{"Name": "Dr Abdelhamid BENCHARIF", "Specialty": "Epidemiologiste", "Address": "Baraki Alger Alg\u00e9rie   "}
+{"Name": "Mme Asma BOUMAKHLOUF", "Specialty": "Kin\u00e9sith\u00e9rapeute", "Address": "Alger Birkhadem Alger Alg\u00e9rie   "}
+{"Name": "Mme Bousseksou W", "Specialty": "Kin\u00e9sith\u00e9rapeute", "Address": "Ain Nadja Alger Alg\u00e9rie   "}
+{"Name": "Health Care By Shapes", "Specialty": "Kin\u00e9sith\u00e9rapeute", "Address": "Cheraga Alger Alg\u00e9rie   "}
+{"Name": "Mme Bellour SARA", "Specialty": "Psychomotricienne", "Address": "Alger Alg\u00e9rie   "}
+{"Name": "Mr Med fateh BOUMAZA", "Specialty": "Kin\u00e9sith\u00e9rapeute", "Address": "Ain Benian Alger Alg\u00e9rie   "}
+{"Name": "Mme S BOUCHEMLA", "Specialty": "Kin\u00e9sith\u00e9rapeute", "Address": "Alger Premier Mai Alger Alg\u00e9rie   "}
+{"Name": "Dr Mohamed HAMMOUDI", "Specialty": "Psychiatre", "Address": "Meftah Blida Alg\u00e9rie   "}
+{"Name": "Dr Ilhem BOUMAIDA", "Specialty": "H\u00e9matologue", "Address": "Bordj el Kiffan Alger Alg\u00e9rie   "}
+{"Name": "Dr Leila MAMMERI", "Specialty": "H\u00e9matologue Clinique", "Address": "Alger Alg\u00e9rie"}
+{"Name": "Mme Sihem MEDOUNI EPS KHELLILI", "Specialty": "Hypnoth\u00e9rapeute", "Address": "Cheraga Alger Alg\u00e9rie   "}
+{"Name": "Dr Kharchi S", "Specialty": "Laboratoire d'anatomie et cytologie pathologiques", "Address": "Douera Alger Alg\u00e9rie   "}
+{"Name": "Pr Terki debbache N", "Specialty": "Laboratoire d'anatomie et cytologie pathologiques", "Address": "Alger Alg\u00e9rie   "}
+{"Name": "Nassima ACHOUR", "Specialty": "Maladies Infectieuses", "Address": "Alger Alg\u00e9rie   "}
+{"Name": "Dr Yacine BENAOUDA", "Specialty": "Maladies Infectieuses", "Address": "Alger RP Alger Alg\u00e9rie   "}
+{"Name": "Dr Hocine BERKANE", "Specialty": "Maladies Infectieuses", "Address": "Baraki Alger Alg\u00e9rie   "}
+{"Name": "Dr Nassima TIOUIT", "Specialty": "Maladies Infectieuses", "Address": "Djasr Kassentina Alger Alg\u00e9rie   "}
+{"Name": "Dr Dahbia CHELGHOUM", "Specialty": "Maladies Infectieuses", "Address": "Reghaia Alger Alg\u00e9rie   "}
+{"Name": "Dr Sonia BENCHIKH EL HOCINE", "Specialty": "M\u00e9decin du sport", "Address": "Hydra Alger Alg\u00e9rie   "}
+{"Name": "Dr Hanafi YASRI", "Specialty": "M\u00e9decin du sport", "Address": "Kouba Alger Alg\u00e9rie   "}
+{"Name": "Dr Khalfa SADAM", "Specialty": "M\u00e9decin du sport", "Address": "Staoueli Alger Alg\u00e9rie   "}
+{"Name": "Dr Karima MAHI", "Specialty": "M\u00e9decin du Travail", "Address": "Hussein Dey Alger Alg\u00e9rie   "}
+{"Name": "Dr Nora ELHADDAD", "Specialty": "M\u00e9decin du Travail", "Address": "Alger RP Alger Alg\u00e9rie   "}
+{"Name": "Dr Fadila ZITOUNI", "Specialty": "M\u00e9decin du Travail", "Address": "Alger Alg\u00e9rie   "}
+{"Name": "Dr Mohamed BAOUGH", "Specialty": "M\u00e9decin du Travail", "Address": "Alger Alg\u00e9rie   "}
+{"Name": "Dr Lyes BEKKOUCHE SALIM", "Specialty": "M\u00e9decin L\u00e9giste", "Address": "Douera Alger Alg\u00e9rie   "}
+{"Name": "Dr Wail amine DR MECHKOUR", "Specialty": "M\u00e9decin Nucl\u00e9aire", "Address": "Bir Mourad Ra\u00efs Alger Alg\u00e9rie   "}
+{"Name": "Dr mohamed arezki YATAGHENE", "Specialty": "M\u00e9decin Physique R\u00e9adaptateur", "Address": "Bachedjarah Alger Alg\u00e9rie"}
+{"Name": "Dr Amina OUSSEDIK", "Specialty": "M\u00e9decin Physique R\u00e9adaptateur", "Address": "El Achour Alger Alg\u00e9rie"}
+{"Name": "Dr Leila LAHLOUH", "Specialty": "M\u00e9decin Physique R\u00e9adaptateur", "Address": "Birkhadem Alger Alg\u00e9rie"}
+{"Name": "Dr Amine LEBANE", "Specialty": "M\u00e9decin Physique R\u00e9adaptateur", "Address": "Cheraga Alger Alg\u00e9rie"}
+{"Name": "Dr Mourad YADDADENE", "Specialty": "M\u00e9decin Physique R\u00e9adaptateur", "Address": "Baraki Alger Alg\u00e9rie"}
+{"Name": "Dr Reda LATRECHE", "Specialty": "M\u00e9decin Physique R\u00e9adaptateur", "Address": "Djasr Kassentina Alger Alg\u00e9rie"}
+{"Name": "Dr Abdelhanine OUGHLIS", "Specialty": "M\u00e9decin Physique R\u00e9adaptateur", "Address": "El Harrach Alger Alg\u00e9rie"}
+{"Name": "Dr Tahar LAOUAMRI", "Specialty": "M\u00e9decin Physique R\u00e9adaptateur", "Address": "Hussein Dey Alger Alg\u00e9rie"}
+{"Name": "Dr Noureddine AREZKI", "Specialty": "M\u00e9decin Physique R\u00e9adaptateur", "Address": "Kouba Alger Alg\u00e9rie"}
+{"Name": "Dr Ali BEDRANI", "Specialty": "M\u00e9decin Physique R\u00e9adaptateur", "Address": "Kouba Alger Alg\u00e9rie"}
+{"Name": "Dr Abdenour TOUAHRIA", "Specialty": "M\u00e9decin urgentiste", "Address": "Ain Benian Alger Alg\u00e9rie   "}
+{"Name": "Dr Hocine FRIK", "Specialty": "Neurochirurgien", "Address": "Alger Alg\u00e9rie   "}
+{"Name": "Dr Hayat MEGHERBI", "Specialty": "Neurochirurgien", "Address": "Alger Alg\u00e9rie   "}
+{"Name": "Dr Yacine FELISSI", "Specialty": "Neurochirurgien", "Address": "Alger Alg\u00e9rie   "}
+{"Name": "Pr Djamel MOUSSAOUI", "Specialty": "Neurochirurgien", "Address": "Bouzareah Alger Alg\u00e9rie   "}
+{"Name": "Dr Hamza BENAISSA", "Specialty": "Neurochirurgien", "Address": "Kouba Alger Alg\u00e9rie   "}
+{"Name": "Dr Yacine BENMEBAREK NADIR", "Specialty": "Neurochirurgien", "Address": "Douera Alger Alg\u00e9rie   "}
+{"Name": "Dr Hocine AIT ALI YAHIA", "Specialty": "Neurochirurgien", "Address": "Bachedjarah Alger Alg\u00e9rie   "}
+{"Name": "Dr Zahia SEBAIHI", "Specialty": "Neurochirurgien", "Address": "El Mouradia Alger Alg\u00e9rie   "}
+{"Name": "Dr Hanane REZKI", "Specialty": "P\u00e9diatre", "Address": "Bab Ezzouar Alger Alg\u00e9rie   "}
+{"Name": "Dr S ABDELBAKI", "Specialty": "Neurophysiologiste", "Address": "Bouzareah Alger Alg\u00e9rie   "}
+{"Name": "Dr Yakoub GHAZLI", "Specialty": "Orthodontiste", "Address": "Baraki Alger Alg\u00e9rie   "}
+{"Name": "Dr Hamza BENAZZOUZ", "Specialty": "Orthodontiste", "Address": "Dar El Be\u00efda Alger Alg\u00e9rie   "}
+{"Name": "Dr Ibrahim KENNAS", "Specialty": "Orthodontiste", "Address": "Alger RP Alger Alg\u00e9rie   "}
+{"Name": "Dr Rabah ZOBIRI", "Specialty": "Orthodontiste", "Address": "Kouba Alger Alg\u00e9rie   "}
+{"Name": "Mme Meknache H", "Specialty": "Orthophoniste", "Address": "Dely Ibrahim Alger Alg\u00e9rie   "}
+{"Name": "Dr Nesrine SELMANE", "Specialty": "Psychologue", "Address": "Kouba Garidi Alger Alg\u00e9rie   "}
+{"Name": "Mme Yasmina BOUMAHMOUD", "Specialty": "Orthophoniste", "Address": "Rais Hamidou Alger Alg\u00e9rie   "}
+{"Name": "Dr H. BOUDNENNE", "Specialty": "Ost\u00e9opathe", "Address": "El Achour Alger Alg\u00e9rie   "}
+{"Name": "Dr Ahmed TARIGHT", "Specialty": "Parodontiste implantologiste", "Address": "Alger Ahcene Askri Alger Alg\u00e9rie   "}
+{"Name": "Dr Rahim RAHIM ABD", "Specialty": "Parodontiste implantologiste", "Address": "El Harrach Alger Alg\u00e9rie   "}
+{"Name": "Dr Naima BAHBOUH", "Specialty": "Parodontiste implantologiste", "Address": "Cheraga Alger Alg\u00e9rie   "}
+{"Name": "Dr F/z BENBRAHIM", "Specialty": "Pharmacien", "Address": "Bir Mourad Ra\u00efs Alger Alg\u00e9rie   "}
+{"Name": "Dr Pharm VITAL PHARM VITAL", "Specialty": "Pharmacien", "Address": "Alger Alg\u00e9rie   "}
+{"Name": "Dr Asma REHALI", "Specialty": "Pharmacien", "Address": "Alger Alg\u00e9rie   "}
+{"Name": "Dr Idir CHAHI MOHAMMED", "Specialty": "Pharmacien", "Address": "Alger Ahcene Askri Alger Alg\u00e9rie   "}
+{"Name": "Dr Salim SAMSON", "Specialty": "Pharmacien", "Address": "El Biar Alger Alg\u00e9rie   "}
+{"Name": "Dr Fatiha DJEMAA \u00c9POUSE SAHEL", "Specialty": "Pharmacien", "Address": "Rais Hamidou Alger Alg\u00e9rie   "}
+{"Name": "Dr Lamia DJEMAI", "Specialty": "Pharmacien", "Address": "Alger RP Alger Alg\u00e9rie   "}
+{"Name": "Dr Noureddine BOUKARI", "Specialty": "Pharmacien", "Address": "Alger Ahcene Askri Alger Alg\u00e9rie   "}
+{"Name": "Dr Imene OUKIL EPSE MIMOUNE", "Specialty": "Pharmacien", "Address": "Bab Ezzouar Alger Alg\u00e9rie   "}
+{"Name": "Dr Aziza HADJ MESSAOUD", "Specialty": "Pharmacien", "Address": "Alger Alg\u00e9rie   "}
+{"Name": "Dr Hadjira SELMANE", "Specialty": "Pharmacien", "Address": "Saoula Alger Alg\u00e9rie   "}
+{"Name": "Dr Brahim LAFIOUNE", "Specialty": "Pharmacien", "Address": "Bordj el Kiffan Alger Alg\u00e9rie   "}
+{"Name": "Dr Lynda BOUNAB", "Specialty": "Pharmacien", "Address": "Alger Alg\u00e9rie   "}
+{"Name": "Dr Lydia HELLEL", "Specialty": "Pharmacien", "Address": "Bouzareah Alger Alg\u00e9rie   "}
+{"Name": "Dr Nawel TAREB MOUNIA", "Specialty": "Pharmacien", "Address": "El Achour Alger Alg\u00e9rie   "}
+{"Name": "Dr Nacim ZIGHA", "Specialty": "Pharmacien", "Address": "El Harrach Alger Alg\u00e9rie   "}
+{"Name": "Dr Abdelkrim TOUAHRIA", "Specialty": "Pharmacien", "Address": "Douera Alger Alg\u00e9rie   "}
+{"Name": "Dr Lilia BOUSRI", "Specialty": "Pharmacien", "Address": "Alger Ahcene Askri Alger Alg\u00e9rie   "}
+{"Name": "Dr Nadia ABDELOUAHAB", "Specialty": "Pharmacien", "Address": "Dar El Be\u00efda Alger Alg\u00e9rie   "}
+{"Name": "Dr Zineb MOULAI", "Specialty": "Pharmacien", "Address": "Dely Ibrahim Alger Alg\u00e9rie   "}
+{"Name": "Dr Nabil BAHRI", "Specialty": "Pharmacien", "Address": "Bordj el Kiffan Alger Alg\u00e9rie   "}
+{"Name": "Dr Ameur IBTISSEM", "Specialty": "Pharmacien", "Address": "El Harrach Alger Alg\u00e9rie   "}
+{"Name": "Dr Karima MALTI", "Specialty": "Pharmacien", "Address": "Douera Alger Alg\u00e9rie   "}
+{"Name": "Dr Miriem ALLAG", "Specialty": "Pharmacien", "Address": "Staoueli Alger Alg\u00e9rie   "}
+{"Name": "Dr Loubna BELKBIR", "Specialty": "Pharmacien", "Address": "Bab Ezzouar Alger Alg\u00e9rie   "}
+{"Name": "Dr Abdelkrim DJELLABI", "Specialty": "Pharmacien", "Address": "Alger Alg\u00e9rie   "}
+{"Name": "Dr Adel KEMOUCHE", "Specialty": "Pharmacien", "Address": "Kouba Alger Alg\u00e9rie   "}
+{"Name": "Dr Fella LEMDANI", "Specialty": "Pharmacien", "Address": "Alger Alg\u00e9rie   "}
+{"Name": "Dr Samiha BOUZEMRA", "Specialty": "Pharmacien", "Address": "Djasr Kassentina Alger Alg\u00e9rie   "}
+{"Name": "Dr Nabil RAHBAWI", "Specialty": "Pharmacien", "Address": "Alger RP Alger Alg\u00e9rie"}
+{"Name": "Dr Asmaa SIFOUANE", "Specialty": "Pharmacien", "Address": "Dar El Be\u00efda Alger Alg\u00e9rie"}
+{"Name": "Dr Nazim SEBIANE", "Specialty": "Pharmacien", "Address": "Alger Alg\u00e9rie"}
+{"Name": "Dr Raissa ABROUS", "Specialty": "Pharmacien", "Address": "Tessala Alger Alg\u00e9rie"}
+{"Name": "Dr Hana KHATRAOUI", "Specialty": "Pharmacien", "Address": "Alger RP Alger Alg\u00e9rie"}
+{"Name": "Oussama BOUDOUMI", "Specialty": "Physioth\u00e9rapeute", "Address": "Alger Alg\u00e9rie   "}
+{"Name": "Mr Vincent mehdi ARBAOUI", "Specialty": "Podologue", "Address": "Cheraga Alger Alg\u00e9rie   "}
+{"Name": "Dr Nawel ZOUZOU", "Specialty": "M\u00e9decin dentiste", "Address": "Ben Aknoun Alger Alg\u00e9rie   "}
+{"Name": "Dr Sh MOKTEFI", "Specialty": "Psychologue", "Address": "Baba Hassen Alger Alg\u00e9rie   "}
+{"Name": "Mme Ikmel BRAHAM", "Specialty": "Psychologue", "Address": "El Achour Alger Alg\u00e9rie   "}
+{"Name": "Mme Hamia MERIEM", "Specialty": "Psychologue", "Address": "Alger Said Hamdine Alger Alg\u00e9rie   "}
+{"Name": "Mme Zerbout MIMI", "Specialty": "Psychologue", "Address": "Alger Bab-el-Oued Alger Alg\u00e9rie   "}
+{"Name": "Mme Faiza DEBBACHE", "Specialty": "Psychologue clinicienne", "Address": "Alger Alg\u00e9rie   "}
+{"Name": "Mme Douakh ALIMA", "Specialty": "Psychologue clinicienne", "Address": "Cheraga Alger Alg\u00e9rie   "}
+{"Name": "Mme Moussaoui n\u00e9e KAFIA D", "Specialty": "Psychologue clinicienne", "Address": "H'raoua Alger Alg\u00e9rie   "}
+{"Name": "Mme Samia LAMARA", "Specialty": "Psychologue clinicienne", "Address": "Birkhadem Alger Alg\u00e9rie   "}
+{"Name": "Dr Fatiha ZOUIRA", "Specialty": "Psychologue clinicienne", "Address": "Alger Alg\u00e9rie   "}
+{"Name": "Mme Nadia TA\u00cfBI", "Specialty": "Sage femme", "Address": "Alger Alg\u00e9rie   "}
+{"Name": "Nadia BENNACEUR", "Specialty": "Sant\u00e9 publique et m\u00e9decine sociale", "Address": "Alger Alg\u00e9rie   "}
+{"Name": "Dr Zahia BOUDRAA", "Specialty": "S\u00e9nologue", "Address": "Alger centre Alger Alg\u00e9rie"}
+{"Name": "Dr Yasmine CHENOUF", "Specialty": "S\u00e9nologue", "Address": "El Achour Alger Alg\u00e9rie"}
+{"Name": "Dr N KHIATI", "Specialty": "S\u00e9nologue", "Address": "Hussein Dey Alger Alg\u00e9rie"}
+{"Name": "Dr Abdelouahab AMINA", "Specialty": "S\u00e9nologue", "Address": "Hydra Alger Alg\u00e9rie"}
+{"Name": "Dr Amina ABDELOUAHAB", "Specialty": "S\u00e9nologue", "Address": "Hydra Alger Alg\u00e9rie"}
+{"Name": "Dr Abdelghani BENBELKACEM", "Specialty": "Stomatologue", "Address": "Alger RP Alger Alg\u00e9rie   "}
+{"Name": "Dr Amine HOCINE BEY", "Specialty": "V\u00e9t\u00e9rinaire", "Address": "Baraki Alger Alg\u00e9rie   "}
+{"Name": "Dr Fatima zohra YACOUBI", "Specialty": "V\u00e9t\u00e9rinaire", "Address": "Bouzareah Alger Alg\u00e9rie   "}
+{"Name": "Dr Fettane N.Y", "Specialty": "V\u00e9t\u00e9rinaire", "Address": "Bachedjarah Alger Alg\u00e9rie   "}
+{"Name": "Dr Amel amina BENMERZOUGA", "Specialty": "Cardiologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Kamel SAHTOUT", "Specialty": "Cardiologue", "Address": "Annaba Alg\u00e9rie"}
+{"Name": "Dr Zahredinne GHORAB", "Specialty": "Cardiologue", "Address": "Annaba el Bouni Annaba Alg\u00e9rie"}
+{"Name": "Dr Faiza BRAHMIA", "Specialty": "Cardiologue", "Address": "Annaba Alg\u00e9rie"}
+{"Name": "Dr Mhamed MALAOUI", "Specialty": "Cardiologue", "Address": "Annaba Alg\u00e9rie"}
+{"Name": "Dr Kamel TAHRAOUI", "Specialty": "Cardiologue", "Address": "Annaba Alg\u00e9rie"}
+{"Name": "Dr Abdelmoumene RETIMA", "Specialty": "Cardiologue", "Address": "Annaba Alg\u00e9rie"}
+{"Name": "Dr Abdelkader ABBAS", "Specialty": "Cardiologue", "Address": "Annaba Alg\u00e9rie"}
+{"Name": "Dr Reda BENAZIZA MED", "Specialty": "Cardiologue", "Address": "Annaba Alg\u00e9rie"}
+{"Name": "Dr Yasmina CHOUITER", "Specialty": "Cardiologue", "Address": "Annaba Alg\u00e9rie"}
+{"Name": "Dr Abdelhamid GUERGOUR", "Specialty": "Cardiologue", "Address": "Annaba Alg\u00e9rie"}
+{"Name": "Dr Frioui SARAH", "Specialty": "Chirurgien Orthop\u00e9diste Traumatologue", "Address": "El Hadjar Annaba Alg\u00e9rie   "}
+{"Name": "Dr Eddine BENSBAI DJAMEL", "Specialty": "Chirurgien Orthop\u00e9diste Traumatologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr M.laid BENAZZOUZ", "Specialty": "Chirurgien Orthop\u00e9diste Traumatologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Mouloudl BRAHAM CHAOUCH", "Specialty": "Chirurgien Orthop\u00e9diste Traumatologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Abderrazak ALI RACHEDI", "Specialty": "Chirurgien Orthop\u00e9diste Traumatologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Fares ZIANI", "Specialty": "M\u00e9decin dentiste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Wided KRIKROU", "Specialty": "Dentiste", "Address": "Annaba Alg\u00e9rie"}
+{"Name": "Dr Souad ABDELDJOUAD N\u00c9E DAHOUA", "Specialty": "Dentiste", "Address": "Annaba Alg\u00e9rie"}
+{"Name": "Dr Rafika BADLIS", "Specialty": "Dentiste", "Address": "Annaba Alg\u00e9rie"}
+{"Name": "Dr Taous BELDI", "Specialty": "Dentiste", "Address": "Annaba Alg\u00e9rie"}
+{"Name": "Dr Nabil BRAHMIA", "Specialty": "Dentiste", "Address": "Annaba Alg\u00e9rie"}
+{"Name": "Dr Rabah LAYACHI", "Specialty": "Dentiste", "Address": "Annaba Alg\u00e9rie"}
+{"Name": "Dr Souad SID", "Specialty": "Dentiste", "Address": "Annaba Alg\u00e9rie"}
+{"Name": "Dr Djamel TRABELSI", "Specialty": "Dentiste", "Address": "Annaba Alg\u00e9rie"}
+{"Name": "Dr Yacine DRISS", "Specialty": "Dentiste", "Address": "Annaba Alg\u00e9rie"}
+{"Name": "Dr Abdelmadjid AMIRECHE", "Specialty": "Dentiste", "Address": "Annaba Alg\u00e9rie"}
+{"Name": "Dr Sihem KHELIFA", "Specialty": "Dermatologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Habiba MENDJEL BOURNAZ", "Specialty": "Dermatologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Zineb GHORAB", "Specialty": "Dermatologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Hamza KENIZA", "Specialty": "Dermatologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Badia MERABET", "Specialty": "Dermatologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Abdallah CHERAIET", "Specialty": "Dermatologue", "Address": "El Hadjar Annaba Alg\u00e9rie   "}
+{"Name": "Dr Mohamed SEDRATI", "Specialty": "Endocrinologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Oualid AMRAOUI", "Specialty": "Endocrinologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Salima MOSBAH", "Specialty": "Endocrinologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Mostefa HAMANI", "Specialty": "Endocrinologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Leila EL BIR", "Specialty": "Gastro-ent\u00e9rologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Hichem SOUICI MOHAMED", "Specialty": "Gastro-ent\u00e9rologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Tayeb MENDJEL MED", "Specialty": "Gastro-ent\u00e9rologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Nassima HENNI", "Specialty": "Gastro-ent\u00e9rologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Safia BOUAKKAZ", "Specialty": "Gastro-ent\u00e9rologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Salim BENDJEDID", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Sidi Amar Annaba Alg\u00e9rie   "}
+{"Name": "Dr Hafsi ep hadidane AMAL", "Specialty": "G\u00e9n\u00e9raliste", "Address": "El Hadjar Annaba Alg\u00e9rie   "}
+{"Name": "Dr Layachi AOUISSI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Ain Barbar Annaba Alg\u00e9rie   "}
+{"Name": "Dr Rachedi MAHMOUD", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Yassine ELHADRAMI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Othmane BEGGAS", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Tahar SELLAMI M.", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Abdelhafid BOUGDAH", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Berrahal Annaba Alg\u00e9rie   "}
+{"Name": "Dr Mourad MADOUI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Salah BENCHAABANA MOHAMED", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Youcef FEKRACHE", "Specialty": "G\u00e9n\u00e9raliste", "Address": "El Hadjar Annaba Alg\u00e9rie   "}
+{"Name": "Dr Hanifa KHALDI BAZER", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Salim BADOUNA", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Salah FALEK", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Berrahal Annaba Alg\u00e9rie   "}
+{"Name": "Dr Chafika KAHIA", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Chaharazad FALEK", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Berrahal Annaba Alg\u00e9rie   "}
+{"Name": "Dr Elkhier DJELLOUL", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Amar LAKEHAL", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Berrahal Annaba Alg\u00e9rie   "}
+{"Name": "Dr Fadila BOUARICHA", "Specialty": "G\u00e9n\u00e9raliste", "Address": "El Hadjar Annaba Alg\u00e9rie   "}
+{"Name": "Dr Hesni BENAMIRA", "Specialty": "G\u00e9n\u00e9raliste", "Address": "El Hadjar Annaba Alg\u00e9rie   "}
+{"Name": "Dr Mahmoud SAMAR", "Specialty": "G\u00e9n\u00e9raliste", "Address": "El Hadjar Annaba Alg\u00e9rie   "}
+{"Name": "Dr Souad SIDHOUM", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Abdeljallil AOUN", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Fatiha BENBARECHE", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Mohamed BOUTCHICHE", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Hmeida SARI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Berrahal Annaba Alg\u00e9rie   "}
+{"Name": "Dr Faouzia BENLAFIA", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Madjid BENSALAH A .", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Abdelghani KHARDINE", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Ain Berda Annaba Alg\u00e9rie   "}
+{"Name": "Dr Hanifa HANACHI TRAD", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Salima BELKHODJA", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Ain Berda Annaba Alg\u00e9rie"}
+{"Name": "Dr Akila ZOUAI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Ain Berda Annaba Alg\u00e9rie"}
+{"Name": "Dr Nafissa BOUDRI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie"}
+{"Name": "Dr Lazhar BOUHADJA", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie"}
+{"Name": "Dr Djanet DORBAN", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie"}
+{"Name": "Dr Lilia BENGHIDA AMARI", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Youcef MATMATI", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Fadila KARDACHE", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Siham NADJEH", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Ali BOUCHARBAT", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Leila KABAR", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Hocine FEZARI", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Djamila MEKNASSI", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Mouloud BOUDRAA", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Messine KERMICHE", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Rym MRAOUI HOURIA", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Fadila NEZZAR KARDACHE", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Djamel BOUARICHA", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Mounira GRIENNE", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Hocine KERMICHE", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Mahiediene MATMATI", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Sakina BELKAHLA", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Abdelghani HAMIA", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Leila LEHTIHET", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Nadjet GUEROUI", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Abdelaziz BELABBES-NABI KARIM", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Hamid BENCHEIKH A.", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Toufik NACER MED", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Aissa LACHOURI", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "El Hadjar Annaba Alg\u00e9rie   "}
+{"Name": "Dr Noura AMARA", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Salim NEZZAR", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Amara BRAHMIA", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Khaoula BENZEGOUTA", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Khaled BOUARICHA", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Miloud BOUCHARBAT", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Sakina BENKAHLA", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Annaba Alg\u00e9rie"}
+{"Name": "Dr Aicha KABAR", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Annaba Alg\u00e9rie"}
+{"Name": "Dr M.salah BOUDJEMAA", "Specialty": "M\u00e9decin interniste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Abdennour BENSALAH", "Specialty": "M\u00e9decin interniste", "Address": "Annaba Amirouche Annaba Alg\u00e9rie   "}
+{"Name": "Dr Farha SEDRATI", "Specialty": "M\u00e9decin interniste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Nadam BENMEHIDI", "Specialty": "M\u00e9decin interniste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Salim BENOTMANE", "Specialty": "M\u00e9decin interniste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Dalila BENHASSINE", "Specialty": "M\u00e9decin interniste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Salah ZIOU MED", "Specialty": "M\u00e9decin interniste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Neila EL MEMMI", "Specialty": "M\u00e9decin interniste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Rachida KAHIA BOUZERNA", "Specialty": "M\u00e9decin interniste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Rachida BOUZERNA", "Specialty": "M\u00e9decin interniste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Taous BOUDRAA NEE TALBI", "Specialty": "M\u00e9decin Biologiste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Amina MANSOURI NEDJOUA", "Specialty": "M\u00e9decin Biologiste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Amina KEDDACHE", "Specialty": "N\u00e9phrologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Oualid ATAMNIA", "Specialty": "N\u00e9phrologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Antar DEGUAICHIA", "Specialty": "N\u00e9phrologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Farid BELAHCENE", "Specialty": "N\u00e9phrologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Eddine MANSEUR NOUR", "Specialty": "N\u00e9phrologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Hamid LABED", "Specialty": "N\u00e9phrologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Amar djmail ZEMOULI", "Specialty": "Neurologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Aziz BOULKRAINE", "Specialty": "Neurologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Kamel SEDAIRIA", "Specialty": "Neurologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Houria AISSAOUI", "Specialty": "Neurologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Tahar MOSBAH MED", "Specialty": "Neurologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Eddine SELIM SEIF", "Specialty": "Neurologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Nassim HAMDI CHERIF", "Specialty": "Ophtalmologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Nadia MAHRI", "Specialty": "Ophtalmologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Karim BENAHMED", "Specialty": "Ophtalmologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Fayrouz SNANI MAOUDJ", "Specialty": "Ophtalmologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Djamel OUKACI", "Specialty": "Ophtalmologue", "Address": "El Hadjar Annaba Alg\u00e9rie   "}
+{"Name": "Dr Aissa MESSAMEH", "Specialty": "Ophtalmologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Farida KHOUALDIA GHEDIR", "Specialty": "Ophtalmologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Djamila BENCHAABANE", "Specialty": "Ophtalmologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Feriel BELOUCIF", "Specialty": "Ophtalmologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr X BENAZZA", "Specialty": "Ophtalmologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Cherifa HARBI", "Specialty": "Ophtalmologue", "Address": "El Hadjar Annaba Alg\u00e9rie   "}
+{"Name": "Dr Mouloud BOUCHARBAT", "Specialty": "Ophtalmologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Faouzi DOUADI", "Specialty": "Ophtalmologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Moncef BENMOULOUD", "Specialty": "Ophtalmologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Tahar BOUCHARBAT MED", "Specialty": "Ophtalmologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Khedidja RAHMANI", "Specialty": "Ophtalmologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Feirouz MAOUDJ", "Specialty": "Ophtalmologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Hind BENAZZIZA", "Specialty": "Ophtalmologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Faouzi DERNAOUI", "Specialty": "Ophtalmologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Eddine BENAZZA NASR", "Specialty": "Ophtalmologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Aissa SNANI", "Specialty": "Ophtalmologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr M.lakhdar BAALI", "Specialty": "Ophtalmologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Farida KHOUALDIA EP GHEDIR", "Specialty": "Ophtalmologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Belaid RAHMANI", "Specialty": "Ophtalmologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Saidi KARIMA", "Specialty": "Oto-Rhino-Laryngologiste (ORL)", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Khelaifia MOHAMED RAMZI", "Specialty": "Oto-Rhino-Laryngologiste (ORL)", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Farhi ABDEREZZAK", "Specialty": "Oto-Rhino-Laryngologiste (ORL)", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Samia HAMAMDA", "Specialty": "Oto-Rhino-Laryngologiste (ORL)", "Address": "Sidi Amar Annaba Alg\u00e9rie   "}
+{"Name": "Dr Lazhar SAADI", "Specialty": "Oto-Rhino-Laryngologiste (ORL)", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Kamel BELMANAA", "Specialty": "Oto-Rhino-Laryngologiste (ORL)", "Address": "Annaba el Bouni Annaba Alg\u00e9rie   "}
+{"Name": "Dr Nadir ZENADI", "Specialty": "Oto-Rhino-Laryngologiste (ORL)", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Abderrazak BENSALAH", "Specialty": "Oto-Rhino-Laryngologiste (ORL)", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Eddine BOUCHENAK NOUR", "Specialty": "Oto-Rhino-Laryngologiste (ORL)", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Fatima LEMOUCHI", "Specialty": "Oto-Rhino-Laryngologiste (ORL)", "Address": "El Hadjar Annaba Alg\u00e9rie   "}
+{"Name": "Dr Amor DJEMILI", "Specialty": "Oto-Rhino-Laryngologiste (ORL)", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Rabah AOUICHE", "Specialty": "Oto-Rhino-Laryngologiste (ORL)", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Guarmia AIDAOUI SARI", "Specialty": "Oto-Rhino-Laryngologiste (ORL)", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Salah AFIA MED", "Specialty": "Oto-Rhino-Laryngologiste (ORL)", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Abderezak FARHI", "Specialty": "Oto-Rhino-Laryngologiste (ORL)", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Leila HAMADI", "Specialty": "P\u00e9diatre", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Tahar BELAID MED", "Specialty": "P\u00e9diatre", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Nabila BENDJEDDOU", "Specialty": "P\u00e9diatre", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Lilia BENSALAH", "Specialty": "P\u00e9diatre", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Hassina KHENNOUF ZEGHOUANI", "Specialty": "P\u00e9diatre", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Djanet DJEGHRI HEZAM", "Specialty": "P\u00e9diatre", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Nassima HADEFI", "Specialty": "P\u00e9diatre", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Razika BENTAKOUK", "Specialty": "P\u00e9diatre", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Chaharazad AOUICHE", "Specialty": "P\u00e9diatre", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Tahar BELAID MOHAMED", "Specialty": "P\u00e9diatre", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Yamina SELMI BOULMAIZ", "Specialty": "P\u00e9diatre", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Wahab BOURNAZ A", "Specialty": "P\u00e9diatre", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Houria BENHABILES", "Specialty": "P\u00e9diatre", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Hayat DOUCHE", "Specialty": "P\u00e9diatre", "Address": "El Hadjar Annaba Alg\u00e9rie   "}
+{"Name": "Dr Lylia TEMIM DJABALLAH", "Specialty": "P\u00e9diatre", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Chafia BOUMAAZA BOUCENNA", "Specialty": "P\u00e9diatre", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Djamel NAIT ABDALLAH", "Specialty": "P\u00e9diatre", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Amel BRAHMIA \u00c9P KEBIR", "Specialty": "Pneumologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Amar SLIMANI", "Specialty": "Pneumologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Zohra LOUDJANI", "Specialty": "Pneumologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Souad GHARBI", "Specialty": "Pneumologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Abdelouahab FRIDJAT", "Specialty": "Pneumologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Abdelazziz HAMEL", "Specialty": "Pneumologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Salim BENNOUA", "Specialty": "Psychiatre", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Amel BEKKOUCHE", "Specialty": "Psychiatre", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Attia MEGHERBI HAKIM", "Specialty": "Psychiatre", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Said SAYAD", "Specialty": "Psychiatre", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Said DAARA", "Specialty": "Psychiatre", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Saci CHAOUCH", "Specialty": "Psychiatre", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Tayeb MENDJEL MED", "Specialty": "Psychiatre", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Zineddine KHANFRI", "Specialty": "Radiologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Nabil MAIASSI", "Specialty": "Radiologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Mounir BARKA MOHAMED", "Specialty": "Radiologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Eddine MAMMERI NOUR", "Specialty": "Radiologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Nabil MIASSI", "Specialty": "Radiologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Rachid TOUATI", "Specialty": "Radiologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Mohamed TALHI", "Specialty": "Radiologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Eddine KADDEM SALAH", "Specialty": "Rhumatologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Malek GUESMI", "Specialty": "Rhumatologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Zouleikha CADI", "Specialty": "Rhumatologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Souad HENNI", "Specialty": "Rhumatologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Souad BOUAKADIA HENNI", "Specialty": "Rhumatologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Ali BISKRI", "Specialty": "Urologue", "Address": "Annaba el Bouni Annaba Alg\u00e9rie   "}
+{"Name": "Dr Badreddine GHADJATI", "Specialty": "Chirurgien Urologue", "Address": "Annaba el Bouni Annaba Alg\u00e9rie   "}
+{"Name": "Dr Mohamed ESSID", "Specialty": "Urologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Rachid HAMADI", "Specialty": "Urologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Ahmed SBARTAI", "Specialty": "Urologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Chouakria ATEF", "Specialty": "Chirurgien Urologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Mahmoud BOUREHAIL", "Specialty": "Allergologue", "Address": "El Hadjar Annaba Alg\u00e9rie   "}
+{"Name": "Dr Lazhar NIHA", "Specialty": "Anatomo-Cyto-Pathologiste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Wassila SEDIRA", "Specialty": "Anatomo-Cyto-Pathologiste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Moussa DAOUD", "Specialty": "Anesth\u00e9siste-R\u00e9animateur", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Samir BELLILI", "Specialty": "Anesth\u00e9siste-R\u00e9animateur", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Tahar BENSAOULA", "Specialty": "Anesth\u00e9siste-R\u00e9animateur", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Djamel ALAM", "Specialty": "Anesth\u00e9siste-R\u00e9animateur", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Tahar CHAABNA", "Specialty": "Anesth\u00e9siste-R\u00e9animateur", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Soraya BENMEZIAN", "Specialty": "Anesth\u00e9siste-R\u00e9animateur", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Mohamed HAFIDI", "Specialty": "Anesth\u00e9siste-R\u00e9animateur", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Adlane DJEGHAR", "Specialty": "Anesth\u00e9siste-R\u00e9animateur", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Hocine MENDJEL", "Specialty": "Anesth\u00e9siste-R\u00e9animateur", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Yacine KOUACHI", "Specialty": "Anesth\u00e9siste-R\u00e9animateur", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Farid OTHMANE RACHEDI", "Specialty": "Anesth\u00e9siste-R\u00e9animateur", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Ali MESSAOUDENE", "Specialty": "Anesth\u00e9siste-R\u00e9animateur", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Rafik BELAMRI", "Specialty": "Anesth\u00e9siste-R\u00e9animateur", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Rym BENSALAH", "Specialty": "Anesth\u00e9siste-R\u00e9animateur", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Fares DJEBROUNI", "Specialty": "Anesth\u00e9siste-R\u00e9animateur", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Moussa ANBI", "Specialty": "Anesth\u00e9siste-R\u00e9animateur", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Farid BELAMRI", "Specialty": "Anesth\u00e9siste-R\u00e9animateur", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr M.hafed BAAD", "Specialty": "Anesth\u00e9siste-R\u00e9animateur", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Omar AMARI", "Specialty": "Anesth\u00e9siste-R\u00e9animateur", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Mohamed DEBBEZ", "Specialty": "Chirurgien G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Abderahmane LAKHDARI", "Specialty": "Chirurgien G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Azziz AYADI A", "Specialty": "Chirurgien G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Bachir HAMEURLAIN", "Specialty": "Chirurgien G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Madani AMRANI", "Specialty": "Chirurgien G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Saleh LAOUBI", "Specialty": "Chirurgien G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Lakhdar AMROUNI", "Specialty": "Chirurgien G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Mohamed BENSAID", "Specialty": "Chirurgien G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Omar BELAID", "Specialty": "Chirurgien G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Farida DJERBOUA", "Specialty": "Chirurgien G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Boudkhil MAKLOUF", "Specialty": "Chirurgien G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Abbes KETTACHE", "Specialty": "Chirurgien G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Abderezak MILOUDI", "Specialty": "Chirurgien G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Hocine KADJOUH", "Specialty": "Chirurgien G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Salah ALLEG MED", "Specialty": "Chirurgien G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Brahim OUERFELA", "Specialty": "Chirurgien G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Salim KHOUALDIA", "Specialty": "Chirurgien G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Ahmed AMROUNI", "Specialty": "Chirurgien G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Yacine DORBAN", "Specialty": "Chirurgien G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Hak BENMAAMAR A", "Specialty": "Chirurgien G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr M.salah LAOUBI", "Specialty": "Chirurgien G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr M.laid BENKHALIFA", "Specialty": "Chirurgien G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Lahbib BENHADID", "Specialty": "Chirurgien G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Eddine KOLLI NOUR", "Specialty": "Chirurgien G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Faycal IDIR", "Specialty": "Chirurgien G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Djamel MIZI", "Specialty": "Chirurgien G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Khaled MERZAG", "Specialty": "Chirurgien G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Saci ATAILIA", "Specialty": "Chirurgien G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Mohamed KADDIR", "Specialty": "Chirurgien G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Abdelmalek KACI", "Specialty": "Chirurgien G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Abdelhakim BOUCHERIT", "Specialty": "Chirurgien Cardio-Vasculaire", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Mansour BAOUCH", "Specialty": "Chirurgien G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Saad FELLAK", "Specialty": "Chirurgien G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Madani AMARI", "Specialty": "Chirurgien G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Lakhdar GHOUAFRIA", "Specialty": "Chirurgien G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Azzedinne BOUBKEUR", "Specialty": "Chirurgien G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Maya BENAZZOUZ", "Specialty": "Chirurgien G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Mahrez DIAF", "Specialty": "Chirurgien P\u00e9diatrique", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Khaled HADAD", "Specialty": "Diab\u00e9tologue", "Address": "Berrahal Annaba Alg\u00e9rie   "}
+{"Name": "Dr Ahmed BEKHOUCHA", "Specialty": "Diab\u00e9tologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Fatiha BACHETARZI", "Specialty": "H\u00e9matologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Madjid OUNACEUR", "Specialty": "Maladies Infectieuses", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Dalila BOUSSATHA", "Specialty": "Maladies Infectieuses", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Aicha BENHADJI BENSBAA", "Specialty": "Maladies Infectieuses", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Farida MATMATI", "Specialty": "Maladies Infectieuses", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Lynda DJENDI", "Specialty": "Maladies Infectieuses", "Address": "El Hadjar Annaba Alg\u00e9rie   "}
+{"Name": "Dr Reda LEHTIHET ALI", "Specialty": "Maladies Infectieuses", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Rabha KHEBBABI", "Specialty": "Maladies Infectieuses", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Farida AIT KACI MATMATI", "Specialty": "Maladies Infectieuses", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Fadhila BOUGHRARA", "Specialty": "M\u00e9decin du Travail", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Moufida KEMMOUCHE", "Specialty": "M\u00e9decin Esth\u00e9tique", "Address": "Annaba Oued Kouba Annaba Alg\u00e9rie   "}
+{"Name": "Dr Souad DAHNOUNE", "Specialty": "M\u00e9decin Physique R\u00e9adaptateur", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Amal DANOUNE", "Specialty": "M\u00e9decin Physique R\u00e9adaptateur", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Bouziane HAFSI", "Specialty": "M\u00e9decin Physique R\u00e9adaptateur", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Djamel BELHANI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Karima MREEED", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Assia ABDA BENTOUNSI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Farida LAHIOUEL BENSAID", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Soraya GHIMOUZ", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Mourad MEGHARBI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Aida A\u0139LAG", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Mounira BENOUA", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Nahed BENBOUAZIZ", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Aissa LAKEHAL", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Abdelwahab IDIRI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Abdelazziz BOUKHATEM", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Yasmina TRIMA", "Specialty": "G\u00e9n\u00e9raliste", "Address": "El Hadjar Annaba Alg\u00e9rie   "}
+{"Name": "Dr Yamouna HAMADA", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Allaoua AISSAOUI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Zohra CHOUIAL FATMA", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Berrahal Annaba Alg\u00e9rie   "}
+{"Name": "Dr Said BEKKOUCHE", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Mahmoud RACHEDI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Kamel GUERGOUR", "Specialty": "G\u00e9n\u00e9raliste", "Address": "El Hadjar Annaba Alg\u00e9rie   "}
+{"Name": "Dr Salah DJILANI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Wahba KAHELSEN", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Khedidja BERNOU", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Tahar BAHRI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Houria REMEL", "Specialty": "G\u00e9n\u00e9raliste", "Address": "El Hadjar Annaba Alg\u00e9rie   "}
+{"Name": "Dr Mohamed AMRANI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Mohamed BOUSSAHA", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Atika AFIA", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Ramdane LYES", "Specialty": "G\u00e9n\u00e9raliste", "Address": "El Hadjar Annaba Alg\u00e9rie   "}
+{"Name": "Dr Soraya HANI GHARBI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Ilhem OUETAR BENAZZA", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Toufik REZAG BARA", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Moufida BOUNOURA", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Rachid BENKHODJA", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Djahida/salima FITOURI BOUTIGHANE", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Salim ABOUTOURAB", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Boudjemaa LAYACHI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Belgacem DJOGHLAL", "Specialty": "G\u00e9n\u00e9raliste", "Address": "El Hadjar Annaba Alg\u00e9rie   "}
+{"Name": "Dr Yousra SARI AMRA", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Rachid BELKHODJA", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Aicha BICHA", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Abdelwaheb MIHOUBI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Sabrina DJABA BELABBES", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Berrahal Annaba Alg\u00e9rie   "}
+{"Name": "Dr Malika BENYAHIA", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Berrahal Annaba Alg\u00e9rie   "}
+{"Name": "Dr Souad BENCHIHEB", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Berrahal Annaba Alg\u00e9rie   "}
+{"Name": "Dr Hacene KETTACHE", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Souad NIHA", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Pr H FADLA", "Specialty": "Neurochirurgien", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Kebi ABDELHAK", "Specialty": "Neurochirurgien", "Address": "El Hadjar Annaba Alg\u00e9rie   "}
+{"Name": "Dr Dounia KHOUALDIA", "Specialty": "Diab\u00e9tologue", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Fellahi ABDELWAHEB", "Specialty": "Orthodontiste", "Address": "El Hadjar Annaba Alg\u00e9rie"}
+{"Name": "Dr Farida DJILANI", "Specialty": "Pharmacien", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Kaouter ARIBI", "Specialty": "Pharmacien", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Nassim HADIBY", "Specialty": "Pharmacien", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Samira HAMI", "Specialty": "Pharmacien", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Saber BENATTIA", "Specialty": "Pharmacien", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Mounia CHELGHOUM", "Specialty": "Pharmacien", "Address": "El Hadjar Annaba Alg\u00e9rie   "}
+{"Name": "Dr Eddine HADDAD MOHAMED SEIF", "Specialty": "Pharmacien", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Noor BOUSSAHI", "Specialty": "Pharmacien", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Numidia PHARMACIE", "Specialty": "Pharmacien", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Hichem KHODJA", "Specialty": "Pharmacien", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Meriem BOURI", "Specialty": "Pharmacien", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Fay\u00e7al ZEMMAL", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Lotfi BOULAHBEL", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Abdelghani BOUHAOUCHE", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Soumeya KADI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Saad TEMIM", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Rachid BEKHOUCHE", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Lamine KHAFALLAH MED", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Houria MEKSAOUI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Berrahal Annaba Alg\u00e9rie   "}
+{"Name": "Dr Lynda AOUN GUECH", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Bensouna BENMERZOUGUA", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Chaharazad MATMATI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Nadera LAMRI LARGUECHE", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr Hadi NAAMANE MED EL", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Annaba Alg\u00e9rie   "}
+{"Name": "Dr \u062a\u0648\u0641\u064a\u0642 \u0628\u0648\u062c\u0644\u0627\u0644", "Specialty": "Cardiologue", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Diba HAMIZI NEE BENAMARA", "Specialty": "Cardiologue", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Bey ZENATI LAKHDAR", "Specialty": "Cardiologue", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Mohamed ZAABOUB", "Specialty": "Cardiologue", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Brahim MERAD", "Specialty": "Cardiologue", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Larbi BENGHAZEL MOHAMED", "Specialty": "Cardiologue", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Fateh TAREK", "Specialty": "Cardiologue", "Address": "Barika Batna Alg\u00e9rie   "}
+{"Name": "Dr Nourddine MENINA", "Specialty": "Chirurgien Orthop\u00e9diste Traumatologue", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Abdelkarim MENINA", "Specialty": "Chirurgien Orthop\u00e9diste Traumatologue", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Farid BENYOUSEF", "Specialty": "Chirurgien Orthop\u00e9diste Traumatologue", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Tayeb AOUCI", "Specialty": "Chirurgien Orthop\u00e9diste Traumatologue", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Kamel BOUAMRA", "Specialty": "Chirurgien Orthop\u00e9diste Traumatologue", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Salah eddine BOUAZA", "Specialty": "M\u00e9decin dentiste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Bilel DJEBBARI", "Specialty": "M\u00e9decin dentiste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Nadjib BENTOUNSI AHMED", "Specialty": "M\u00e9decin dentiste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Yahia MENASRA", "Specialty": "M\u00e9decin dentiste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Fares BENABID", "Specialty": "M\u00e9decin dentiste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Abdelmounaam CHERIET", "Specialty": "M\u00e9decin dentiste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Kamel LAIB", "Specialty": "M\u00e9decin dentiste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Bilel ZEREG", "Specialty": "M\u00e9decin dentiste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Hocine ABDELAZIZ", "Specialty": "M\u00e9decin dentiste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Khadidja BENNACEUR", "Specialty": "M\u00e9decin dentiste", "Address": "Barika Batna Alg\u00e9rie   "}
+{"Name": "Dr Khalil THABTI", "Specialty": "M\u00e9decin dentiste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Riyad BADA", "Specialty": "M\u00e9decin dentiste", "Address": "Tazoult Batna Alg\u00e9rie   "}
+{"Name": "Dr M REZZIG", "Specialty": "M\u00e9decin dentiste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr X MERAH N\u00c9E BOUDERBALA", "Specialty": "Dermatologue", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Kamel AICHOUR", "Specialty": "Dermatologue", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Hacene CHOHRA", "Specialty": "Endocrinologue", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Hassen MALLEM", "Specialty": "Endocrinologue", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Amel NOUAR", "Specialty": "Endocrinologue", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Hassen LOUCHENE", "Specialty": "Endocrinologue", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Assia SMAIL", "Specialty": "Endocrinologue", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Malika BENAKCHA", "Specialty": "Endocrinologue", "Address": "Arris Batna Alg\u00e9rie   "}
+{"Name": "Dr Salah DAHMANI MOHAMED", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Barika Batna Alg\u00e9rie   "}
+{"Name": "Dr Abdelselem MEDJANI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Abdelazziz MEGHALLATI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Arris Batna Alg\u00e9rie   "}
+{"Name": "Dr Mohamed BRAKTA", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Fadela ROUBAH", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Barika Batna Alg\u00e9rie   "}
+{"Name": "Dr Aicha M'ZIOU", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Fatiha AISSAOUI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Ahmed HADJIRA", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Ali BOUKHELFA", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn Touta Batna Alg\u00e9rie   "}
+{"Name": "Dr Zohra ZELLMAT FATIMA", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Arris Batna Alg\u00e9rie   "}
+{"Name": "Dr Naoui BEN KADOUR", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Tazoult Batna Alg\u00e9rie   "}
+{"Name": "Dr Brahim MEGHENI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Arris Batna Alg\u00e9rie   "}
+{"Name": "Dr Mohamed QUEDOUDJ", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Tazoult Batna Alg\u00e9rie   "}
+{"Name": "Dr Abdelmadjid TAMRABET", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Sabah BERHAILI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Arris Batna Alg\u00e9rie   "}
+{"Name": "Dr Houria MEZETI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Djamel ABDOU", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Djamel LAHOUAL", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Rachid AOURAK", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Barika Batna Alg\u00e9rie   "}
+{"Name": "Dr Mohamed BALEH", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Mahdi KAOUOUSS", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Barika Batna Alg\u00e9rie   "}
+{"Name": "Dr Saad KETTAL", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Barika Batna Alg\u00e9rie   "}
+{"Name": "Dr Said MAHROUGUI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Lakhdar AMGHAR", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Loubna BOUGUERNE", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Said BITAM", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn Touta Batna Alg\u00e9rie   "}
+{"Name": "Dr Salima ACHI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "El Madher Batna Alg\u00e9rie   "}
+{"Name": "Dr Ismaham DEBAH", "Specialty": "G\u00e9n\u00e9raliste", "Address": "El Madher Batna Alg\u00e9rie   "}
+{"Name": "Dr Nadjib AROUA", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Barika Batna Alg\u00e9rie   "}
+{"Name": "Dr Djamel ZEGRAR", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Timgad Batna Alg\u00e9rie   "}
+{"Name": "Dr X BACHIRI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie"}
+{"Name": "Dr Abdelmalek BEN ABESS", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie"}
+{"Name": "Dr Samia BENIDIR", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie"}
+{"Name": "Dr Mohamed BEROUAL", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie"}
+{"Name": "Dr Farah BOUDMAGH", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie"}
+{"Name": "Dr Smail LAACHI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie"}
+{"Name": "Dr Abdelmadjid SAADI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie"}
+{"Name": "Dr Hammana SOUALA", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie"}
+{"Name": "Dr Lakhdar ZENINA", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie"}
+{"Name": "Dr Malik ABEDSALEM", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn Touta Batna Alg\u00e9rie"}
+{"Name": "Dr Chafai BENABDERRAHMANE", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Nadia TOUMI", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Fouzi MALKHSOU", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Barika Batna Alg\u00e9rie   "}
+{"Name": "Dr Noureddine CHIKHI", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Marzaka GASMI", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr N. DR GRABSI", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Souad SALHI", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Nadhir MOUSS MOHAMED", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Brahim LAIBI", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Barika Batna Alg\u00e9rie   "}
+{"Name": "Dr Nacera BENAMMOUNE", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Nora BOUSSELSAL NEE MAHTALI", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Fatiha GASMI", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Mohamed KHIREDDINE", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Noura MAHTALI", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Nadjet KADRI", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Abdelhamid BECHADI", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Nacera GUARABSSI", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Abdelhamid BENCHADI", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr N MOUSS MOHAMED", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Fella BENBAKIR", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Saliha BENAKCHA", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Rachida LABAAL", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Mourad DEKHINETTE", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "A\u00efn Touta Batna Alg\u00e9rie   "}
+{"Name": "Dr Nacera GURABSI", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Ali SALEM SIDI", "Specialty": "M\u00e9decin interniste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Abdesselam ABDELLAOUI", "Specialty": "M\u00e9decin interniste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Med BERGADI", "Specialty": "M\u00e9decin interniste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Karima BOUDJABI", "Specialty": "M\u00e9decin interniste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Ghania SIDI ALI BOUAKKAZ", "Specialty": "M\u00e9decin interniste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Abderahmane HAOUES", "Specialty": "M\u00e9decin interniste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Smain HOUARA", "Specialty": "M\u00e9decin interniste", "Address": "Barika Batna Alg\u00e9rie   "}
+{"Name": "Dr Yazid DOUADJI", "Specialty": "M\u00e9decin interniste", "Address": "Barika Batna Alg\u00e9rie   "}
+{"Name": "Dr Nacera BAHADI", "Specialty": "M\u00e9decin interniste", "Address": "Arris Batna Alg\u00e9rie   "}
+{"Name": "Dr Kamel ABABSA MOHAMED", "Specialty": "M\u00e9decin interniste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Djamel RAHEM", "Specialty": "M\u00e9decin interniste", "Address": "A\u00efn Touta Batna Alg\u00e9rie   "}
+{"Name": "Dr Aicha BAHEDDI", "Specialty": "M\u00e9decin interniste", "Address": "Arris Batna Alg\u00e9rie   "}
+{"Name": "Dr Harbi BEKHOUCHE", "Specialty": "M\u00e9decin interniste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Karima FETTOUS", "Specialty": "M\u00e9decin interniste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Yahia BELALA", "Specialty": "M\u00e9decin interniste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Rabah BOUTLIFET", "Specialty": "M\u00e9decin interniste", "Address": "A\u00efn Touta Batna Alg\u00e9rie   "}
+{"Name": "Dr Nafissa AMEZIANE \u00c9P ALLAL", "Specialty": "M\u00e9decin interniste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Fatima BENCHERIF", "Specialty": "Biologiste Medicale", "Address": "Ain Yagout Batna Alg\u00e9rie   "}
+{"Name": "Dr S BENABBAS EP.KHAMARI", "Specialty": "M\u00e9decin Biologiste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Khelifa GADDA", "Specialty": "N\u00e9phrologue", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Benyaghla HOCINE", "Specialty": "N\u00e9phrologue", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Abdelhak DAIKH", "Specialty": "Neurologue", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Azziz GHARIB", "Specialty": "Neurologue", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Djaafar AIT BELKACEM", "Specialty": "Neurologue", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Mahmoud TOUARI", "Specialty": "Neurologue", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Djamel BENHAMLA", "Specialty": "Neurologue", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Abdesslem BENLMADJET", "Specialty": "Neurologue", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Bachir SAADI", "Specialty": "Neurologue", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Farid NACER", "Specialty": "Ophtalmologue", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr S SAADI", "Specialty": "Ophtalmologue", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Kamel KHELFA", "Specialty": "Ophtalmologue", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Rachid OURAK", "Specialty": "Ophtalmologue", "Address": "Barika Batna Alg\u00e9rie   "}
+{"Name": "Dr J CHELIHIEP BENNAMGHAR", "Specialty": "Ophtalmologue", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Ammar SMAILI", "Specialty": "Ophtalmologue", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr N DJEHGRI", "Specialty": "Ophtalmologue", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Chouaib MESSAOUDI", "Specialty": "Oto-Rhino-Laryngologiste (ORL)", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Redha BENBRAHIM", "Specialty": "Oto-Rhino-Laryngologiste (ORL)", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Amor GHILANI", "Specialty": "Oto-Rhino-Laryngologiste (ORL)", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Cherif BELHIOUANI", "Specialty": "Oto-Rhino-Laryngologiste (ORL)", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Nadhir LAKHDAR OUNIS", "Specialty": "Oto-Rhino-Laryngologiste (ORL)", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Zohra MERZOUGUI", "Specialty": "Oto-Rhino-Laryngologiste (ORL)", "Address": "Barika Batna Alg\u00e9rie   "}
+{"Name": "Dr Amar CHANOUFI", "Specialty": "Oto-Rhino-Laryngologiste (ORL)", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Abdelhamid KADRI", "Specialty": "Oto-Rhino-Laryngologiste (ORL)", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Rachid ZAABOUB", "Specialty": "P\u00e9diatre", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Abedelhakim FERRAH", "Specialty": "P\u00e9diatre", "Address": "Arris Batna Alg\u00e9rie   "}
+{"Name": "Dr Salima KARACHE", "Specialty": "P\u00e9diatre", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Yamina OUCHENE", "Specialty": "P\u00e9diatre", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Habiba SADLAOUD", "Specialty": "P\u00e9diatre", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Malek CHORFI R\u00c9DA", "Specialty": "P\u00e9diatre", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Noureddine YOUSEF", "Specialty": "P\u00e9diatre", "Address": "Barika Batna Alg\u00e9rie   "}
+{"Name": "Dr Eddine HAFNAOUI ZINE", "Specialty": "P\u00e9diatre", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Noreddine YOUCEF", "Specialty": "P\u00e9diatre", "Address": "Barika Batna Alg\u00e9rie   "}
+{"Name": "Dr M AIT MOHAMED SAID", "Specialty": "P\u00e9diatre", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Samah CHERGUI", "Specialty": "Pneumologue", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Zidane RAHMOUN", "Specialty": "Pneumologue", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Saliha SLIMANI", "Specialty": "Pneumologue", "Address": "Arris Batna Alg\u00e9rie   "}
+{"Name": "Dr Fadila BRAHIMI", "Specialty": "Pneumologue", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Boubaker DEKHINET", "Specialty": "Pneumologue", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Ali HAMIZI", "Specialty": "Pneumologue", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Djaffar BENABDELLAH LARBI", "Specialty": "Psychiatre", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Hamid AKLI", "Specialty": "Radiologue", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Abdelfateh RAHMOUN", "Specialty": "Radiologue", "Address": "Barika Batna Alg\u00e9rie   "}
+{"Name": "Dr Abdelhafid GHASSIRI", "Specialty": "Radiologue", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Nadjet DOUNIA", "Specialty": "Radiologue", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Kamel BELHADEDE", "Specialty": "Radiologue", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Rabah BOUGALAA", "Specialty": "Radiologue", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Mourad CHIROU", "Specialty": "Radiologue", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Mensoura AGOUNE", "Specialty": "Radiologue", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Amel AISSOUG", "Specialty": "Rhumatologue", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Abdeslam MED HADJ", "Specialty": "Rhumatologue", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Nasser BAHLOULI DJAMELDDINE", "Specialty": "Rhumatologue", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Abdesslem MOHAMED EL HADJ", "Specialty": "Rhumatologue", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Djamel LAIB", "Specialty": "Urologue", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Hakim BAOUNE", "Specialty": "Urologue", "Address": "Batna Alg\u00e9rie"}
+{"Name": "Dr Dajla SAOUDI", "Specialty": "Allergologue", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Djamel BELAID", "Specialty": "Allergologue", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Liamine MESSAOUDI", "Specialty": "Allergologue", "Address": "Barika Batna Alg\u00e9rie   "}
+{"Name": "Dr Nourddine BOUAROUDJ", "Specialty": "Anesth\u00e9siste-R\u00e9animateur", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Bachir BENBOUDRIOU", "Specialty": "Anesth\u00e9siste-R\u00e9animateur", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Belgacem GACEM", "Specialty": "Anesth\u00e9siste-R\u00e9animateur", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Read ZIAD", "Specialty": "Anesth\u00e9siste-R\u00e9animateur", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Nabil BOUTAKAKINE", "Specialty": "Anesth\u00e9siste-R\u00e9animateur", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Azzidine DAOUD", "Specialty": "Anesth\u00e9siste-R\u00e9animateur", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Djameleddine BOUTMEDJET", "Specialty": "Anesth\u00e9siste-R\u00e9animateur", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Abdesselam BENMEDJET", "Specialty": "Chirurgien G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Karima ZIANI", "Specialty": "Chirurgien G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Salah MEZIANI MOHAMED", "Specialty": "Chirurgien G\u00e9n\u00e9raliste", "Address": "Arris Batna Alg\u00e9rie   "}
+{"Name": "Dr Bouzid NOUINOUI", "Specialty": "Chirurgien G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Jihan ROSA", "Specialty": "Chirurgien G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Said AOURAGH", "Specialty": "Chirurgien G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Rabia NADJAI", "Specialty": "Chirurgien G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Abdelmalek BENKEDDAD", "Specialty": "Chirurgien G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Noureddine REGHIS", "Specialty": "Chirurgien G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Zine GARIB", "Specialty": "Chirurgien G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Nabil BELABBES", "Specialty": "Chirurgien G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Mohamed BENMENDI", "Specialty": "Chirurgien G\u00e9n\u00e9raliste", "Address": "Barika Batna Alg\u00e9rie   "}
+{"Name": "Dr Hacene ALLACHE", "Specialty": "Chirurgien G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Djamel AIT BELKACEM", "Specialty": "Chirurgien G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Bachir ZELMAT", "Specialty": "Chirurgien G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Khaled HAMZA", "Specialty": "Chirurgien G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Djamoui SAFSAFI", "Specialty": "Chirurgien G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Abdesselam NEZERI", "Specialty": "Chirurgien G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Abdelhamid BRAKA", "Specialty": "Chirurgien G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Jihan ROSA", "Specialty": "Chirurgien Cardio-Vasculaire", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Rachid KHOMRI", "Specialty": "H\u00e9matologue", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Noureddine EBNABBES", "Specialty": "H\u00e9matologue", "Address": "Barika Batna Alg\u00e9rie   "}
+{"Name": "Dr Abdelhamid BENAMGHAR", "Specialty": "H\u00e9matologue", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Mohamed MERAD", "Specialty": "Maladies Infectieuses", "Address": "A\u00efn Touta Batna Alg\u00e9rie   "}
+{"Name": "Dr Mounira BOUZENITA", "Specialty": "Maladies Infectieuses", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Farid BOUKHANOUCHE", "Specialty": "M\u00e9decin L\u00e9giste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Tayeb AZOUI", "Specialty": "M\u00e9decin urgentiste", "Address": "Arris Batna Alg\u00e9rie   "}
+{"Name": "Dr Mohamed BECHETELA", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn Touta Batna Alg\u00e9rie   "}
+{"Name": "Dr Mahfoud HADDAD", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Rabah YAHIAOUI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn Touta Batna Alg\u00e9rie   "}
+{"Name": "Dr Laid AMRANE", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Leyla GHODBANE", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Faiza MEZIANI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Farida BOUAZZEDDI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Barika Batna Alg\u00e9rie   "}
+{"Name": "Dr Ouznadji DOUMENDJI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "El Madher Batna Alg\u00e9rie   "}
+{"Name": "Dr Mohamed DOUHA", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Farid BEN DERRADJI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn Touta Batna Alg\u00e9rie   "}
+{"Name": "Dr Fadila FERHAT", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Ali TEFRANI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Arris Batna Alg\u00e9rie   "}
+{"Name": "Dr Malik TOURI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Barika Batna Alg\u00e9rie   "}
+{"Name": "Dr Mounira GHALMI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Barika Batna Alg\u00e9rie   "}
+{"Name": "Dr Lahc\u00e8ne REMACHE", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Mekki RAHMOUN", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Timgad Batna Alg\u00e9rie   "}
+{"Name": "Dr Yazid TOULMIT", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Aldjia KHLIFI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Barika Batna Alg\u00e9rie   "}
+{"Name": "Dr S BENMANSSOUR", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Mourad TAIRI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Smain BENFLIS", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Abdesselam MEDJANI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Said AIT MEBAREK", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Rachida BENSACI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Barika Batna Alg\u00e9rie   "}
+{"Name": "Dr Djamaa MADAOUI EP ZID", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Ain Yagout Batna Alg\u00e9rie   "}
+{"Name": "Dr Fairouze ABDELAZIZ", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Barika Batna Alg\u00e9rie   "}
+{"Name": "Dr Wahiba BOURAHLA", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Barika Batna Alg\u00e9rie   "}
+{"Name": "Dr Mokhtar LAKHAL", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Fatima BEN KEDDAD", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Zine YALLOUZ", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Tazoult Batna Alg\u00e9rie   "}
+{"Name": "Dr Djoudi BARBARIS", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Ali BEN DRIHEM", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Merzaka MERAZGA NEE HAROUS", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Noureddine MENZER", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Djameleddine KARECHE", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Barika Batna Alg\u00e9rie   "}
+{"Name": "Dr Nadia BELHCENE", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn Touta Batna Alg\u00e9rie   "}
+{"Name": "Dr Farid HANNACHI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Bala AZIZ", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Timgad Batna Alg\u00e9rie   "}
+{"Name": "Dr Youcef ZFIZEF", "Specialty": "G\u00e9n\u00e9raliste", "Address": "El Madher Batna Alg\u00e9rie   "}
+{"Name": "Dr Houcine MERIENE", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Hacene DEROUICHE", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Soraya KHELFA", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Mohamed BEN KADI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Barika Batna Alg\u00e9rie   "}
+{"Name": "Dr Ahmed BOUTLIKHET", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Djoumouia ZEROUALI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn Touta Batna Alg\u00e9rie   "}
+{"Name": "Dr Chadli MENAI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Salim ZEROUAL", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn Touta Batna Alg\u00e9rie   "}
+{"Name": "Dr Slimane BOUBIDI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Arris Batna Alg\u00e9rie   "}
+{"Name": "Dr Abdessamed YOUB", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn Touta Batna Alg\u00e9rie   "}
+{"Name": "Dr Brahim BENDAIKHA", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Moussa HADDAD", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Safia MOUAKI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn Touta Batna Alg\u00e9rie   "}
+{"Name": "Dr Amor BOUCHEKOUA", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Arris Batna Alg\u00e9rie   "}
+{"Name": "Dr Djamel BOUSSAD", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Mahmoud GUERZA", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Arris Batna Alg\u00e9rie   "}
+{"Name": "Dr Naziha HAMCHI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Mouhamed SAHRAOUI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn Touta Batna Alg\u00e9rie   "}
+{"Name": "Dr Khemsa BENCHADI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr F BOUZID", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Barika Batna Alg\u00e9rie   "}
+{"Name": "Dr X MAARAF NEE GHECHAM", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Soraya MEGALATI AICHA", "Specialty": "G\u00e9n\u00e9raliste", "Address": "El Madher Batna Alg\u00e9rie   "}
+{"Name": "Dr Ind AKA", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Djaafer AIT BELKACEM", "Specialty": "Neurochirurgien", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Karima ZIANI", "Specialty": "Neurochirurgien", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Mlle Besmet amel GUEHAZ", "Specialty": "Orthophoniste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Amina KADRI", "Specialty": "Pharmacien", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Abdelmalek CHEBAH", "Specialty": "Pharmacien", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Hafed MERAH", "Specialty": "Pharmacien", "Address": "Barika Batna Alg\u00e9rie   "}
+{"Name": "Dr Abdennacer GUERROUF", "Specialty": "Pharmacien", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Abdelhamid AISSANI", "Specialty": "Pharmacien", "Address": "Barika Batna Alg\u00e9rie   "}
+{"Name": "Dr Amina NACER", "Specialty": "Pharmacien", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Sami MOKH", "Specialty": "Pharmacien", "Address": "A\u00efn Touta Batna Alg\u00e9rie   "}
+{"Name": "Dr Yasmina KOUDA", "Specialty": "Pharmacien", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Abdelmoumin MOHAMDI", "Specialty": "Pharmacien", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Adel BENYAHIA", "Specialty": "Pharmacien", "Address": "Barika Batna Alg\u00e9rie   "}
+{"Name": "Dr Khaled BOUNOUARA", "Specialty": "Pharmacien", "Address": "Tazoult Batna Alg\u00e9rie   "}
+{"Name": "Dr R OUANIS EP ZELMAT", "Specialty": "Pharmacien", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Hani BENMOHAMMED", "Specialty": "Pharmacien", "Address": "A\u00efn Touta Batna Alg\u00e9rie   "}
+{"Name": "Dr Nasser GOUAREF", "Specialty": "Pharmacien", "Address": "A\u00efn Touta Batna Alg\u00e9rie   "}
+{"Name": "Dr Hakima MADOUI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Abla BENADJI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "El Madher Batna Alg\u00e9rie   "}
+{"Name": "Dr Louardi TAMERHOULT", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Timgad Batna Alg\u00e9rie   "}
+{"Name": "Dr Djamel MOUFFOK", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Salem CHERGI ABED", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Makhlouf BENKHATA", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Barika Batna Alg\u00e9rie   "}
+{"Name": "Dr Yassine KHELIF", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Arris Batna Alg\u00e9rie   "}
+{"Name": "Dr Lynda MERAD", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Saddok MADOUI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Abdellah TAMAGOULT", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Hocine SAADI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "A\u00efn Touta Batna Alg\u00e9rie   "}
+{"Name": "Dr Tahar TAHRAOUI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Habiba BOURAZANE", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Fatiha AZZOUZI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Salima KOULIB", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Barika Batna Alg\u00e9rie   "}
+{"Name": "Dr Fatima BOURAZANE", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Batna Alg\u00e9rie   "}
+{"Name": "Dr Fatima GHECHAM", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Bouzina Batna Alg\u00e9rie   "}
+{"Name": "Dr Tarek DERDORI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Timgad Batna Alg\u00e9rie   "}
+{"Name": "Dr Lotfi CHAKROUN", "Specialty": "Cardiologue", "Address": "B\u00e9char Bechar Alg\u00e9rie   "}
+{"Name": "Dr Slimane BENASROUNE", "Specialty": "Dermatologue", "Address": "B\u00e9char Bechar Alg\u00e9rie   "}
+{"Name": "Dr Noureddine LITIM", "Specialty": "G\u00e9n\u00e9raliste", "Address": "B\u00e9char Bechar Alg\u00e9rie   "}
+{"Name": "Dr Kaddour GUERBOUZ", "Specialty": "G\u00e9n\u00e9raliste", "Address": "B\u00e9char Bechar Alg\u00e9rie   "}
+{"Name": "Dr Seddik BERBAR ABABAKRINE", "Specialty": "G\u00e9n\u00e9raliste", "Address": "B\u00e9char Bechar Alg\u00e9rie   "}
+{"Name": "Dr Ahmed FERRAD", "Specialty": "G\u00e9n\u00e9raliste", "Address": "B\u00e9char Bechar Alg\u00e9rie   "}
+{"Name": "Dr Benabdellah CHAHID", "Specialty": "G\u00e9n\u00e9raliste", "Address": "B\u00e9char Bechar Alg\u00e9rie   "}
+{"Name": "Dr Amine HENRI CONTE MOHAMED", "Specialty": "G\u00e9n\u00e9raliste", "Address": "B\u00e9char Bechar Alg\u00e9rie   "}
+{"Name": "Dr Ababakrine BERBAR", "Specialty": "G\u00e9n\u00e9raliste", "Address": "B\u00e9char Bechar Alg\u00e9rie   "}
+{"Name": "Dr Farida BENASROUNE", "Specialty": "G\u00e9n\u00e9raliste", "Address": "B\u00e9char Bechar Alg\u00e9rie   "}
+{"Name": "Dr Houria TORKI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "B\u00e9char Bechar Alg\u00e9rie   "}
+{"Name": "Dr Mohamed ALAOUA", "Specialty": "G\u00e9n\u00e9raliste", "Address": "B\u00e9char Bechar Alg\u00e9rie   "}
+{"Name": "Dr Mohamed OUILES", "Specialty": "G\u00e9n\u00e9raliste", "Address": "B\u00e9char Bechar Alg\u00e9rie   "}
+{"Name": "Dr Zohra CHAHID", "Specialty": "G\u00e9n\u00e9raliste", "Address": "B\u00e9char Bechar Alg\u00e9rie   "}
+{"Name": "Dr Amine CONTE MOHAMED", "Specialty": "G\u00e9n\u00e9raliste", "Address": "B\u00e9char Bechar Alg\u00e9rie   "}
+{"Name": "Dr Rachida HANAFI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "B\u00e9char Bechar Alg\u00e9rie   "}
+{"Name": "Dr Ahmed CHEHAME", "Specialty": "G\u00e9n\u00e9raliste", "Address": "B\u00e9char Bechar Alg\u00e9rie   "}
+{"Name": "Dr Mohamed MATRANI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "B\u00e9char Bechar Alg\u00e9rie   "}
+{"Name": "Dr Latifa BILI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "B\u00e9char Bechar Alg\u00e9rie   "}
+{"Name": "Dr Cheikh BENDADA", "Specialty": "G\u00e9n\u00e9raliste", "Address": "B\u00e9char Bechar Alg\u00e9rie   "}
+{"Name": "Dr Ali TOUHAMI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "B\u00e9char Bechar Alg\u00e9rie   "}
+{"Name": "Dr Aek ALLAOUA", "Specialty": "G\u00e9n\u00e9raliste", "Address": "B\u00e9char Bechar Alg\u00e9rie   "}
+{"Name": "Dr Rabia FERRAD", "Specialty": "G\u00e9n\u00e9raliste", "Address": "B\u00e9char Bechar Alg\u00e9rie   "}
+{"Name": "Dr Manel BOUGHEDDOU", "Specialty": "G\u00e9n\u00e9raliste", "Address": "B\u00e9char Bechar Alg\u00e9rie   "}
+{"Name": "Dr Sadek SALHI", "Specialty": "M\u00e9decin interniste", "Address": "B\u00e9char Bechar Alg\u00e9rie   "}
+{"Name": "Dr Aek HADDOUCHE", "Specialty": "Ophtalmologue", "Address": "B\u00e9char Bechar Alg\u00e9rie   "}
+{"Name": "Dr Soumia BERBAR", "Specialty": "Ophtalmologue", "Address": "B\u00e9char Bechar Alg\u00e9rie   "}
+{"Name": "Dr Milad AL-DAGHESTANI", "Specialty": "Ophtalmologue", "Address": "B\u00e9char Bechar Alg\u00e9rie   "}
+{"Name": "Dr Abdelkader SADEG", "Specialty": "Ophtalmologue", "Address": "B\u00e9char Bechar Alg\u00e9rie   "}
+{"Name": "Dr Cheikh BERBAOUI", "Specialty": "Ophtalmologue", "Address": "B\u00e9char Bechar Alg\u00e9rie   "}
+{"Name": "Dr Mohamed EL OUED", "Specialty": "Oto-Rhino-Laryngologiste (ORL)", "Address": "B\u00e9char Bechar Alg\u00e9rie   "}
+{"Name": "Dr Mustapha BERRAHOU", "Specialty": "P\u00e9diatre", "Address": "B\u00e9char Bechar Alg\u00e9rie   "}
+{"Name": "Dr Yekhef BELKADAR", "Specialty": "P\u00e9diatre", "Address": "B\u00e9char Bechar Alg\u00e9rie   "}
+{"Name": "Dr Salem ZIANI", "Specialty": "P\u00e9diatre", "Address": "B\u00e9char Bechar Alg\u00e9rie   "}
+{"Name": "Dr Miloud DJELLOUL", "Specialty": "Pneumologue", "Address": "B\u00e9char Bechar Alg\u00e9rie   "}
+{"Name": "Dr Chaker DJENADI", "Specialty": "Pneumologue", "Address": "B\u00e9char Bechar Alg\u00e9rie   "}
+{"Name": "Dr Sabeha HAMMADOU", "Specialty": "Pneumologue", "Address": "B\u00e9char Bechar Alg\u00e9rie   "}
+{"Name": "Dr Abdelkader KLALDI", "Specialty": "Pharmacien", "Address": "B\u00e9char Bechar Alg\u00e9rie   "}
+{"Name": "Dr Fawzi HIDOUSSI", "Specialty": "Pharmacien", "Address": "B\u00e9char Bechar Alg\u00e9rie   "}
+{"Name": "Dr Laredj BENZIANE", "Specialty": "Sant\u00e9 publique et m\u00e9decine sociale", "Address": "Beni Ounif Bechar Alg\u00e9rie   "}
+{"Name": "Dr Nawel BENALI EPS TOUATI", "Specialty": "Cardiologue", "Address": "El Kseur Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Mokhtari KENZA", "Specialty": "Cardiologue", "Address": "B\u00e9ja\u00efa Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Larbi BOUFERRACHE", "Specialty": "Cardiologue", "Address": "B\u00e9ja\u00efa Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Abdelhakim SAICHI", "Specialty": "Cardiologue", "Address": "Sidi Aich Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Lakhdar MOKHTARI", "Specialty": "Cardiologue", "Address": "Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Nassim MAHDI", "Specialty": "Cardiologue", "Address": "B\u00e9ja\u00efa Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Fatma CHOULAK EP. IDRES", "Specialty": "Cardiologue", "Address": "B\u00e9ja\u00efa Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Mohamed DAOUADJI", "Specialty": "Cardiologue", "Address": "B\u00e9ja\u00efa Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Hamid AHNIA", "Specialty": "Cardiologue", "Address": "Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Karim BERABEZ", "Specialty": "Chirurgien Orthop\u00e9diste Traumatologue", "Address": "B\u00e9ja\u00efa Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Taghelmimt HAKIM", "Specialty": "Chirurgien Orthop\u00e9diste Traumatologue", "Address": "B\u00e9ja\u00efa Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Mammar ZAANINE", "Specialty": "Chirurgien Orthop\u00e9diste Traumatologue", "Address": "El Kseur Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Abderrahmane IKHLEF", "Specialty": "Chirurgien Orthop\u00e9diste Traumatologue", "Address": "Sidi Aich Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Tahar MERZOUK MOHAMED", "Specialty": "Chirurgien Orthop\u00e9diste Traumatologue", "Address": "Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Larbi KANOUN MOHAMED", "Specialty": "Chirurgien Orthop\u00e9diste Traumatologue", "Address": "B\u00e9ja\u00efa Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Abdelmalek MENZOU", "Specialty": "Chirurgien Orthop\u00e9diste Traumatologue", "Address": "Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Nasser BAOUANE", "Specialty": "Chirurgien Orthop\u00e9diste Traumatologue", "Address": "B\u00e9ja\u00efa Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Abdenacer BOUZIANE", "Specialty": "M\u00e9decin dentiste", "Address": "Amizour Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Djamal DJOUHRI", "Specialty": "M\u00e9decin dentiste", "Address": "B\u00e9ja\u00efa Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Kahina TAMAZIRT", "Specialty": "M\u00e9decin dentiste", "Address": "B\u00e9ja\u00efa Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Taous BERAZA", "Specialty": "M\u00e9decin dentiste", "Address": "B\u00e9ja\u00efa Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Nabil AOUZELLAG", "Specialty": "M\u00e9decin dentiste", "Address": "El Kseur Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Yamina DR OULD MOHAMED EPS MESMOUDI", "Specialty": "M\u00e9decin dentiste", "Address": "B\u00e9ja\u00efa Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Belahmed HADJOUT", "Specialty": "M\u00e9decin dentiste", "Address": "Sidi Aich Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Tahar BELAID", "Specialty": "M\u00e9decin dentiste", "Address": "El Kseur Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Salim BOUCHALA", "Specialty": "M\u00e9decin dentiste", "Address": "Kherrata Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Redouane BELHEDAD", "Specialty": "M\u00e9decin dentiste", "Address": "B\u00e9ja\u00efa Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Noura SEFAIHI \u00c9POUSE YAHIA-CHERIF", "Specialty": "M\u00e9decin dentiste", "Address": "B\u00e9ja\u00efa Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Nassima BRIKH", "Specialty": "M\u00e9decin dentiste", "Address": "B\u00e9ja\u00efa Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Daouya YAICI", "Specialty": "M\u00e9decin dentiste", "Address": "Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Dalila DAHASSE", "Specialty": "M\u00e9decin dentiste", "Address": "B\u00e9ja\u00efa Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Akila BOUDJIT", "Specialty": "M\u00e9decin dentiste", "Address": "Kherrata Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Meriem DR AMARKHODJA", "Specialty": "M\u00e9decin dentiste", "Address": "Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Kemel GADOUCHE", "Specialty": "Dermatologue", "Address": "B\u00e9ja\u00efa Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Dalila MEDJKOUNE EP. HAMMOUCHE", "Specialty": "Dermatologue", "Address": "Sidi Aich Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Arezki AMOURA", "Specialty": "Dermatologue", "Address": "Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Nadia HATOU N\u00c9E BARKA", "Specialty": "Dermatologue", "Address": "B\u00e9ja\u00efa Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Fatma IBOUDGHACEM", "Specialty": "Dermatologue", "Address": "B\u00e9ja\u00efa Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Ali CHIKHIM", "Specialty": "Dermatologue", "Address": "Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Aissa ARROUDJ", "Specialty": "Dermatologue", "Address": "B\u00e9ja\u00efa Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Mokhtar BAOUR", "Specialty": "Endocrinologue Diab\u00e9tologue", "Address": "El Kseur Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Younsi SOUFIANE", "Specialty": "Endocrinologue Diab\u00e9tologue", "Address": "B\u00e9ja\u00efa Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Omar CHENDOUH", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Tamokra Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Idir LAHLOU", "Specialty": "G\u00e9n\u00e9raliste", "Address": "B\u00e9ja\u00efa Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Abdelkader YASRI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Malika KHEROUF EP.MEZIANI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Sidi Aich Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Seghir MOUSSAOUI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Kherrata Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Samir TAZIBT", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Barbacha Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Toufik BABA AISSA", "Specialty": "G\u00e9n\u00e9raliste", "Address": "B\u00e9ja\u00efa Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Mokrane MEZAGUER", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Tazmalt Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Houria SI AMMOUR EP. RABHI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "B\u00e9ja\u00efa Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Nassiha MAKHLOUFI EP. LADJOUZ", "Specialty": "G\u00e9n\u00e9raliste", "Address": "B\u00e9ja\u00efa Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Kamel HAMMICHE", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Amizour Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Ouramtane BAHOUCHE MOHAND", "Specialty": "G\u00e9n\u00e9raliste", "Address": "B\u00e9ja\u00efa Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Rachid RAMDANI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "El Kseur Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Dj\u00e2a BOUALLOUCHE", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Tazmalt Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Fadila BOUKRINE", "Specialty": "G\u00e9n\u00e9raliste", "Address": "B\u00e9ja\u00efa Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Mohamed LARBANI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Ighil Ali Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Noria FERRANI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Sidi Aich Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Nassima TIBHIRT", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Kherrata Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Nourredine DEKIMECHE", "Specialty": "G\u00e9n\u00e9raliste", "Address": "El Kseur Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Ali BOUALILI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Sidi Aich Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Laziz KECIR", "Specialty": "G\u00e9n\u00e9raliste", "Address": "B\u00e9ja\u00efa Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Ali HAMMOUM", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Oued Ghir Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Rabia DJOUDER", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Abdelhamid KOURTA", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Tazmalt Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Farid DJOUDER", "Specialty": "G\u00e9n\u00e9raliste", "Address": "B\u00e9ja\u00efa Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Massinissa HASSANI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Sidi Aich Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Amar MEZDAD", "Specialty": "G\u00e9n\u00e9raliste", "Address": "B\u00e9ja\u00efa Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Mohamed KERBIB", "Specialty": "G\u00e9n\u00e9raliste", "Address": "El Kseur Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Fatah AREZKI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Kherrata Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Hamza ACHAT", "Specialty": "G\u00e9n\u00e9raliste", "Address": "B\u00e9ja\u00efa Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Mohamed AIT MEBAREK", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Bejaia Alg\u00e9rie"}
+{"Name": "Dr Younes AKIL", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Bejaia Alg\u00e9rie"}
+{"Name": "Dr Houria HABCHI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Bejaia Alg\u00e9rie"}
+{"Name": "Dr Khadidja MALOU EP.HALLAL", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Bejaia Alg\u00e9rie"}
+{"Name": "Dr Amrane ADALOU", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Bejaia Alg\u00e9rie"}
+{"Name": "Dr Nadia AIT KHEDACHE EP. SAHNOUN", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Bejaia Alg\u00e9rie"}
+{"Name": "Dr Smail ALITOUCHE", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Bejaia Alg\u00e9rie"}
+{"Name": "Dr Fatma BRAHIMI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Bejaia Alg\u00e9rie"}
+{"Name": "Dr Hassen DJOUADI", "Specialty": "G\u00e9n\u00e9raliste", "Address": "Bejaia Alg\u00e9rie"}
+{"Name": "Dr Cherief KHADIJA", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "B\u00e9ja\u00efa Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Toufik ATMANI", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "B\u00e9ja\u00efa Bejaia Alg\u00e9rie"}
+{"Name": "Dr Leila HADDI", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "B\u00e9ja\u00efa Bejaia Alg\u00e9rie"}
+{"Name": "Dr Hassina HADDOUM EP.DJOUADI", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Bejaia Alg\u00e9rie"}
+{"Name": "Dr Farid HAMANI", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Bejaia Alg\u00e9rie"}
+{"Name": "Dr Sabiha MEBARKI EP.MAOUCHE", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "Bejaia Alg\u00e9rie"}
+{"Name": "Dr Kamel AHSATAL", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "B\u00e9ja\u00efa Bejaia Alg\u00e9rie"}
+{"Name": "Dr Ahmed AMRANE", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "B\u00e9ja\u00efa Bejaia Alg\u00e9rie"}
+{"Name": "Dr Malika BELAIDI EP, AIDLI", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "B\u00e9ja\u00efa Bejaia Alg\u00e9rie"}
+{"Name": "Dr Houria BENYAHIA", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "B\u00e9ja\u00efa Bejaia Alg\u00e9rie"}
+{"Name": "Dr Halima DRIR EP. BARRIS", "Specialty": "Gyn\u00e9cologue Obst\u00e9tricien", "Address": "B\u00e9ja\u00efa Bejaia Alg\u00e9rie"}
+{"Name": "Dr Abdelmadjid LOUNES", "Specialty": "M\u00e9decin interniste", "Address": "El Kseur Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Farid AOUDIA", "Specialty": "M\u00e9decin interniste", "Address": "B\u00e9ja\u00efa Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Houria CHERDOUD EP.SERRAI", "Specialty": "M\u00e9decin interniste", "Address": "Amizour Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Mohand-ouramdane REDJEDAL", "Specialty": "M\u00e9decin interniste", "Address": "Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Mourad SOUTTOU", "Specialty": "M\u00e9decin interniste", "Address": "Kherrata Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Rabah SAIOUD", "Specialty": "M\u00e9decin interniste", "Address": "B\u00e9ja\u00efa Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Hayette MEDJBAR", "Specialty": "M\u00e9decin interniste", "Address": "B\u00e9ja\u00efa Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Tassadit TAHI EP. BABA AISSA", "Specialty": "M\u00e9decin interniste", "Address": "B\u00e9ja\u00efa Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Ahc\u00e8ne BOUKHARI", "Specialty": "M\u00e9decin interniste", "Address": "Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Mohamed BECHA", "Specialty": "M\u00e9decin interniste", "Address": "Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Meziane GHANEM", "Specialty": "M\u00e9decin interniste", "Address": "B\u00e9ja\u00efa Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Nadir DJOUDAD", "Specialty": "M\u00e9decin interniste", "Address": "Sidi Aich Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Mahmoud MAHDI", "Specialty": "M\u00e9decin interniste", "Address": "Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Azedine BEHLOUL", "Specialty": "M\u00e9decin interniste", "Address": "B\u00e9ja\u00efa Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Mohamed AKLOUF", "Specialty": "Laboratoire d'analyses de biologie m\u00e9dicale", "Address": "B\u00e9ja\u00efa Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Sklab HOCINE", "Specialty": "Laboratoire d'analyses de biologie m\u00e9dicale", "Address": "B\u00e9ja\u00efa Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Leila LALDJI EP. LAHLOU SAMIRA", "Specialty": "Microbiologiste", "Address": "B\u00e9ja\u00efa Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Abdelkader LACHKHEM", "Specialty": "N\u00e9phrologue", "Address": "B\u00e9ja\u00efa Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Omar BACHA", "Specialty": "N\u00e9phrologue", "Address": "B\u00e9ja\u00efa Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Kamel BENYAHIA", "Specialty": "N\u00e9phrologue", "Address": "Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Mustapha CHERFAOUI", "Specialty": "N\u00e9phrologue", "Address": "Oued Ghir Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Abdelhamid MOHDEB", "Specialty": "N\u00e9phrologue", "Address": "B\u00e9ja\u00efa Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Zemmoura AZEDINE", "Specialty": "Neurologue", "Address": "El Kseur Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Fateh ISSAADI", "Specialty": "Neurologue", "Address": "B\u00e9ja\u00efa Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Rafika MERSEL", "Specialty": "Neurologue", "Address": "Aokas Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Ali LALAOUI", "Specialty": "Neurologue", "Address": "Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Rezki GASMI", "Specialty": "Neurologue", "Address": "B\u00e9ja\u00efa Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Larbi DJENKAL", "Specialty": "Neurologue", "Address": "B\u00e9ja\u00efa Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Khaled NEDIR", "Specialty": "Ophtalmologue", "Address": "Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Mohamed ZATOUT", "Specialty": "Ophtalmologue", "Address": "B\u00e9ja\u00efa Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Madina HAMICHE", "Specialty": "Ophtalmologue", "Address": "B\u00e9ja\u00efa Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Bechera ALLAL FAZILET", "Specialty": "Ophtalmologue", "Address": "B\u00e9ja\u00efa Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Abdelkader MESSADI", "Specialty": "Ophtalmologue", "Address": "Tazmalt Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Abdelhamid YAHOU", "Specialty": "Ophtalmologue", "Address": "B\u00e9ja\u00efa Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Nordine BELLOUZE", "Specialty": "Ophtalmologue", "Address": "B\u00e9ja\u00efa Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Mourad ALILAT", "Specialty": "Ophtalmologue", "Address": "Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Ahcene KERROUCHE", "Specialty": "Ophtalmologue", "Address": "Sidi Aich Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Malika SID AHMED EP. LAMRIBEN", "Specialty": "Ophtalmologue", "Address": "Sidi Aich Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Mourad YAICI", "Specialty": "Ophtalmologue", "Address": "Sidi Aich Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Nouredine MAOUCHE", "Specialty": "Ophtalmologue", "Address": "B\u00e9ja\u00efa Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Arezki GUEBBI", "Specialty": "Ophtalmologue", "Address": "El Kseur Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Arezki MAOUCHE MOHAND", "Specialty": "Ophtalmologue", "Address": "Sidi Aich Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Abdelmadjid OUARI", "Specialty": "Ophtalmologue", "Address": "Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Zakia IKHENECHE EP. OUSSAADA", "Specialty": "Ophtalmologue", "Address": "B\u00e9ja\u00efa Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Lila KEDRANI EP. KACI KATIA", "Specialty": "Ophtalmologue", "Address": "B\u00e9ja\u00efa Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Mehrez BEN MOUSSA", "Specialty": "Oto-Rhino-Laryngologiste (ORL)", "Address": "B\u00e9ja\u00efa Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Abdelmadjid ABBACI", "Specialty": "Oto-Rhino-Laryngologiste (ORL)", "Address": "B\u00e9ja\u00efa Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Rahima OULD TALEB", "Specialty": "Oto-Rhino-Laryngologiste (ORL)", "Address": "Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Samira ABASS", "Specialty": "P\u00e9diatre", "Address": "Kherrata Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Nassima TAYAKOUT", "Specialty": "P\u00e9diatre", "Address": "Souk el Tenine Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Chafaa BELATTAF", "Specialty": "P\u00e9diatre", "Address": "El Kseur Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Said ZOUAOUA", "Specialty": "P\u00e9diatre", "Address": "B\u00e9ja\u00efa Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Said BENYAHIA MOHAND", "Specialty": "P\u00e9diatre", "Address": "B\u00e9ja\u00efa Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Badis MENDIL", "Specialty": "P\u00e9diatre", "Address": "B\u00e9ja\u00efa Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Mouloud ZERIATI", "Specialty": "P\u00e9diatre", "Address": "B\u00e9ja\u00efa Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Said ABBAD MOHAND", "Specialty": "P\u00e9diatre", "Address": "Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Mohamed MAOUCHE", "Specialty": "P\u00e9diatre", "Address": "Bejaia Alg\u00e9rie   "}
+{"Name": "Dr Ali MAKHLOUFI", "Specialty": "P\u00e9diatre", "Address": "Sidi Aich Bejaia Alg\u00e9rie   "}

@@ -43,6 +43,8 @@ class _AddRecordScreenState extends State<AddRecordScreen> {
   TextEditingController yearController = TextEditingController();
   TextEditingController _tx_doctorNameController = TextEditingController();
   TextEditingController _tx_description_Controller = TextEditingController();
+  String? sp;
+  String? rg;
 
   @override
   void initState() {

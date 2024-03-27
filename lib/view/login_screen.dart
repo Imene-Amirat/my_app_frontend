@@ -81,8 +81,13 @@ class _LoginScreenState extends State<LoginScreen> {
 
         // Navigate to the main navigator on successful login
         if (!mounted) return;
-        Navigator.pushReplacement(context,
-            MaterialPageRoute(builder: (context) => const MainNavigator()));
+        //Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => const MainNavigator()));
+        Navigator.pushAndRemoveUntil(
+          context,
+          MaterialPageRoute(builder: (context) => const MainNavigator()),
+          (Route<dynamic> route) =>
+              false, // This condition ensures all routes are removed
+        );
       } else {
         // If response.user is null, it could mean authentication failed.
         // Supabase should throw an error, which would be caught by the catch block below.
