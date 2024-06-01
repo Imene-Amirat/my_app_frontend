@@ -74,7 +74,8 @@ class DBDoctor {
       specialty_id,
       country_id,
       wilaya,
-      specialty
+      specialty,
+      user_id
     FROM $tableName 
     WHERE (user_id = ? OR user_id IS NULL)
     

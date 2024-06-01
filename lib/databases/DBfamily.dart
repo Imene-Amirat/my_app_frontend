@@ -50,4 +50,36 @@ class DBFamily {
     );
     return result > 0;
   }
+
+  static Future<Map<String, dynamic>?> fetchFamilyMemberById(
+      int memberId) async {
+    final database = await DBHelper.getDatabase();
+    final List<Map<String, dynamic>> result = await database.query(
+      tableName,
+      where: "id = ?",
+      whereArgs: [memberId],
+    );
+    if (result.isNotEmpty) {
+      return result.first;
+    }
+    return null;
+  }
+
+  static Future<void> updateFamilyMember(
+    int id,
+    String name,
+    int relationId,
+  ) async {
+    final database = await DBHelper.getDatabase();
+    final data = {
+      'name': name,
+      'relation_id': relationId,
+    };
+    await database.update(
+      tableName,
+      data,
+      where: "id = ?",
+      whereArgs: [id],
+    );
+  }
 }

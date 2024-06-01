@@ -134,4 +134,23 @@ class DBRecord {
     final List<Map<String, dynamic>> records = await db.rawQuery(sql, [userId]);
     return records;
   }
+
+  // A method to fetch all favorite records for the user and their family members, sorted by user first
+  static Future<List<Map<String, dynamic>>> fetchSortedFavoriteRecords(
+      String? userId) async {
+    if (userId == null || userId.isEmpty) {
+      return [];
+    }
+
+    final db = await DBHelper.getDatabase();
+    final String sql = '''
+    SELECT r.id, r.title, r.description, r.doctor_id, r.record_type_id, r.date, r.is_favorite, r.family_member_id, f.name as family_member_name
+    FROM $tableName as r
+    LEFT JOIN family as f ON r.family_member_id = f.id
+    WHERE r.user_id = ? AND r.is_favorite = 1
+    ORDER BY r.family_member_id ASC, r.date DESC;
+  ''';
+    final List<Map<String, dynamic>> records = await db.rawQuery(sql, [userId]);
+    return records;
+  }
 }

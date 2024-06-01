@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:iconsax/iconsax.dart';
+import 'package:intl/intl.dart';
 import 'package:line_awesome_flutter/line_awesome_flutter.dart';
+import 'package:my_app_frontend/databases/DBAppointment.dart';
 import 'package:my_app_frontend/utils/global_colors.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -13,6 +15,28 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
+  @override
+  void initState() {
+    super.initState();
+    fetchTodaysAppointments();
+  }
+
+  Future<List<Map<String, dynamic>>> fetchTodaysAppointments() async {
+    final String today = DateFormat('EEEE,yyyy-MM-dd').format(DateTime.now());
+    final prefs = await SharedPreferences.getInstance();
+    final String? userId = prefs.getString('user_id');
+    final List<Map<String, dynamic>> todayAppointments =
+        await DBAppointment.fetchAppointmentsByDate(today, userId);
+    return todayAppointments;
+  }
+
+  String formatDuration(Duration d) {
+    // For example, this will format the duration as "5h 30m left".
+    // You can adjust the format as needed.
+    String minutes = d.inMinutes.remainder(60).toString().padLeft(2, '0');
+    return '${d.inHours}h ${minutes}m left';
+  }
+
   String getGreetingMessage() {
     var hour = DateTime.now().hour;
     if (hour < 12) {
@@ -150,7 +174,7 @@ class _HomeScreenState extends State<HomeScreen> {
             ),
           ),
           Container(
-            height: 400, // Adjusted height to accommodate 2 rows of buttons
+            height: 500, // Adjusted height to accommodate 2 rows of buttons
             child: GridView.count(
               crossAxisCount: 2, // Number of columns
               childAspectRatio: (1 / 1.1), // Adjust based on your child content
@@ -165,27 +189,66 @@ class _HomeScreenState extends State<HomeScreen> {
                     LineAwesomeIcons.medical_notes,
                     GlobalColors.mainColor,
                     '/medicalRecords'),
+                _buildButton('Doctors Directory', LineAwesomeIcons.stethoscope,
+                    Colors.orange, '/doctors_directory'),
                 _buildButton('Family \n Members', Icons.family_restroom,
                     Colors.green, '/familyMembers'),
                 _buildButton('Appointment', Iconsax.calendar_2, Colors.orange,
                     '/appointmentlist'),
-                _buildButton('Doctors Directory', LineAwesomeIcons.stethoscope,
-                    Colors.orange, '/doctors_directory'),
               ],
             ),
           ),
-          Padding(
-            padding:
-                const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
-            child: Text(
-              "Today's Tasks",
-              style: TextStyle(
-                fontSize: 24,
-                fontWeight: FontWeight.bold,
-                color: Colors.black,
-              ),
-            ),
-          ),
+          /*FutureBuilder<List<Map<String, dynamic>>>(
+            future: fetchTodaysAppointments(),
+            builder: (context, snapshot) {
+              if (snapshot.connectionState == ConnectionState.done &&
+                  snapshot.hasData) {
+                final appointments = snapshot.data!;
+                print("lllll");
+                print(appointments);
+                if (appointments.isNotEmpty) {
+                  print("ooooo");
+                  return Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Padding(
+                        padding: const EdgeInsets.symmetric(
+                            horizontal: 16.0, vertical: 8.0),
+                        child: Text(
+                          "Today's Appointment",
+                          style: TextStyle(
+                            fontSize: 24,
+                            fontWeight: FontWeight.bold,
+                            color: Colors.black,
+                          ),
+                        ),
+                      ),
+                      ...appointments.map((appointment) {
+                        DateTime appointmentTime =
+                            DateFormat('EEEE,yyyy-MM-dd – kk:mm').parse(
+                          '${appointment['Date']} – ${appointment['Time']}',
+                        );
+                        // Calculate the time remaining until the appointment
+                        Duration timeLeft =
+                            appointmentTime.difference(DateTime.now());
+                        // You might want to handle the case where the timeLeft is negative, i.e., the appointment is in the past
+                        String timeLeftString = timeLeft.isNegative
+                            ? 'Past'
+                            : formatDuration(timeLeft);
+
+                        return ListTile(
+                          title: Text(appointment['title'] ?? 'No Title'),
+                          subtitle: Text(timeLeftString),
+                        );
+                      }).toList(),
+                    ],
+                  );
+                }
+              }
+              return SizedBox
+                  .shrink(); // Or any other placeholder widget for loading or no data
+            },
+          ),*/
         ],
       ),
     );

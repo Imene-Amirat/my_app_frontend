@@ -21,6 +21,7 @@ class ProfileScreen extends StatefulWidget {
 class _MyWidgetState extends State<ProfileScreen> {
   final ImagePicker imagePicker = ImagePicker();
   XFile? imageFile;
+  String? _imageURL;
 
   void _pickImage(ImageSource source) async {
     // If the source is the camera, continue allowing only single image selection
@@ -169,7 +170,7 @@ class _MyWidgetState extends State<ProfileScreen> {
                           color: GlobalColors.mainColor,
                         ),
                         child: const Icon(
-                          LineAwesomeIcons.alternate_pencil,
+                          LineAwesomeIcons.camera,
                           size: 20,
                           color: Colors.white,
                         ),
@@ -179,7 +180,7 @@ class _MyWidgetState extends State<ProfileScreen> {
                 ],
               ),
               SizedBox(
-                height: 10,
+                height: 50,
               ),
               FutureBuilder<Map<String, String?>>(
                 future: getUserDetails(),

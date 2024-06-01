@@ -6,16 +6,13 @@ import 'package:flutter/rendering.dart';
 import 'package:get/get_core/src/get_main.dart';
 import 'package:get/route_manager.dart';
 import 'package:http/http.dart' as http;
-import 'package:iconsax/iconsax.dart';
 import 'package:line_awesome_flutter/line_awesome_flutter.dart';
-import 'package:line_icons/line_icons.dart';
 import 'package:my_app_frontend/databases/DBdoctor.dart';
 import 'package:my_app_frontend/databases/DBfamily.dart';
 
 import 'package:my_app_frontend/databases/DBrecord.dart';
 import 'package:my_app_frontend/utils/global_colors.dart';
 import 'package:my_app_frontend/view/add_record_screen.dart';
-import 'package:my_app_frontend/view/profile_screen.dart';
 import 'package:my_app_frontend/view/record_detail_screen.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -370,11 +367,22 @@ class _MedicalRecordsPageState extends State<MedicalRecordsPage>
         controller: _tabController,
         children: [
           // My Records Tab
-          FutureBuilder<List<Map<String, dynamic>>>(
+          Column(
+            children: [
+              Expanded(
+                child: FutureBuilder<List<Map<String, dynamic>>>(
+                  future: recordsFuture ?? Future.value([]),
+                  builder: (context, snapshot) =>
+                      _build_list_records(context, snapshot),
+                ),
+              ),
+            ],
+          ),
+          /*FutureBuilder<List<Map<String, dynamic>>>(
             future: recordsFuture ?? Future.value([]),
             builder: (context, snapshot) =>
                 _build_list_records(context, snapshot),
-          ),
+          ),*/
           // Family Records Tab
           Column(
             children: [
@@ -432,8 +440,7 @@ class _MedicalRecordsPageState extends State<MedicalRecordsPage>
                   subtitle: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text("Dr." +
-                          _getDoctorNameById(items[index]['doctor_id']) +
+                      Text(_getDoctorNameById(items[index]['doctor_id']) +
                           "," +
                           _getDoctorSpById(items[index]['doctor_id'])),
                       Text(items[index]['date']),

@@ -20,6 +20,8 @@ class _FavoriteRecordsScreenState extends State<FavoriteRecordsScreen> {
   Future<List<Map<String, dynamic>>>? recordsFuture;
   List<Map<String, dynamic>> options = [];
   List<Map<String, dynamic>> doctors = [];
+  List<Map<String, dynamic>> sps = [];
+  String? userName;
 
   @override
   void initState() {
@@ -29,6 +31,7 @@ class _FavoriteRecordsScreenState extends State<FavoriteRecordsScreen> {
     fetchTypeRecord();
     fetchDoctors();
     fetchRecords();
+    fetchsp();
   }
 
   Future<String?> getUserId() async {
@@ -38,10 +41,9 @@ class _FavoriteRecordsScreenState extends State<FavoriteRecordsScreen> {
   }
 
   void fetchRecords() async {
-    final userId =
-        await getUserId(); // Assuming getUserId() is a Future<String?>
+    final userId = await getUserId();
     setState(() {
-      recordsFuture = DBRecord.fetchFavoriteRecordsForUser(userId);
+      recordsFuture = DBRecord.fetchSortedFavoriteRecords(userId);
     });
   }
 
@@ -91,6 +93,44 @@ class _FavoriteRecordsScreenState extends State<FavoriteRecordsScreen> {
     int? familyMemberId;
   }
 
+  Future<void> fetchsp() async {
+    try {
+      final response = await http.get(
+          Uri.parse('https://flask-app-medical.vercel.app/specialties.get'));
+
+      if (response.statusCode == 200) {
+        List<dynamic> jsonData = json.decode(response.body);
+
+        setState(() {
+          sps = jsonData
+              .map((option) => {"id": option['id'], "name": option['name']})
+              .toList();
+        });
+        print(sps);
+      } else {
+        print('Failed to load options. Status code: ${response.statusCode}');
+      }
+    } catch (e) {
+      print('Error loading options: $e');
+    }
+  }
+
+  String _getDoctorSpById(int doctorId) {
+    // Find the doctor by ID to get their specialty_id
+    final doctor = doctors.firstWhere(
+      (doc) => doc['doctor_id'] == doctorId,
+      orElse: () => {'specialty_id': -1},
+    );
+
+    // Use the doctor's specialty_id to find the corresponding specialty name
+    final specialty = sps.firstWhere(
+      (sp) => sp['id'] == doctor['specialty_id'],
+      orElse: () => {'name': 'loading...'},
+    );
+
+    return doctor['specialty'];
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -106,103 +146,133 @@ class _FavoriteRecordsScreenState extends State<FavoriteRecordsScreen> {
         title: Text("Favorite Records", style: TextStyle(color: Colors.white)),
         centerTitle: true,
       ),
-      body: FutureBuilder<List<Map<String, dynamic>>>(
-          future: recordsFuture ?? Future.value([]),
-          builder: (context, snapshot) {
-            if (options.isEmpty) {
-              //data is still loading, show a placeholder or loading indicator
-              return Center(child: CircularProgressIndicator());
-            }
-            if (snapshot.connectionState == ConnectionState.waiting) {
-              return Center(child: CircularProgressIndicator());
-            } else if (snapshot.hasError) {
-              return Center(child: Text("Error: ${snapshot.error}"));
-            } else if (snapshot.data!.isEmpty) {
-              return Center(child: Text("No favorite records found."));
-            } else {
-              return ListView.builder(
-                  itemCount: snapshot.data!.length,
-                  itemBuilder: (context, index) {
-                    List<Map> items = snapshot.data!;
-                    return Card(
-                      elevation: 10,
-                      margin: EdgeInsets.all(8.0), //spacing around the card
-                      child: ListTile(
-                        title: Text(
-                            _getTypeRecordById(items[index]['record_type_id'])),
-                        subtitle: Column(
-                          crossAxisAlignment:
-                              CrossAxisAlignment.start, //start from the left
-                          children: [
-                            Text("Dr." +
-                                _getDoctorNameById(items[index]['doctor_id'])),
-                            Text(items[index]['date']),
-                          ],
-                        ),
-                        // Add trailing to show the delete icon
-                        trailing: Row(
-                          mainAxisSize: MainAxisSize.min, // Add this line
-                          children: [
-                            IconButton(
-                              icon: Icon(
-                                items[index]['is_favorite'] == 1
-                                    ? Icons.favorite
-                                    : Icons.favorite_border,
-                                color: items[index]['is_favorite'] == 1
-                                    ? Colors.red
-                                    : null,
-                              ),
-                              onPressed: () async {
-                                // Toggle the favorite status in the database
-                                await DBRecord.toggleFavorite(
-                                    items[index]['id'],
-                                    items[index]['is_favorite']);
-                                // Fetch the updated records to refresh the UI
-                                fetchRecords(); // Ensure this method reloads data including the is_favorite status
-                              },
-                            ),
-                            IconButton(
-                              icon: Icon(
-                                LineAwesomeIcons.angle_right,
-                                size: 25,
-                              ),
-                              onPressed: () async {
-                                // Find the doctor's name using the doctor_id
-                                String doctorName = _getDoctorNameById(
-                                    items[index]['doctor_id']);
-                                // Find the record type name using the record_type_id
-                                String recordTypeName = _getTypeRecordById(
-                                    items[index]['record_type_id']);
-                                // Add the doctor's name and record type name to the record map
-                                Map<String, dynamic> recordWithDetails =
-                                    Map.from(items[index]);
-                                recordWithDetails['doctorName'] = doctorName;
-                                recordWithDetails['recordTypeName'] =
-                                    recordTypeName;
-                                print(items[index]);
-                                // Navigate to the detail screen with the selected record
-                                final res = await Navigator.push(
-                                  context,
-                                  MaterialPageRoute(
-                                    builder: (context) => RecordDetailScreen(
-                                        record: recordWithDetails),
-                                  ),
-                                );
-                                if (res == true) {
-                                  await updatFetchRecords();
-                                  setState(() {
-                                    //trigger a rebuild of the widget with the updated records
-                                  });
-                                }
-                              },
-                            ),
-                          ],
-                        ),
+      body: Column(
+        children: [
+          Expanded(
+            child: FutureBuilder<List<Map<String, dynamic>>>(
+              future: recordsFuture ?? Future.value([]),
+              builder: (context, snapshot) {
+                if (options.isEmpty) {
+                  //data is still loading, show a placeholder or loading indicator
+                  return Center(child: CircularProgressIndicator());
+                }
+                if (sps.isEmpty) {
+                  //data is still loading, show a placeholder or loading indicator
+                  return Center(child: CircularProgressIndicator());
+                }
+                if (snapshot.connectionState == ConnectionState.waiting) {
+                  return Center(child: CircularProgressIndicator());
+                } else if (snapshot.hasError) {
+                  return Center(child: Text("Error: ${snapshot.error}"));
+                } else if (snapshot.data!.isEmpty) {
+                  return Center(child: Text("No favorite records found."));
+                } else {
+                  return buildRecordList(snapshot.data!);
+                }
+              },
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget buildRecordList(List<Map<String, dynamic>> records) {
+    String? currentGroupName;
+
+    return ListView.builder(
+      itemCount: records.length,
+      itemBuilder: (context, index) {
+        bool isUserRecord = records[index]['family_member_id'] == null;
+        String groupName = isUserRecord
+            ? "My Records"
+            : "${records[index]['family_member_name']} Records";
+
+        // Determine if this is the start of a new group
+        bool isNewGroup = index == 0 || currentGroupName != groupName;
+        if (isNewGroup) {
+          currentGroupName = groupName; // Update the current group tracker
+        }
+
+        return Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            if (isNewGroup) // Only add a new title if it's a new group
+              Padding(
+                padding:
+                    const EdgeInsets.symmetric(vertical: 8.0, horizontal: 16.0),
+                child: Text(
+                  groupName,
+                  style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                ),
+              ),
+            Card(
+              elevation: 10,
+              margin: EdgeInsets.all(8.0),
+              child: ListTile(
+                title:
+                    Text(_getTypeRecordById(records[index]['record_type_id'])),
+                subtitle: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(_getDoctorNameById(records[index]['doctor_id']) +
+                        "," +
+                        _getDoctorSpById(records[index]['doctor_id'])),
+                    Text(records[index]['date']),
+                  ],
+                ),
+                trailing: Row(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    IconButton(
+                      icon: Icon(
+                        records[index]['is_favorite'] == 1
+                            ? Icons.favorite
+                            : Icons.favorite_border,
+                        color: records[index]['is_favorite'] == 1
+                            ? Colors.red
+                            : null,
                       ),
-                    );
-                  });
-            }
-          }),
+                      onPressed: () async {
+                        await DBRecord.toggleFavorite(records[index]['id'],
+                            records[index]['is_favorite']);
+                        fetchRecords();
+                      },
+                    ),
+                    IconButton(
+                      icon: Icon(LineAwesomeIcons.angle_right, size: 25),
+                      onPressed: () async {
+                        String doctorName =
+                            _getDoctorNameById(records[index]['doctor_id']);
+                        String recordTypeName = _getTypeRecordById(
+                            records[index]['record_type_id']);
+                        String spName =
+                            _getDoctorSpById(records[index]['doctor_id']);
+                        Map<String, dynamic> recordWithDetails =
+                            Map.from(records[index]);
+                        recordWithDetails['doctorName'] = doctorName;
+                        recordWithDetails['recordTypeName'] = recordTypeName;
+                        recordWithDetails['doctorSp'] = spName;
+                        final res = await Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) =>
+                                RecordDetailScreen(record: recordWithDetails),
+                          ),
+                        );
+                        if (res == true) {
+                          fetchRecords();
+                          setState(() {});
+                        }
+                      },
+                    ),
+                  ],
+                ),
+              ),
+            ),
+          ],
+        );
+      },
     );
   }
 }

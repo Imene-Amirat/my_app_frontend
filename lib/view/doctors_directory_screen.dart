@@ -6,7 +6,9 @@ import 'package:http/http.dart' as http;
 import 'package:flutter/material.dart';
 import 'package:get/route_manager.dart';
 import 'package:line_awesome_flutter/line_awesome_flutter.dart';
+import 'package:my_app_frontend/databases/DBdoctor.dart';
 import 'package:my_app_frontend/utils/global_colors.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 class DoctorsDirectoryScreen extends StatefulWidget {
   static final pageRoute = '/doctors_directory';
@@ -16,10 +18,11 @@ class DoctorsDirectoryScreen extends StatefulWidget {
   State<DoctorsDirectoryScreen> createState() => _DoctorsDirectoryScreenState();
 }
 
-class _DoctorsDirectoryScreenState extends State<DoctorsDirectoryScreen> {
+class _DoctorsDirectoryScreenState extends State<DoctorsDirectoryScreen>
+    with WidgetsBindingObserver {
   String _tx_search_filter_name = '';
-  int? _tx_search_filter_sp;
-  int? _tx_search_filter_rg;
+  String _tx_search_filter_sp = '';
+  String _tx_search_filter_rg = '';
   String? dropdownValueSp = null;
   String? dropdownValueCity = null;
   int? selectedCityId;
@@ -27,8 +30,6 @@ class _DoctorsDirectoryScreenState extends State<DoctorsDirectoryScreen> {
   //list of maps (or objects) where each map represents a specialty with at least two keys: name and id.
   List<Map<String, dynamic>> specialties = [];
   List<Map<String, dynamic>> city = [];
-  List<Map<String, dynamic>> regions = [];
-  List<Map<String, dynamic>> doctors = [];
 
   // Controllers for new doctor information
   TextEditingController nameController = TextEditingController();
@@ -36,9 +37,22 @@ class _DoctorsDirectoryScreenState extends State<DoctorsDirectoryScreen> {
   @override
   void initState() {
     super.initState();
+    WidgetsBinding.instance.addObserver(this);
     fetchSpCountry().then((_) {
       _determinePosition();
     });
+  }
+
+  @override
+  void dispose() {
+    WidgetsBinding.instance.removeObserver(this);
+    super.dispose();
+  }
+
+  Future<String?> getUserId() async {
+    final prefs = await SharedPreferences.getInstance();
+    return prefs
+        .getString('user_id'); // Returns the user ID, or null if not set
   }
 
   Future<List<Map>> getListDoctors(
@@ -46,45 +60,18 @@ class _DoctorsDirectoryScreenState extends State<DoctorsDirectoryScreen> {
     String filter_sp,
     String filter_rg,
   ) async {
-    try {
-      // Construct the query parameters
-      final queryParams = {
-        if (filter_name.isNotEmpty) 'name': filter_name,
-        if (filter_sp != null && filter_sp.isNotEmpty) 'specialty': filter_sp,
-        if (filter_rg != null && filter_rg.isNotEmpty) 'address': filter_rg,
-      };
-      // Construct the URL with parameters
-      final uri = Uri.https(
-        'flask-app-medical.vercel.app',
-        '/doctor.get',
-        queryParams,
-      );
-      final response = await http.get(uri);
-
-      if (response.statusCode == 200) {
-        List<dynamic> jsonData = json.decode(response.body);
-        doctors = jsonData.map((doctorData) {
-          return {
-            "name": doctorData['Name'],
-            "sp": doctorData['Specialty'],
-            "rg": doctorData['Address'],
-          };
-        }).toList();
-        print("kkkkkkkkkkkkkkkkk");
-        print(doctors);
-      } else {
-        print('Failed to load options. Status code: ${response.statusCode}');
-      }
-    } catch (e) {
-      print('Error loading options: $e');
-    }
-    return doctors;
+    String? userId = await getUserId();
+    print(await DBDoctor.getAllDoctorsByKeyword(
+        filter_name, filter_sp, filter_rg, userId!));
+    return DBDoctor.getAllDoctorsByKeyword(
+        filter_name, filter_sp, filter_rg, userId);
   }
 
   Future<void> _updateDoctorsList() async {
     setState(() {});
   }
 
+  // This method will be called when the "Add New" button is pressed
   Future<void> fetchSpCountry() async {
     try {
       final url1 =
@@ -149,6 +136,25 @@ class _DoctorsDirectoryScreenState extends State<DoctorsDirectoryScreen> {
     // Test if location services are enabled.
     serviceEnabled = await Geolocator.isLocationServiceEnabled();
     if (!serviceEnabled) {
+      showDialog(
+        context: context,
+        builder: (BuildContext context) {
+          return AlertDialog(
+            title: Text('Location Services Disabled'),
+            content: Text('Please enable location services to continue.'),
+            actions: <Widget>[
+              TextButton(
+                onPressed: () {
+                  // Open location settings
+                  Geolocator.openLocationSettings();
+                  Navigator.of(context).pop();
+                },
+                child: Text('Open Settings'),
+              ),
+            ],
+          );
+        },
+      );
       return Future.error('Location services are disabled.');
     }
 
@@ -188,12 +194,23 @@ class _DoctorsDirectoryScreenState extends State<DoctorsDirectoryScreen> {
         print(f);
         selectedCityId = city.firstWhere((wilaya) => wilaya['name'] == f)['id'];
         print(selectedCityId);
-        _tx_search_filter_rg = selectedCityId;
+        _tx_search_filter_rg = dropdownValueCity!;
       });
     }
     // When we reach here, permissions are granted and we can
     // continue accessing the position of the device.
     return await Geolocator.getCurrentPosition();
+  }
+
+  @override
+  void didChangeAppLifecycleState(AppLifecycleState state) {
+    super.didChangeAppLifecycleState(state);
+    // Check if the app is in resumed state
+    if (state == AppLifecycleState.resumed) {
+      // The app has returned to the foreground
+      // Call your method to check location services and request permissions
+      _determinePosition();
+    }
   }
 
   @override
@@ -276,7 +293,7 @@ class _DoctorsDirectoryScreenState extends State<DoctorsDirectoryScreen> {
                   selectedSpecialtyId = specialties.firstWhere(
                       (specialty) => specialty['name'] == newValue)['id'];
                   print(selectedSpecialtyId);
-                  _tx_search_filter_sp = selectedSpecialtyId;
+                  _tx_search_filter_sp = dropdownValueSp!;
                 });
                 _updateDoctorsList();
               },
@@ -312,12 +329,11 @@ class _DoctorsDirectoryScreenState extends State<DoctorsDirectoryScreen> {
               onChanged: (dynamic newValue) {
                 setState(() {
                   dropdownValueCity = newValue;
-                  print(city);
                   // hold the selected specialty ID && "firstWhere" find the first element that matches a given newValue and return id.
                   selectedCityId = city
                       .firstWhere((wilaya) => wilaya['name'] == newValue)['id'];
                   print(selectedCityId);
-                  _tx_search_filter_rg = selectedCityId;
+                  _tx_search_filter_rg = dropdownValueCity!;
                 });
                 _updateDoctorsList();
               },
@@ -336,8 +352,8 @@ class _DoctorsDirectoryScreenState extends State<DoctorsDirectoryScreen> {
                 child: FutureBuilder<List<Map>>(
               future: getListDoctors(
                   _tx_search_filter_name,
-                  dropdownValueSp ?? '',
-                  dropdownValueCity ?? ''), // This fetches the latest list
+                  _tx_search_filter_sp ?? '',
+                  _tx_search_filter_rg ?? ''), // This fetches the latest list
               builder: (context, snapshot) =>
                   _build_list_doctors(context, snapshot),
             )),
@@ -361,33 +377,69 @@ class _DoctorsDirectoryScreenState extends State<DoctorsDirectoryScreen> {
       return ListView.builder(
         itemCount: items.length,
         itemBuilder: (context, index) {
-          String doctorName = items[index]['name'] ?? 'Unknown Name';
-          String specialty = items[index]['sp'] ?? 'Unknown Specialty';
-          String address = items[index]['rg'] ?? 'Unknown Address';
-
           return GestureDetector(
             onTap: () {
-              // Navigator.pop(context, items[index]); // Be careful with this line if you're not in a dialog or modal.
+              Navigator.pop(context, items[index]);
             },
             child: Card(
               elevation: 10,
               child: ListTile(
-                title: Text(doctorName),
+                title: Text(items[index]['name']),
                 subtitle: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text(specialty),
-                    Text(address),
+                    Text(items[index]['specialty']),
+                    Text(items[index]['wilaya']),
                   ],
                 ),
-                // Add trailing to show the delete icon...
+                // Add trailing to show the delete icon
+                trailing: items[index]['user_id'] != null
+                    ? IconButton(
+                        icon: Icon(
+                          Icons.delete,
+                          color: const Color.fromARGB(255, 138, 132, 132),
+                        ),
+                        onPressed: () {
+                          // Show dialog to confirm deletion
+                          showDialog(
+                              context: context,
+                              builder: (BuildContext context) {
+                                return AlertDialog(
+                                  title: Text("Delete Doctor"),
+                                  content: Text(
+                                      "Are you sure you want to delete this doctor?"),
+                                  actions: <Widget>[
+                                    TextButton(
+                                      onPressed: () {
+                                        Navigator.of(context)
+                                            .pop(); //close the dialog
+                                      },
+                                      child: Text("Cancel"),
+                                    ),
+                                    TextButton(
+                                      onPressed: () async {
+                                        // Perform the deletion
+                                        await DBDoctor.deleteDoctor(
+                                            items[index]['doctor_id']);
+                                        Navigator.of(context)
+                                            .pop(); // Close the dialog
+                                        _updateDoctorsList(); // Refresh the list
+                                      },
+                                      child: Text("Delete"),
+                                    )
+                                  ],
+                                );
+                              });
+                        },
+                      )
+                    : null,
               ),
             ),
           );
         },
       );
     } else if (snapshot.hasError) {
-      return Text("Error: ${snapshot.error}");
+      return Text("${snapshot.error}");
     }
     return CircularProgressIndicator();
   }

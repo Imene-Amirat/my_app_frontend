@@ -7,6 +7,7 @@ import 'package:line_awesome_flutter/line_awesome_flutter.dart';
 import 'package:my_app_frontend/databases/DBfamily.dart';
 import 'package:my_app_frontend/utils/global_colors.dart';
 import 'package:my_app_frontend/view/add_family_member_screen.dart';
+import 'package:my_app_frontend/view/modify_family_screen.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class FamilyMembersPage extends StatefulWidget {
@@ -245,55 +246,80 @@ class _FamilyMembersPageState extends State<FamilyMembersPage> {
                     title: Text(items[index]['name']),
                     subtitle: Text("Relation: " +
                         _getTypeRelationById(items[index]['relation_id'])),
-                    trailing: IconButton(
-                      icon: Icon(
-                        Icons.delete,
-                        color: const Color.fromARGB(255, 138, 132, 132),
-                      ),
-                      onPressed: () {
-                        showDialog(
-                            context: context,
-                            builder: (BuildContext context) {
-                              return AlertDialog(
-                                title: Text("Delete Family Member"),
-                                content: Text(
-                                    "Are you sure you want to delete this family member?"),
-                                actions: <Widget>[
-                                  TextButton(
-                                    onPressed: () {
-                                      Navigator.of(context)
-                                          .pop(); //close the dialog
-                                    },
-                                    child: Text("Cancel"),
-                                  ),
-                                  TextButton(
-                                    onPressed: () async {
-                                      // Perform the deletion
-                                      await DBFamily.deleteFamilyMember(
-                                          items[index]['id']);
-                                      ScaffoldMessenger.of(context)
-                                          .showSnackBar(SnackBar(
-                                              content: Text(
-                                                  'Family member deleted successfully!')));
-                                      /*Fluttertoast.showToast(
-                                          msg:
-                                              "Family member deleted successfully!",
-                                          toastLength: Toast.LENGTH_SHORT,
-                                          gravity: ToastGravity
-                                              .BOTTOM, // This is to show toast at the center of the screen; you can change the gravity according to your needs
-                                          timeInSecForIosWeb: 1,
-                                          backgroundColor: Colors.grey[300],
-                                          textColor: Colors.black,
-                                          fontSize: 15.0);*/
-                                      Navigator.of(context).pop();
-                                      _updateDoctorsList(); // Refresh the list
-                                    },
-                                    child: Text("Delete"),
-                                  )
-                                ],
-                              );
-                            });
-                      },
+                    trailing: Row(
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        IconButton(
+                          icon: Icon(Icons.edit),
+                          onPressed: () async {
+                            int memberId = familyMembers[index]['id'];
+                            print(memberId);
+                            final ress = await Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) =>
+                                    ModifyFamilyScreen(memberId: memberId),
+                              ),
+                            );
+                            if (ress == true) {
+                              await updatFetchRecords();
+                              setState(() {
+                                //trigger a rebuild of the widget with the updated records
+                              });
+                            }
+                          },
+                        ),
+                        IconButton(
+                          icon: Icon(
+                            Icons.delete,
+                            color: const Color.fromARGB(255, 138, 132, 132),
+                          ),
+                          onPressed: () {
+                            showDialog(
+                                context: context,
+                                builder: (BuildContext context) {
+                                  return AlertDialog(
+                                    title: Text("Delete Family Member"),
+                                    content: Text(
+                                        "Are you sure you want to delete this family member?"),
+                                    actions: <Widget>[
+                                      TextButton(
+                                        onPressed: () {
+                                          Navigator.of(context)
+                                              .pop(); //close the dialog
+                                        },
+                                        child: Text("Cancel"),
+                                      ),
+                                      TextButton(
+                                        onPressed: () async {
+                                          // Perform the deletion
+                                          await DBFamily.deleteFamilyMember(
+                                              items[index]['id']);
+                                          ScaffoldMessenger.of(context)
+                                              .showSnackBar(SnackBar(
+                                                  content: Text(
+                                                      'Family member deleted successfully!')));
+                                          /*Fluttertoast.showToast(
+                                              msg:
+                                                  "Family member deleted successfully!",
+                                              toastLength: Toast.LENGTH_SHORT,
+                                              gravity: ToastGravity
+                                                  .BOTTOM, // This is to show toast at the center of the screen; you can change the gravity according to your needs
+                                              timeInSecForIosWeb: 1,
+                                              backgroundColor: Colors.grey[300],
+                                              textColor: Colors.black,
+                                              fontSize: 15.0);*/
+                                          Navigator.of(context).pop();
+                                          _updateDoctorsList(); // Refresh the list
+                                        },
+                                        child: Text("Delete"),
+                                      )
+                                    ],
+                                  );
+                                });
+                          },
+                        ),
+                      ],
                     ),
                   ),
                 ),

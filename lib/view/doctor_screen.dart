@@ -18,7 +18,8 @@ class DoctorScreen extends StatefulWidget {
   State<DoctorScreen> createState() => _DoctorScreenState();
 }
 
-class _DoctorScreenState extends State<DoctorScreen> {
+class _DoctorScreenState extends State<DoctorScreen>
+    with WidgetsBindingObserver {
   String _tx_search_filter_name = '';
   String _tx_search_filter_sp = '';
   String _tx_search_filter_rg = '';
@@ -36,9 +37,27 @@ class _DoctorScreenState extends State<DoctorScreen> {
   @override
   void initState() {
     super.initState();
+    WidgetsBinding.instance.addObserver(this);
     fetchSpCountry().then((_) {
       _determinePosition();
     });
+  }
+
+  @override
+  void dispose() {
+    WidgetsBinding.instance.removeObserver(this);
+    super.dispose();
+  }
+
+  @override
+  void didChangeAppLifecycleState(AppLifecycleState state) {
+    super.didChangeAppLifecycleState(state);
+    // Check if the app is in resumed state
+    if (state == AppLifecycleState.resumed) {
+      // The app has returned to the foreground
+      // Call your method to check location services and request permissions
+      _determinePosition();
+    }
   }
 
   Future<String?> getUserId() async {
@@ -251,6 +270,25 @@ class _DoctorScreenState extends State<DoctorScreen> {
     // Test if location services are enabled.
     serviceEnabled = await Geolocator.isLocationServiceEnabled();
     if (!serviceEnabled) {
+      showDialog(
+        context: context,
+        builder: (BuildContext context) {
+          return AlertDialog(
+            title: Text('Location Services Disabled'),
+            content: Text('Please enable location services to continue.'),
+            actions: <Widget>[
+              TextButton(
+                onPressed: () {
+                  // Open location settings
+                  Geolocator.openLocationSettings();
+                  Navigator.of(context).pop();
+                },
+                child: Text('Open Settings'),
+              ),
+            ],
+          );
+        },
+      );
       return Future.error('Location services are disabled.');
     }
 
@@ -508,44 +546,46 @@ class _DoctorScreenState extends State<DoctorScreen> {
                   ],
                 ),
                 // Add trailing to show the delete icon
-                trailing: IconButton(
-                  icon: Icon(
-                    Icons.delete,
-                    color: const Color.fromARGB(255, 138, 132, 132),
-                  ),
-                  onPressed: () {
-                    // Show dialog to confirm deletion
-                    showDialog(
-                        context: context,
-                        builder: (BuildContext context) {
-                          return AlertDialog(
-                            title: Text("Delete Doctor"),
-                            content: Text(
-                                "Are you sure you want to delete this doctor?"),
-                            actions: <Widget>[
-                              TextButton(
-                                onPressed: () {
-                                  Navigator.of(context)
-                                      .pop(); //close the dialog
-                                },
-                                child: Text("Cancel"),
-                              ),
-                              TextButton(
-                                onPressed: () async {
-                                  // Perform the deletion
-                                  await DBDoctor.deleteDoctor(
-                                      items[index]['doctor_id']);
-                                  Navigator.of(context)
-                                      .pop(); // Close the dialog
-                                  _updateDoctorsList(); // Refresh the list
-                                },
-                                child: Text("Delete"),
-                              )
-                            ],
-                          );
-                        });
-                  },
-                ),
+                trailing: items[index]['user_id'] != null
+                    ? IconButton(
+                        icon: Icon(
+                          Icons.delete,
+                          color: const Color.fromARGB(255, 138, 132, 132),
+                        ),
+                        onPressed: () {
+                          // Show dialog to confirm deletion
+                          showDialog(
+                              context: context,
+                              builder: (BuildContext context) {
+                                return AlertDialog(
+                                  title: Text("Delete Doctor"),
+                                  content: Text(
+                                      "Are you sure you want to delete this doctor?"),
+                                  actions: <Widget>[
+                                    TextButton(
+                                      onPressed: () {
+                                        Navigator.of(context)
+                                            .pop(); //close the dialog
+                                      },
+                                      child: Text("Cancel"),
+                                    ),
+                                    TextButton(
+                                      onPressed: () async {
+                                        // Perform the deletion
+                                        await DBDoctor.deleteDoctor(
+                                            items[index]['doctor_id']);
+                                        Navigator.of(context)
+                                            .pop(); // Close the dialog
+                                        _updateDoctorsList(); // Refresh the list
+                                      },
+                                      child: Text("Delete"),
+                                    )
+                                  ],
+                                );
+                              });
+                        },
+                      )
+                    : null,
               ),
             ),
           );

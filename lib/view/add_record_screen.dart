@@ -12,6 +12,9 @@ import 'package:my_app_frontend/utils/global_colors.dart';
 import 'package:my_app_frontend/databases/DBrecord.dart';
 import 'package:my_app_frontend/view/doctor_screen.dart';
 import 'package:my_app_frontend/view/image_screen.dart';
+import 'package:path/path.dart' as path;
+import 'package:path_provider/path_provider.dart';
+import 'package:permission_handler/permission_handler.dart';
 
 class AddRecordScreen extends StatefulWidget {
   final String? userId;
@@ -70,8 +73,25 @@ class _AddRecordScreenState extends State<AddRecordScreen> {
   // method to generate title based on selected doctor and type of record
 
   void generateTitle() {
-    setState(() {
+    /*setState(() {
       generatedTitle = '$dropdownValue ${_tx_doctorNameController.text}';
+    });*/
+    setState(() {
+      // Check if dropdownValue is null, if so, default to empty string
+      String doctorName = _tx_doctorNameController.text ?? '';
+      String recordType = dropdownValue ?? '';
+
+      // Only concatenate non-empty strings with a space
+      List<String> titleComponents = [];
+      if (recordType.isNotEmpty) {
+        titleComponents.add(recordType);
+      }
+      if (doctorName.isNotEmpty) {
+        titleComponents.add(doctorName);
+      }
+
+      // Join the components with a space, or set to empty if both are empty
+      generatedTitle = titleComponents.join(' ');
     });
   }
 
@@ -104,13 +124,44 @@ class _AddRecordScreenState extends State<AddRecordScreen> {
   }
 
   void selectImages() async {
-    // returns a list of XFile objects,
-    final List<XFile> selectedImages = await imagePicker.pickMultiImage();
-    if (selectedImages.isNotEmpty) {
+    final List<XFile>? selectedImages = await imagePicker.pickMultiImage();
+    if (selectedImages != null && selectedImages.isNotEmpty) {
+      List<String> savedImagePaths = [];
+      for (var image in selectedImages) {
+        File savedImage = await saveImageToExternalStorage(image.path);
+        savedImagePaths.add(savedImage.path);
+      }
       setState(() {
-        imageFileList.addAll(selectedImages);
+        imageFileList.addAll(selectedImages); // Update the UI
       });
     }
+  }
+
+  Future<File> saveImageToExternalStorage(String imagePath) async {
+    // Request storage permissions
+    var status = await Permission.storage.request();
+    if (!status.isGranted) {
+      throw Exception('Storage permission not granted');
+    }
+
+    // Get the external directory
+    final directory = await getExternalStorageDirectory();
+    if (directory == null) {
+      throw Exception('Unable to get the external storage directory');
+    }
+
+    // Create a copy of the file in the external directory
+    final fileName = path.basename(imagePath);
+    final newImagePath = '${directory.path}/$fileName';
+    final imageFile = File(imagePath);
+    final savedImage = await imageFile.copy(newImagePath);
+
+    return savedImage;
+  }
+
+  Future<String> get _externalPath async {
+    final directory = await getExternalStorageDirectory();
+    return directory!.path;
   }
 
   //handle the selection of an image from either the camera or the gallery, based on the ImageSource passed to it
@@ -181,11 +232,13 @@ class _AddRecordScreenState extends State<AddRecordScreen> {
         widget.userId!,
         widget.familyMemberId,
       );
-      //storing image paths in the SQLite database
+
       // Now insert image paths associated with this record
+      List<String> savedImagePaths = [];
       for (XFile imageFile in imageFileList) {
-        String imagePath = imageFile.path; // Directly use the path
-        await DBImage.insertImagePath(newRecordId, imagePath);
+        File savedImage = await saveImageToExternalStorage(imageFile.path);
+        savedImagePaths.add(savedImage.path);
+        await DBImage.insertImagePath(newRecordId, savedImage.path);
       }
       print("Record Added Successfully:");
       print("ID: $newRecordId");

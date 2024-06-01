@@ -52,4 +52,15 @@ class DBAppointment {
     );
     return result > 0;
   }
+
+  static Future<List<Map<String, dynamic>>> fetchAppointmentsByDate(
+      String date, String? userId) async {
+    final database = await DBHelper.getDatabase();
+    final String sqlQuery = '''
+    SELECT Appointment_id, Date, Time, title FROM $tableName WHERE user_id = ? AND Date = ? ORDER BY Appointment_id DESC;
+  ''';
+    final List<Map<String, dynamic>> appointments =
+        await database.rawQuery(sqlQuery, [userId, date]);
+    return appointments;
+  }
 }
